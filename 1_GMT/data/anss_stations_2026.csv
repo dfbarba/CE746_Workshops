@@ -1,0 +1,226 @@
+﻿Network,Station,name,latitude,longitude,elevation
+IW,DLMT,"Dillon, Montana, USA",45.3625,-112.5964,1569
+IW,FLWY,"Flagg Ranch, Wyoming, USA",44.083002,-110.699888,2078
+IW,FXWY,"Fox Creek, Wyoming, USA",43.6381,-111.0268,2254
+IW,IMW,"Indian Meadow, Wyoming, USA",43.89303,-110.94343,2552
+IW,LOHW,"Long Hollow, Wyoming USA",43.6124,-110.6038,2121
+IW,MFID,"Near Browns Crk and Slater Flat Rd, Idaho, USA",43.4151,-115.8278,1302
+IW,MOOW,"Moose Ponds, Wyoming, USA",43.7486,-110.7448,2128
+IW,PLID,"Pearl Lake, Idaho, USA",45.08757,-116.00025,2164
+IW,SNOW,"Snow King Mountain, Wyoming, USA",43.4599,-110.75408,2413
+IW,TPAW,"Teton Pass, Wyoming, USA",43.48965,-110.95675,2680
+N4,060A,"Indiantown, FL, USA",27.0361,-80.3618,9
+N4,061Z,"Ochoppi, FL, USA",25.8657,-80.907,9
+N4,143B,"Socs Landing, Pioneer, LA, USA",32.7032,-91.4036,31
+N4,146B,"Union, MS, USA",32.6368,-89.0573,161
+N4,152A,"Waverly Hall, GA, USA",32.6686,-84.7188,214
+N4,154A,"Montrose, GA, USA",32.6131,-83.1066,111
+N4,250A,"Grady, AL, USA",31.9778,-86.2677,152
+N4,257A,"Skidaway Island, Savannah, GA, USA",31.9746,-81.0261,9
+N4,346B,"Big Creek Wildlife, Hattiesburg, MS, USA",31.3876,-89.4649,86
+N4,352A,"Blakely, GA, USA",31.4793,-84.9274,93
+N4,441B,"Storozyszyn Site, DeRidder, LA, USA",30.7498,-93.1898,33
+N4,451A,"Vernon, FL, USA",30.616,-85.7467,20
+N4,456A,"Hilliard, FL, USA",30.7248,-82.0223,26
+N4,545B,"Wilberts Farm, Edgard, LA, USA",30.0441,-90.4894,8
+N4,553A,"Crawfordville, FL, USA",30.189,-84.4317,16
+N4,656A,"Willston, FL, USA",29.3689,-82.5348,28
+N4,735B,"Kenedy, TX, USA",28.8553,-97.8082,109
+N4,ABTX,"Abilene, Hawley, TX, USA",32.6238,-99.6431,502
+N4,BGNE,"Belgrade, NE, USA",41.4083,-98.1502,573
+N4,D62A,"Allapoint, Allagash, ME, USA",47.0819,-69.0501,189
+N4,E28B,"Huff Hills, Mandan, ND, USA",46.5748,-100.6934,704
+N4,E38A,"The Farm, Brule, WI, USA",46.6058,-91.554,341
+N4,E46A,"Sault Ste Marie, MI, USA",46.3665,-84.3062,269
+N4,E62A,"Clayton Lake, ME, USA",46.6201,-69.5227,356
+N4,F33B,"5 Mile Ranch, Herman, MN, USA",45.8398,-96.2929,314
+N4,F42A,"Maple Grove Farm, Niagara, WI, USA",45.7587,-88.1347,358
+N4,F64A,"Sherman, ME, USA",45.8633,-68.3496,179
+N4,G40A,"Rib Lake, WI, USA",45.2684,-90.2006,472
+N4,G62A,"West of Eustis, ME, USA",45.2186,-70.5319,426
+N4,G65A,"Princeton, ME, USA",45.2002,-67.5632,78
+N4,H43A,"Windswept, Luxemburg, WI, USA",44.4697,-87.7704,274
+N4,H62A,"Milan, NH, USA",44.5743,-71.1559,381
+N4,I37B,"Waseca, MN, USA",44.0149,-93.4003,354
+N4,I40B,"Norwalk, WI, USA",43.8916,-90.6177,419
+N4,I42A,"Draeger Farm, Ripon, WI, USA",43.8908,-88.9134,298
+N4,I45A,"Fountain, MI, USA",44.0361,-86.2348,215
+N4,I49A,"Point Hope, MI, USA",43.94,-82.8246,217
+N4,I62A,"Tamworth, NH, USA",43.8743,-71.3359,264
+N4,I63A,"Otisfield, ME, USA",44.0505,-70.5809,177
+N4,J47A,"Sumner, MI, USA",43.2382,-84.8214,236
+N4,J55A,"Hilton, NY, USA",43.2657,-77.8167,97
+N4,J57A,"Williamstown, NY, USA",43.4099,-75.9968,191
+N4,J59A,"Piesco, NY, USA",43.4647,-74.5041,541
+N4,J61A,Chester,43.3462,-72.5535,253
+N4,K22A,"Casper, WY, USA",42.6507,-106.524,1686
+N4,K30B,"Basset, NE, USA",42.6742,-99.6131,712
+N4,K43A,"Burlington, WI, USA",42.7044,-88.332,264
+N4,K50A,"Casco, MI, USA",42.7749,-82.6231,191
+N4,K57A,Scipio Center,42.7313,-76.5163,408
+N4,K62A,"Royalston, MA, USA",42.6651,-72.2345,289
+N4,KMSC,"Kings Moutain, Blacksburg, SC, USA",35.142,-81.3333,240
+N4,KSCO,"Kaye Shedlock, Cheyenne Wells, CO, USA",39.0112,-102.6273,1382
+N4,L34B,"Svendsen Farm, Lyons, NE, USA",41.9666,-96.3762,414
+N4,L40A,"Anamosa, IA, USA",42.0628,-91.2218,242
+N4,L42A,"Oliver, Polo, IL, USA",42.004,-89.667,257
+N4,L46A,"Eau Claire, MI, USA",42.0127,-86.2955,223
+N4,L56A,"Greenwood, NY, USA",42.1365,-77.5591,688
+N4,L59A,"Walton, NY, USA",42.1902,-75.0426,677
+N4,L61B,"Northampton, MA, USA",42.4498,-72.6802,261
+N4,L64A,"Middleborough, MA, USA",41.9359,-70.8391,17
+N4,M44A,"Midewin, Midewin Nat. Tallgrass Prarie, IL, USA",41.3882,-88.0432,207
+N4,M50A,"Fremont, OH, USA",41.4035,-83.0428,176
+N4,M52A,"Chesterland, OH, USA",41.5405,-81.357,382
+N4,M57A,"Sunshine Farm, Cogan Station, PA, USA",41.3372,-77.128,319
+N4,M63A,"Gales Ferry, CT, USA",41.4038,-72.0464,44
+N4,MDND,"Maddock, ND, USA",47.8481,-99.6029,479
+N4,MSTX,"Muleshoe, TX, USA",33.9696,-102.7724,1167
+N4,N35B,"Tabor, IA, USA",40.8612,-95.6424,353
+N4,N38B,"Corydon, IA, USA",40.7931,-93.235,322
+N4,N41A,"Harden Midland Farm, Stronghurst, IL, ISA",40.7077,-90.8552,226
+N4,N47A,"Urbana, IN, USA",40.8801,-85.6942,252
+N4,N49A,"Columbus Grove, OH, USA",40.922,-84.1825,225
+N4,N51A,"Ashland, OH, USA",40.9183,-82.3748,343
+N4,N53A,"Lisbon, OH, USA",40.8065,-80.8377,360
+N4,N58A,"Sunbury, PA, USA",40.8396,-76.7158,200
+N4,N62A,"Caumsett State Park, Huntington, NY, USA",40.9313,-73.4677,34
+N4,O20A,"White River City, CO, USA",40.1348,-108.2416,1915
+N4,O48B,"Farmland, IN, USA",40.2571,-85.1553,300
+N4,O49A,"Covington, OH, USA",40.188,-84.3353,292
+N4,O52A,"Adamsville, OH, USA",40.1158,-81.8361,331
+N4,O54A,"Avella, PA, USA",40.1821,-80.3778,357
+N4,P38B,"Dawn, MO, USA",39.6248,-93.5321,248
+N4,P40B,"Paris, MO, USA",39.5298,-92.0483,320
+N4,P43A,"Skaggs, Pawnee, IL, USA",39.6409,-89.5213,176
+N4,P46A,"Rosedale, IN, USA",39.6178,-87.2067,194
+N4,P48A,"Milroy, IN, USA",39.4605,-85.4258,300
+N4,P53A,"Whipple, OH, USA",39.4868,-81.3896,270
+N4,P57A,"Homestead Farm, Martinsburg, WV, USA",39.4835,-78.0126,191
+N4,P61A,"Hammonton, NJ, USA",39.6734,-74.7919,22
+N4,Q44B,"Vandalia, IL, USA",38.9033,-89.0169,168
+N4,Q51A,"Peebles, OH, USA",39.026,-83.3456,362
+N4,Q52A,"Bidwell, OH, USA",38.9622,-82.2669,228
+N4,Q54A,"Coxs Mills, WV, USA",38.9836,-80.8338,254
+N4,Q56A,"Snyder Ridge, Maysville, WV, USA",39.0401,-79.1871,430
+N4,R32B,"Long Quarter, Great Bend, KS, USA",38.4225,-98.7111,568
+N4,R40B,"Maddies Station, St. Elizabeth, MO, USA",38.2909,-92.2684,218
+N4,R49A,"Shelbyville, KY, USA",38.2916,-85.1714,251
+N4,R50A,"Paris, KY, USA",38.2816,-84.3274,255
+N4,R55A,"Marlinton, WV, USA",38.2825,-80.1195,833
+N4,R58B,"Mineral, VA, USA",37.9636,-77.8787,116
+N4,R61A,"Willards, MD, USA",38.3303,-75.339,76
+N4,S39B,"Bolivar, MO, USA",37.690899,-93.322601,340
+N4,S44A,"Carbondale, IL, USA",37.6936,-89.2551,155
+N4,S51A,"Beattyville, KY, USA",37.6392,-83.5935,286
+N4,S54A,"Dingess, Beckley, WV, USA",37.7997,-81.3114,636
+N4,S57A,"Dark Hallow, Roseland, VA, USA",37.7605,-78.9536,264
+N4,S61A,"Accomac, VA, USA",37.6804,-75.6727,58
+N4,SFIN,"Lafayette, IN, USA",40.379,-87.0967,165
+N4,SPMN,"Marine on St. Croix, MN, USA",45.2246,-92.8037,311
+N4,SUSD,"Miller, SD, USA",44.4429,-98.9556,520
+N4,T35B,"Sooner Cattle Company, Foraker, OK, USA",36.9162,-96.5119,413
+N4,T42B,T42B,37.0301,-91.0927,165
+N4,T45B,"Paducah, KY, USA",37.0159,-88.6459,136
+N4,T47A,"Sharon Grove, KY, USA",36.9881,-87.1055,217
+N4,T50A,"Nancy, KY, USA",37.0204,-84.8384,302
+N4,T57A,"Hurt, VA, USA",36.9983,-79.2538,230
+N4,T59A,"Double 'B' Farms, VA, USA",36.9716,-77.5541,63
+N4,TIGA,"Tifton, GA, USA",31.4389,-83.5898,109
+N4,TUL3,"Leonard, OK, USA",35.9105,-95.7918,265
+N4,U38B,"Mount Pleasant Farm, Gravette, AR, USA",36.4394,-94.3857,389
+N4,U49A,"Red Boiling Springs, TN, USA",36.5129,-85.7796,234
+N4,U54A,"Nelson's Funny Farm, Mountain City, TN, USA",36.5209,-81.8204,837
+N4,U56A,"King, NC, USA",36.3472,-80.3829,363
+N4,V48A,"Smith Brothers Farm, Spring Hill, TN, USA",35.74,-86.8219,278
+N4,V53A,"Sandy Mush, NC, USA",35.6694,-82.8124,681
+N4,V55A,"Morning Dew, Taylorsville, NC, USA",35.8518,-81.2149,313
+N4,V58A,"WIndy Hill, Pittsboro, NC, USA",35.794,-79.115,127
+N4,V61A,"Roper, NC, USA",35.7912,-76.5776,4
+N4,W50A,"Signal Mountain, TN, USA",35.2002,-85.3119,587
+N4,W52A,"Murphy, NC, USA",35.0935,-83.9277,519
+N4,W57A,"Gilead, NC, USA",35.1529,-79.9928,85
+N4,W59A,"Clinton, NC, USA",35.1673,-78.443,60
+N4,WHTX,"Lake Whitney, Meridian, TX, USA",31.9913,-97.4561,190
+N4,X48A,"Hartselle, AL, USA",34.4517,-87.0452,180
+N4,X51A,"Calhoun, GA, USA",34.5658,-84.8574,214
+N4,X58A,"Rowland, NC, USA",34.5548,-79.3388,45
+N4,Y45B,"Coffeeville, MS, USA",33.8656,-89.5431,101
+N4,Y49A,"Blount Mountain, AL, USA",33.8577,-86.4119,362
+N4,Y52A,"Lilburn, GA, USA",33.864,-84.0626,286
+N4,Y57A,"Sumter, SC, USA",34.017,-80.3915,56
+N4,Y58A,"Scranton, SC, USA",33.9057,-79.6665,19
+N4,Y60A,"Bolivia, NC, USA",34.0046,-78.2163,7
+N4,Z35B,"Perchaven, Sanger, TX USA",33.3309,-97.253,234
+N4,Z38B,"Mount Pleasant, TX, USA",33.2599,-94.9852,115
+N4,Z47B,"Carrollton, AL, USA",33.1989,-88.0696,64
+NE,BCX,"Chestnut Hill, MA, USA",42.335,-71.1705,60
+NE,EMMW,"Machias, ME, USA",44.7075,-67.4573,35
+NE,HNH,"Hanover, NH, USA",43.7051,-72.2865,180
+NE,TRY,"Troy, NY, USA",42.7313,-73.6664,89
+NE,VT1,"Waterbury, VT",44.3206,-72.7513,142
+NE,WES,"Weston Observatory, Weston, MA, USA",42.3848,-71.3218,60
+NE,WSPT,"Westport, CT, USA",41.1712,-73.3278,91
+NE,WVL,"Waterville, ME, USA",44.5646,-69.6617,50
+NM,BLO,"Bloomington, IN",39.1719,-86.5222,246
+NM,FFIL,"Fairfield, IL",38.381345,-88.389648,128
+NM,OLIL,"Olney Central College Olney, IL",38.7338,-88.0991,150
+NM,SLM,"St. Louis, MO",38.636101,-90.236397,186
+NM,USIN,"Univ. of Southern Indiana, Evansville, IN",37.965,-87.666,170
+US,AAM,"Ann Arbor, Michigan, USA",42.3012,-83.6567,172
+US,ACSO,"Alum Creek State Park, Ohio, USA",40.2319,-82.982,288
+US,AGMN,"Agassiz National Wildlife Refuge, Minnesota, USA",48.2977,-95.8619,351
+US,AHID,"Auburn Hatchery, Idaho, USA",42.7654,-111.1004,1960
+US,AMTX,"Amarillo, Texas, USA",34.8837,-101.6808,1010
+US,BINY,"Binghamton, New York, USA",42.1993,-75.9861,498
+US,BLA,"Blacksburg, Virginia, USA",37.2113,-80.42049,634
+US,BMO,"Blue Mountains Array (Baker), Oregon, USA",44.8525,-117.306,1154
+US,BOZ,"Bozeman, Montana, USA",45.59697,-111.62967,1589
+US,BRAL,"Brewton, Alabama, USA",31.1687,-87.0506,61
+US,BW06,"Boulder Array Site 6 (Pinedale Array Site 6), Wyoming, USA",42.7667,-109.5583,2224
+US,CBKS,"Cedar Bluff, Kansas, USA",38.814,-99.7374,677
+US,CBN,"Corbin (Fredericksburg Observatory), Virginia, USA",38.2046,-77.3732,70
+US,DGMT,"Dagmar, Montana, USA",48.4702,-104.1959,646
+US,DUG,"Dugway, Tooele County, Utah, USA",40.195,-112.8133,1477
+US,ECSD,"EROS Data Center, Sioux Falls, South Dakota, USA",43.7337,-96.6141,478
+US,EGAK,"Eagle, Central Alaska, Alaska, USA",64.7774,-141.1581,296
+US,EGMT,"Eagleton, Montana, USA",48.024,-109.7547,1055
+US,ELK,"Elko, Nevada, USA",40.7448,-115.2388,2210
+US,ERPA,"Erie, Pennsylvania, USA",42.1175,-79.9891,306
+US,EYMN,"Ely, Minnesota, USA",47.9462,-91.4953,475
+US,GLMI,"Grayling, Michigan, USA",44.8245,-84.6175,387
+US,GOGA,"Godfrey, Georgia, USA",33.41476,-83.47327,150
+US,HDIL,"Hopedale, Illinois, USA",40.5559,-89.294,219
+US,HLID,"Hailey, Idaho, USA",43.5625,-114.4138,1772
+US,HWUT,"Hardware Ranch, Cache County, Utah, USA",41.6069,-111.5652,1830
+US,ISCO,"Idaho Springs, Colorado, USA",39.7997,-105.6134,2743
+US,JCT,"Junction, Texas, USA",30.4794,-99.8022,591
+US,JFWS,"Near Bowden and Sunny Slope Rds, Wisconsin, USA",42.9142,-90.2481,335
+US,KSU1,"Kansas State University--Konza Prairie, Kansas, USA",39.1009,-96.6094,317
+US,KVTX,"Kingsville, Texas, USA",27.5459,-97.8929,14
+US,LAO,"LASA Array, Montana, USA",46.6885,-106.2231,902
+US,LBNH,"Lisbon, New Hampshire, USA",44.2401,-71.9259,367
+US,LKWY,"Lake (Yellowstone--Lake), Yellowstone National Park, Wyoming",44.5652,-110.4,2424
+US,LONY,"Lake Ozonia, New York, USA",44.6197,-74.5829,440
+US,LRAL,"Lakeview Retreat, Alabama, USA",33.0399,-86.9978,130
+US,MCWV,"Mont Chateau, West Virginia, USA",39.6581,-79.8456,280
+US,MIAR,"Mount Ida, Arkansas, USA",34.5454,-93.5765,207
+US,MNTX,"Cornudas Mountains, Texas, USA",31.6985,-105.3821,404
+US,MSO,"Missoula, Montana, USA",46.8292,-113.9406,1264
+US,MVCO,"Mesa Verde, Colorado, USA",37.19956,-108.49251,2169
+US,NATX,"Nacogdoches, Texas, USA",31.7598,-94.661,168
+US,NEW,"Newport, Washington, USA",48.2642,-117.1227,760
+US,NHSC,"New Hope, South Carolina, USA",33.1067,-80.1778,11
+US,NLWA,"Neilton Lookout, Washington, USA",47.3917,-123.8691,640
+US,OGNE,"Ogallala, Nebraska, USA",40.9451,-102.033,1054
+US,PKME,"Peaks-Kenny State Park, Maine, USA",45.2644,-69.2917,108
+US,RLMT,"Red Lodge, Montana, USA",45.1221,-109.2673,2086
+US,SCIA,"State Center, Iowa, USA",41.9069,-93.2153,311
+US,SDCO,"Great Sand Dunes National Park, Colorado, USA",37.7456,-105.5012,2569
+US,TPNV,"Topopah Spring, Nevada, USA",36.9488,-116.2495,1600
+US,TZTN,"Tazewell, Tennessee, USA",36.5439,-83.549,394
+US,VBMS,"Vicksburg, Mississippi",32.21851,-90.517671,16
+US,WMOK,"Wichita Mountains, Oklahoma, USA",34.7379,-98.7807,486
+US,WRAK,"Wrangell Island, Southeastern Alaska, Alaska, USA",56.4191,-132.3466,80
+US,WUAZ,"Wupatki, Arizona, USA",35.5169,-111.3739,1592
+US,WVOR,"Wild Horse Valley, Oregon, USA",42.4339,-118.6367,1344

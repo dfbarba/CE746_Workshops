@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+obspy
+cartopy
+pygmt
+geopandas
+h5py
+ipykernel
