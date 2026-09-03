@@ -1,0 +1,3 @@
+event_name,longitude,latitude,depth,strike,dip,rake,magnitude,plot_longitude,plot_latitude
+"Mw7.6 Chi-Chi",120.813,23.834,10.0,220,75,90,7.58,120.2,25
+"Mw6.9 Taitung",121.2,23.14,10.0,102.9,66.52,156.72,6.9,122.0,23.5
