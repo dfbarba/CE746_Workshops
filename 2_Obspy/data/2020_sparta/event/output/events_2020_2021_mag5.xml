@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
-  <eventParameters publicID="smi:local/735a083f-5488-4fea-b009-13ddc9731cea">
+  <eventParameters publicID="smi:local/42d42d1e-f63b-4910-a115-d362ff87d0d7">
     <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=se60324281&amp;format=quakeml" ns0:datasource="se" ns0:eventsource="se" ns0:eventid="60324281">
       <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500</preferredOriginID>
       <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500#magnitude</preferredMagnitudeID>
