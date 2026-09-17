@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/735a083f-5488-4fea-b009-13ddc9731cea">
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=se60324281&amp;format=quakeml" ns0:datasource="se" ns0:eventsource="se" ns0:eventid="60324281">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>4 km SE of Sparta, North Carolina</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>se</agencyID>
+        <creationTime>2026-06-14T10:35:57.366000Z</creationTime>
+        <version>13</version>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500" ns0:datasource="se" ns0:dataid="se60324281" ns0:eventsource="se" ns0:eventid="60324281">
+        <time>
+          <value>2020-08-09T12:07:37.650000Z</value>
+        </time>
+        <latitude>
+          <value>36.4743333</value>
+        </latitude>
+        <longitude>
+          <value>-81.0865</value>
+        </longitude>
+        <depth>
+          <value>4140.0</value>
+          <uncertainty>1810.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>47</usedPhaseCount>
+          <usedStationCount>34</usedStationCount>
+          <standardError>0.38</standardError>
+          <azimuthalGap>50.0</azimuthalGap>
+          <minimumDistance>0.4521</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>SE</agencyID>
+          <creationTime>2020-10-15T15:34:51.500000Z</creationTime>
+          <version>13</version>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>400.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500#magnitude" ns0:datasource="se" ns0:dataid="se60324281" ns0:eventsource="se" ns0:eventid="60324281">
+        <mag>
+          <value>5.1</value>
+        </mag>
+        <type>mw</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/se60324281/se/1602776091500</originID>
+        <stationCount>0</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>SE</agencyID>
+          <creationTime>2020-10-15T15:34:51.500000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

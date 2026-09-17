@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+ipykernel
+obspy
+pyrtod
