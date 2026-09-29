@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: spatialite
+Description: Spatial SQL database engine based on SQLite
+Version: 5.1.0
+Libs: -L${libdir} -lspatialite -lrttopo -lfreexl -liconv -lproj -lz  -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -lgeos_c -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -lxml2 -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -lsqlite3 -lm
+Cflags: -I${includedir}

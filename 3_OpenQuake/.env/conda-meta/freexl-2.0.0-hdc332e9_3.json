@@ -1,0 +1,77 @@
+{
+  "name": "freexl",
+  "version": "2.0.0",
+  "build": "hdc332e9_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "freexl-2.0.0-hdc332e9_3.conda",
+  "md5": "c6745d77f98ee140182dd2910508e882",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/freexl-2.0.0-hdc332e9_3.conda",
+  "sha256": "6f95834db269a5e10060312d59766bffb23e89a9356f5f16488a98a17c11e1b6",
+  "depends": [
+    "__osx >=11.0",
+    "minizip >=4.2.2,<5.0a0",
+    "libexpat >=2.8.1,<3.0a0",
+    "libiconv >=1.18,<2.0a0"
+  ],
+  "constrains": [],
+  "license": "MPL-1.1",
+  "timestamp": 1789587607807,
+  "size": 56068,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/freexl-2.0.0-hdc332e9_3.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/freexl-2.0.0-hdc332e9_3",
+  "files": [
+    "include/freexl.h",
+    "lib/libfreexl.1.dylib",
+    "lib/libfreexl.a",
+    "lib/libfreexl.dylib",
+    "lib/pkgconfig/freexl.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/freexl.h",
+        "path_type": "hardlink",
+        "sha256": "410c8bbe03a8801bcbec25f48387312efa418ac0dbafcd54c501f2c4077e2d26",
+        "size_in_bytes": 29425,
+        "sha256_in_prefix": "410c8bbe03a8801bcbec25f48387312efa418ac0dbafcd54c501f2c4077e2d26"
+      },
+      {
+        "_path": "lib/libfreexl.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "a955dec051108f7a8cc4933c2497012ed665a6fd8c2ef5f94bc5bbfc574bc257",
+        "size_in_bytes": 106000,
+        "sha256_in_prefix": "a955dec051108f7a8cc4933c2497012ed665a6fd8c2ef5f94bc5bbfc574bc257"
+      },
+      {
+        "_path": "lib/libfreexl.a",
+        "path_type": "hardlink",
+        "sha256": "77925648c3c88eb53f041f6e4732bcd13323144e70d3315ecd2cb6a4c135a151",
+        "size_in_bytes": 59232,
+        "sha256_in_prefix": "77925648c3c88eb53f041f6e4732bcd13323144e70d3315ecd2cb6a4c135a151"
+      },
+      {
+        "_path": "lib/libfreexl.dylib",
+        "path_type": "softlink",
+        "sha256": "a955dec051108f7a8cc4933c2497012ed665a6fd8c2ef5f94bc5bbfc574bc257",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/pkgconfig/freexl.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_freexl_1789587607/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "17ea302b0b34afc8c387b6fdbe9e02a9ca9a2ad0995f31d0c73058eb66f46c1c",
+        "size_in_bytes": 538,
+        "sha256_in_prefix": "3b56a909523f3ca7037e33f890acdf975b18d9b00eb2ee4adcfa4341cf82aa2c"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/freexl-2.0.0-hdc332e9_3",
+    "type": 1
+  }
+}

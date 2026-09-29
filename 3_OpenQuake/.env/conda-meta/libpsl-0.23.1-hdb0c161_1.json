@@ -1,0 +1,68 @@
+{
+  "name": "libpsl",
+  "version": "0.23.1",
+  "build": "hdb0c161_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libpsl-0.23.1-hdb0c161_1.conda",
+  "md5": "5d270f716a2b4bc13df9af8612071b17",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libpsl-0.23.1-hdb0c161_1.conda",
+  "sha256": "c8c3153df39abedf3413483f672151ad70f1adb0c06c192bdf7ec432c3616b07",
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=21",
+    "icu >=78.3,<79.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1786970928205,
+  "size": 72673,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libpsl-0.23.1-hdb0c161_1.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libpsl-0.23.1-hdb0c161_1",
+  "files": [
+    "include/libpsl.h",
+    "lib/libpsl.5.dylib",
+    "lib/libpsl.dylib",
+    "lib/pkgconfig/libpsl.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/libpsl.h",
+        "path_type": "hardlink",
+        "sha256": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e",
+        "size_in_bytes": 5766,
+        "sha256_in_prefix": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e"
+      },
+      {
+        "_path": "lib/libpsl.5.dylib",
+        "path_type": "hardlink",
+        "sha256": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace",
+        "size_in_bytes": 137392,
+        "sha256_in_prefix": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace"
+      },
+      {
+        "_path": "lib/libpsl.dylib",
+        "path_type": "softlink",
+        "sha256": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/pkgconfig/libpsl.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libpsl_1786970928/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "392a9ec0913f588fa070c18b8bd9141fff294eb2c9d6f0a0e275d187e7560aaa",
+        "size_in_bytes": 458,
+        "sha256_in_prefix": "e7cc822ac4f487eabc7c35d7a7a10e3818a0094b0f91079ee2bb61f111d3958d"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libpsl-0.23.1-hdb0c161_1",
+    "type": 1
+  }
+}

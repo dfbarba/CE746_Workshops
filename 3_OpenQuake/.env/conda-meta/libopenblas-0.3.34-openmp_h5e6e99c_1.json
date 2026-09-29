@@ -1,0 +1,68 @@
+{
+  "name": "libopenblas",
+  "version": "0.3.34",
+  "build": "openmp_h5e6e99c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libopenblas-0.3.34-openmp_h5e6e99c_1.conda",
+  "md5": "9c874eb9d4441a658ef3acf6ac56dc3e",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.34-openmp_h5e6e99c_1.conda",
+  "sha256": "18f167fdaa26f67a123c59766f4730b41866d2c0920b5c29d74a93d3a2e92a96",
+  "depends": [
+    "__osx >=11.0",
+    "libgcc >=15",
+    "libgfortran",
+    "libgfortran5 >=15.3.0",
+    "llvm-openmp >=21.1.8"
+  ],
+  "constrains": [
+    "openblas >=0.3.34,<0.3.35.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "timestamp": 1789023664380,
+  "size": 4249236,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libopenblas-0.3.34-openmp_h5e6e99c_1.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libopenblas-0.3.34-openmp_h5e6e99c_1",
+  "files": [
+    "lib/libopenblas.0.dylib",
+    "lib/libopenblas_armv8p-r0.3.34.dylib",
+    "lib/libopenblas_vortexp-r0.3.34.dylib",
+    "lib/libopenblasp-r0.3.34.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libopenblas.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07",
+        "size_in_bytes": 13233040,
+        "sha256_in_prefix": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07"
+      },
+      {
+        "_path": "lib/libopenblas_armv8p-r0.3.34.dylib",
+        "path_type": "softlink",
+        "sha256": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07",
+        "size_in_bytes": 13233040
+      },
+      {
+        "_path": "lib/libopenblas_vortexp-r0.3.34.dylib",
+        "path_type": "softlink",
+        "sha256": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07",
+        "size_in_bytes": 13233040
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.34.dylib",
+        "path_type": "softlink",
+        "sha256": "7a89772da7fb86aea4c91eefdbc4e6980fb1f668d77bbc34537503a5d1f29c07",
+        "size_in_bytes": 13233040
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libopenblas-0.3.34-openmp_h5e6e99c_1",
+    "type": 1
+  }
+}

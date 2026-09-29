@@ -1,0 +1,58 @@
+{
+  "name": "libgfortran5",
+  "version": "16.2.0",
+  "build": "hdb7a957_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libgfortran5-16.2.0-hdb7a957_7.conda",
+  "md5": "c9d80dd8775b8fe76e825d63d8ccaf1b",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-16.2.0-hdb7a957_7.conda",
+  "sha256": "19297e5cf39de976cdd1a46499a4e15fdf54d249d3231f3b2a9d43af3be0bc66",
+  "depends": [
+    "libgcc >=16.2.0"
+  ],
+  "constrains": [
+    "libgfortran 16.2.0"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1790302001166,
+  "size": 554793,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libgfortran5-16.2.0-hdb7a957_7.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libgfortran5-16.2.0-hdb7a957_7",
+  "files": [
+    "lib/libgfortran.5.dylib",
+    "lib/libgfortran.dylib",
+    "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libgfortran.5.dylib",
+        "path_type": "hardlink",
+        "sha256": "280f2e05129cfb708cc4041c25f4da59ff1581ede37341fad113b38cf5dc54db",
+        "size_in_bytes": 2168880,
+        "sha256_in_prefix": "280f2e05129cfb708cc4041c25f4da59ff1581ede37341fad113b38cf5dc54db"
+      },
+      {
+        "_path": "lib/libgfortran.dylib",
+        "path_type": "softlink",
+        "sha256": "280f2e05129cfb708cc4041c25f4da59ff1581ede37341fad113b38cf5dc54db",
+        "size_in_bytes": 2168880
+      },
+      {
+        "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324,
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libgfortran5-16.2.0-hdb7a957_7",
+    "type": 1
+  }
+}

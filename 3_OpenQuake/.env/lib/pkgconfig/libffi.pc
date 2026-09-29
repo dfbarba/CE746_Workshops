@@ -1,0 +1,11 @@
+prefix=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.7.0
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

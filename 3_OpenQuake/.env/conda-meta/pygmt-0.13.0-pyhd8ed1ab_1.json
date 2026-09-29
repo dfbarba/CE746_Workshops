@@ -1,0 +1,1522 @@
+{
+  "name": "pygmt",
+  "version": "0.13.0",
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "pygmt-0.13.0-pyhd8ed1ab_1.conda",
+  "md5": "16ec361b02a6fa344404216b09d2a0f4",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pygmt-0.13.0-pyhd8ed1ab_1.conda",
+  "sha256": "a340bba40df15bb7038d614245980705b0f73ce7c345d35edb867633f74cb8b4",
+  "depends": [
+    "gmt >=6.3.0,<7.0",
+    "netcdf4",
+    "numpy >=1.24",
+    "packaging",
+    "pandas >=1.5",
+    "python >=3.10",
+    "xarray >=2022.09"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1734750346009,
+  "size": 165457,
+  "requested_spec": "pygmt[version='<=0.17.0']",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/pygmt-0.13.0-pyhd8ed1ab_1.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/pygmt-0.13.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pygmt-0.13.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pygmt/__init__.py",
+    "lib/python3.10/site-packages/pygmt/_show_versions.py",
+    "lib/python3.10/site-packages/pygmt/accessors.py",
+    "lib/python3.10/site-packages/pygmt/clib/__init__.py",
+    "lib/python3.10/site-packages/pygmt/clib/conversion.py",
+    "lib/python3.10/site-packages/pygmt/clib/loading.py",
+    "lib/python3.10/site-packages/pygmt/clib/session.py",
+    "lib/python3.10/site-packages/pygmt/conftest.py",
+    "lib/python3.10/site-packages/pygmt/datasets/__init__.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_age.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_free_air_anomaly.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_geoid.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_magnetic_anomaly.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_mask.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_relief.py",
+    "lib/python3.10/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py",
+    "lib/python3.10/site-packages/pygmt/datasets/load_remote_dataset.py",
+    "lib/python3.10/site-packages/pygmt/datasets/mars_relief.py",
+    "lib/python3.10/site-packages/pygmt/datasets/mercury_relief.py",
+    "lib/python3.10/site-packages/pygmt/datasets/moon_relief.py",
+    "lib/python3.10/site-packages/pygmt/datasets/pluto_relief.py",
+    "lib/python3.10/site-packages/pygmt/datasets/samples.py",
+    "lib/python3.10/site-packages/pygmt/datasets/tile_map.py",
+    "lib/python3.10/site-packages/pygmt/datasets/venus_relief.py",
+    "lib/python3.10/site-packages/pygmt/datatypes/__init__.py",
+    "lib/python3.10/site-packages/pygmt/datatypes/dataset.py",
+    "lib/python3.10/site-packages/pygmt/datatypes/grid.py",
+    "lib/python3.10/site-packages/pygmt/datatypes/header.py",
+    "lib/python3.10/site-packages/pygmt/datatypes/image.py",
+    "lib/python3.10/site-packages/pygmt/encodings.py",
+    "lib/python3.10/site-packages/pygmt/exceptions.py",
+    "lib/python3.10/site-packages/pygmt/figure.py",
+    "lib/python3.10/site-packages/pygmt/helpers/__init__.py",
+    "lib/python3.10/site-packages/pygmt/helpers/caching.py",
+    "lib/python3.10/site-packages/pygmt/helpers/decorators.py",
+    "lib/python3.10/site-packages/pygmt/helpers/tempfile.py",
+    "lib/python3.10/site-packages/pygmt/helpers/testing.py",
+    "lib/python3.10/site-packages/pygmt/helpers/utils.py",
+    "lib/python3.10/site-packages/pygmt/helpers/validators.py",
+    "lib/python3.10/site-packages/pygmt/io.py",
+    "lib/python3.10/site-packages/pygmt/session_management.py",
+    "lib/python3.10/site-packages/pygmt/sphinx_gallery.py",
+    "lib/python3.10/site-packages/pygmt/src/__init__.py",
+    "lib/python3.10/site-packages/pygmt/src/basemap.py",
+    "lib/python3.10/site-packages/pygmt/src/binstats.py",
+    "lib/python3.10/site-packages/pygmt/src/blockm.py",
+    "lib/python3.10/site-packages/pygmt/src/coast.py",
+    "lib/python3.10/site-packages/pygmt/src/colorbar.py",
+    "lib/python3.10/site-packages/pygmt/src/config.py",
+    "lib/python3.10/site-packages/pygmt/src/contour.py",
+    "lib/python3.10/site-packages/pygmt/src/dimfilter.py",
+    "lib/python3.10/site-packages/pygmt/src/filter1d.py",
+    "lib/python3.10/site-packages/pygmt/src/grd2cpt.py",
+    "lib/python3.10/site-packages/pygmt/src/grd2xyz.py",
+    "lib/python3.10/site-packages/pygmt/src/grdclip.py",
+    "lib/python3.10/site-packages/pygmt/src/grdcontour.py",
+    "lib/python3.10/site-packages/pygmt/src/grdcut.py",
+    "lib/python3.10/site-packages/pygmt/src/grdfill.py",
+    "lib/python3.10/site-packages/pygmt/src/grdfilter.py",
+    "lib/python3.10/site-packages/pygmt/src/grdgradient.py",
+    "lib/python3.10/site-packages/pygmt/src/grdhisteq.py",
+    "lib/python3.10/site-packages/pygmt/src/grdimage.py",
+    "lib/python3.10/site-packages/pygmt/src/grdinfo.py",
+    "lib/python3.10/site-packages/pygmt/src/grdlandmask.py",
+    "lib/python3.10/site-packages/pygmt/src/grdproject.py",
+    "lib/python3.10/site-packages/pygmt/src/grdsample.py",
+    "lib/python3.10/site-packages/pygmt/src/grdtrack.py",
+    "lib/python3.10/site-packages/pygmt/src/grdview.py",
+    "lib/python3.10/site-packages/pygmt/src/grdvolume.py",
+    "lib/python3.10/site-packages/pygmt/src/histogram.py",
+    "lib/python3.10/site-packages/pygmt/src/image.py",
+    "lib/python3.10/site-packages/pygmt/src/info.py",
+    "lib/python3.10/site-packages/pygmt/src/inset.py",
+    "lib/python3.10/site-packages/pygmt/src/legend.py",
+    "lib/python3.10/site-packages/pygmt/src/logo.py",
+    "lib/python3.10/site-packages/pygmt/src/makecpt.py",
+    "lib/python3.10/site-packages/pygmt/src/meca.py",
+    "lib/python3.10/site-packages/pygmt/src/nearneighbor.py",
+    "lib/python3.10/site-packages/pygmt/src/plot.py",
+    "lib/python3.10/site-packages/pygmt/src/plot3d.py",
+    "lib/python3.10/site-packages/pygmt/src/project.py",
+    "lib/python3.10/site-packages/pygmt/src/rose.py",
+    "lib/python3.10/site-packages/pygmt/src/select.py",
+    "lib/python3.10/site-packages/pygmt/src/shift_origin.py",
+    "lib/python3.10/site-packages/pygmt/src/solar.py",
+    "lib/python3.10/site-packages/pygmt/src/sph2grd.py",
+    "lib/python3.10/site-packages/pygmt/src/sphdistance.py",
+    "lib/python3.10/site-packages/pygmt/src/sphinterpolate.py",
+    "lib/python3.10/site-packages/pygmt/src/subplot.py",
+    "lib/python3.10/site-packages/pygmt/src/surface.py",
+    "lib/python3.10/site-packages/pygmt/src/ternary.py",
+    "lib/python3.10/site-packages/pygmt/src/text.py",
+    "lib/python3.10/site-packages/pygmt/src/tilemap.py",
+    "lib/python3.10/site-packages/pygmt/src/timestamp.py",
+    "lib/python3.10/site-packages/pygmt/src/triangulate.py",
+    "lib/python3.10/site-packages/pygmt/src/velo.py",
+    "lib/python3.10/site-packages/pygmt/src/which.py",
+    "lib/python3.10/site-packages/pygmt/src/wiggle.py",
+    "lib/python3.10/site-packages/pygmt/src/x2sys_cross.py",
+    "lib/python3.10/site-packages/pygmt/src/x2sys_init.py",
+    "lib/python3.10/site-packages/pygmt/src/xyz2grd.py",
+    "lib/python3.10/site-packages/pygmt/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/_show_versions.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/accessors.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/clib/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/clib/__pycache__/conversion.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/clib/__pycache__/loading.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/clib/__pycache__/session.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/conftest.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_age.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_free_air_anomaly.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_geoid.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_magnetic_anomaly.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_mask.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_vertical_gravity_gradient.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/load_remote_dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/mars_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/mercury_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/moon_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/pluto_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/samples.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/tile_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datasets/__pycache__/venus_relief.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/header.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/image.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/encodings.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/figure.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/caching.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/decorators.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/tempfile.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/testing.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/helpers/__pycache__/validators.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/io.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/session_management.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/__pycache__/sphinx_gallery.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/basemap.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/binstats.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/blockm.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/coast.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/colorbar.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/config.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/contour.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/dimfilter.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/filter1d.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grd2cpt.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grd2xyz.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdclip.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdcontour.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdcut.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdfill.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdfilter.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdgradient.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdhisteq.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdimage.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdinfo.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdlandmask.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdproject.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdsample.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdtrack.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdview.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/grdvolume.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/image.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/info.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/inset.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/legend.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/logo.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/makecpt.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/meca.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/nearneighbor.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/plot3d.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/project.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/rose.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/select.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/shift_origin.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/solar.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/sph2grd.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/sphdistance.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/sphinterpolate.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/subplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/surface.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/ternary.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/text.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/tilemap.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/timestamp.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/triangulate.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/velo.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/which.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/wiggle.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/x2sys_cross.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/x2sys_init.cpython-310.pyc",
+    "lib/python3.10/site-packages/pygmt/src/__pycache__/xyz2grd.cpython-310.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a18760d2d43041b46925ed3c5882811dec20cfeae4477548064789dde812f8f3",
+        "size_in_bytes": 1500,
+        "sha256_in_prefix": "a18760d2d43041b46925ed3c5882811dec20cfeae4477548064789dde812f8f3"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "da97ac2d07fd06785d782a95e9e79b3c630804becb9ccea0e44fcfc24b193195",
+        "size_in_bytes": 11359,
+        "sha256_in_prefix": "da97ac2d07fd06785d782a95e9e79b3c630804becb9ccea0e44fcfc24b193195"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d2d2a523fc6f6ffde84c9360d32bf324d740a2d7a19dea5948b3903132c16db5",
+        "size_in_bytes": 14035,
+        "sha256_in_prefix": "d2d2a523fc6f6ffde84c9360d32bf324d740a2d7a19dea5948b3903132c16db5"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c23942bc3acc7bed9614960d2e005e9c341591433bea5342a8ef794a4e4a7bb3",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "c23942bc3acc7bed9614960d2e005e9c341591433bea5342a8ef794a4e4a7bb3"
+      },
+      {
+        "_path": "site-packages/pygmt-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "80caeedda1d828f91ad7b454fa9b05f4eef2c3a65ef6f912480fd91e67d3bbd1",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "80caeedda1d828f91ad7b454fa9b05f4eef2c3a65ef6f912480fd91e67d3bbd1"
+      },
+      {
+        "_path": "site-packages/pygmt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b30a8fbe764e255fcc14f38cbdf908c29d703956d4044d306a4256788818f556",
+        "size_in_bytes": 1991,
+        "sha256_in_prefix": "b30a8fbe764e255fcc14f38cbdf908c29d703956d4044d306a4256788818f556"
+      },
+      {
+        "_path": "site-packages/pygmt/_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "d52f90d85d0ae40bb0f1197de5f1f264dfef0de2da6216677d75b8d6263f2b6c",
+        "size_in_bytes": 4511,
+        "sha256_in_prefix": "d52f90d85d0ae40bb0f1197de5f1f264dfef0de2da6216677d75b8d6263f2b6c"
+      },
+      {
+        "_path": "site-packages/pygmt/accessors.py",
+        "path_type": "hardlink",
+        "sha256": "f4d1720bb62f14bd677d3dff14cceaecb1037efa741837658e7e26e9c96d5288",
+        "size_in_bytes": 6042,
+        "sha256_in_prefix": "f4d1720bb62f14bd677d3dff14cceaecb1037efa741837658e7e26e9c96d5288"
+      },
+      {
+        "_path": "site-packages/pygmt/clib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c58912c2c6f9cd5843d5afcb0590e2c30a74d013d84b369e56bc8aeab182a51",
+        "size_in_bytes": 664,
+        "sha256_in_prefix": "2c58912c2c6f9cd5843d5afcb0590e2c30a74d013d84b369e56bc8aeab182a51"
+      },
+      {
+        "_path": "site-packages/pygmt/clib/conversion.py",
+        "path_type": "hardlink",
+        "sha256": "09ee702bfddee1ea93804e2b247afe6c364c9cb191b158d4692a70f50e9fe09b",
+        "size_in_bytes": 12365,
+        "sha256_in_prefix": "09ee702bfddee1ea93804e2b247afe6c364c9cb191b158d4692a70f50e9fe09b"
+      },
+      {
+        "_path": "site-packages/pygmt/clib/loading.py",
+        "path_type": "hardlink",
+        "sha256": "8041c6c7df856dc792a783594b37a64d5bc17a16b6c1bdd8fd1ba2cfd3faecf0",
+        "size_in_bytes": 6471,
+        "sha256_in_prefix": "8041c6c7df856dc792a783594b37a64d5bc17a16b6c1bdd8fd1ba2cfd3faecf0"
+      },
+      {
+        "_path": "site-packages/pygmt/clib/session.py",
+        "path_type": "hardlink",
+        "sha256": "d350df9bad534ce137b666738d6b2840d79dde6709e17d7d93146fc635f8854c",
+        "size_in_bytes": 86614,
+        "sha256_in_prefix": "d350df9bad534ce137b666738d6b2840d79dde6709e17d7d93146fc635f8854c"
+      },
+      {
+        "_path": "site-packages/pygmt/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "761e109a8b983685a711f71e2f6f1a0cca0c62865efe0f4fa329d16180eea066",
+        "size_in_bytes": 336,
+        "sha256_in_prefix": "761e109a8b983685a711f71e2f6f1a0cca0c62865efe0f4fa329d16180eea066"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a07166a9f073957fb04c9246b1cb6837cfd8596823de05e0e3db7b4629cc841b",
+        "size_in_bytes": 998,
+        "sha256_in_prefix": "a07166a9f073957fb04c9246b1cb6837cfd8596823de05e0e3db7b4629cc841b"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_age.py",
+        "path_type": "hardlink",
+        "sha256": "6652582cb77356434e9b1688cefe62424cd2dc373df34bfceff44b6413eb7407",
+        "size_in_bytes": 4097,
+        "sha256_in_prefix": "6652582cb77356434e9b1688cefe62424cd2dc373df34bfceff44b6413eb7407"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_free_air_anomaly.py",
+        "path_type": "hardlink",
+        "sha256": "5910a42d7fcc6f09f25d19165f2504b69543b9ae682aacd5d4bd6ceb77571f0d",
+        "size_in_bytes": 4276,
+        "sha256_in_prefix": "5910a42d7fcc6f09f25d19165f2504b69543b9ae682aacd5d4bd6ceb77571f0d"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_geoid.py",
+        "path_type": "hardlink",
+        "sha256": "d370988411a56b8efc7f087c5c1b11548bbcda6fe6f7232257a2e93038369d99",
+        "size_in_bytes": 3602,
+        "sha256_in_prefix": "d370988411a56b8efc7f087c5c1b11548bbcda6fe6f7232257a2e93038369d99"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_magnetic_anomaly.py",
+        "path_type": "hardlink",
+        "sha256": "005599422cc6573e2254bbfe87e0e08f82371f4b3e106bba2fc8daa5ddbd9901",
+        "size_in_bytes": 6548,
+        "sha256_in_prefix": "005599422cc6573e2254bbfe87e0e08f82371f4b3e106bba2fc8daa5ddbd9901"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_mask.py",
+        "path_type": "hardlink",
+        "sha256": "4f62f2973ef3a6fabd6a68f42a868f211861d2acc130416a37456cd428746881",
+        "size_in_bytes": 4056,
+        "sha256_in_prefix": "4f62f2973ef3a6fabd6a68f42a868f211861d2acc130416a37456cd428746881"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_relief.py",
+        "path_type": "hardlink",
+        "sha256": "93785cce8bbfc24c633551ee5d62e83c8bf4028c395ee053238e89b226248d17",
+        "size_in_bytes": 7150,
+        "sha256_in_prefix": "93785cce8bbfc24c633551ee5d62e83c8bf4028c395ee053238e89b226248d17"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py",
+        "path_type": "hardlink",
+        "sha256": "52844db23cfafb6e8a8b87214882f0a6601f86f2c70b052c6660ecbfc43a6809",
+        "size_in_bytes": 4390,
+        "sha256_in_prefix": "52844db23cfafb6e8a8b87214882f0a6601f86f2c70b052c6660ecbfc43a6809"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/load_remote_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "e1f9eedd8ceebb8fca104fd106644211534601b120ee9ea92a8b1e29fc35a715",
+        "size_in_bytes": 16578,
+        "sha256_in_prefix": "e1f9eedd8ceebb8fca104fd106644211534601b120ee9ea92a8b1e29fc35a715"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/mars_relief.py",
+        "path_type": "hardlink",
+        "sha256": "f49e5e8ed430e642c238bf8f59ee91bc56e22b1ea1b8686e23d2e725fe0c420d",
+        "size_in_bytes": 4308,
+        "sha256_in_prefix": "f49e5e8ed430e642c238bf8f59ee91bc56e22b1ea1b8686e23d2e725fe0c420d"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/mercury_relief.py",
+        "path_type": "hardlink",
+        "sha256": "80883d0cd90fd2e2e4d933c340c476d912b0e107c2bd7b604f7a624f2595a290",
+        "size_in_bytes": 4335,
+        "sha256_in_prefix": "80883d0cd90fd2e2e4d933c340c476d912b0e107c2bd7b604f7a624f2595a290"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/moon_relief.py",
+        "path_type": "hardlink",
+        "sha256": "41833f38f076ff3a8c6d0df86a039e5e766a3c34bc749f70f7bf6db190ea01dc",
+        "size_in_bytes": 4308,
+        "sha256_in_prefix": "41833f38f076ff3a8c6d0df86a039e5e766a3c34bc749f70f7bf6db190ea01dc"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/pluto_relief.py",
+        "path_type": "hardlink",
+        "sha256": "788ca9db36a92a8d42c706891aa6b204978758594ca91c7e630c42c40e0d7622",
+        "size_in_bytes": 4297,
+        "sha256_in_prefix": "788ca9db36a92a8d42c706891aa6b204978758594ca91c7e630c42c40e0d7622"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/samples.py",
+        "path_type": "hardlink",
+        "sha256": "b6847c5911d131ca25a48d2ef936d88cfe5cfd7cd5dad91ba91772a524a6c1a1",
+        "size_in_bytes": 10302,
+        "sha256_in_prefix": "b6847c5911d131ca25a48d2ef936d88cfe5cfd7cd5dad91ba91772a524a6c1a1"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/tile_map.py",
+        "path_type": "hardlink",
+        "sha256": "c153827eaa5e5718d3538d10787214fa73f4d4a8ebdb9beaae801b701930c59f",
+        "size_in_bytes": 6919,
+        "sha256_in_prefix": "c153827eaa5e5718d3538d10787214fa73f4d4a8ebdb9beaae801b701930c59f"
+      },
+      {
+        "_path": "site-packages/pygmt/datasets/venus_relief.py",
+        "path_type": "hardlink",
+        "sha256": "76b27a4120b29b7a7836cce1c0072e39cd997df2454ef810e2073cee747264b0",
+        "size_in_bytes": 4055,
+        "sha256_in_prefix": "76b27a4120b29b7a7836cce1c0072e39cd997df2454ef810e2073cee747264b0"
+      },
+      {
+        "_path": "site-packages/pygmt/datatypes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ee34bcbf4f0a9ad0c2ae53efc1fe8353c4940108be4643204e3005f601554852",
+        "size_in_bytes": 175,
+        "sha256_in_prefix": "ee34bcbf4f0a9ad0c2ae53efc1fe8353c4940108be4643204e3005f601554852"
+      },
+      {
+        "_path": "site-packages/pygmt/datatypes/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "3632d42ecbf897e82f7698122d6bdc4b054412e8ee37452c9861f8319b50072a",
+        "size_in_bytes": 11591,
+        "sha256_in_prefix": "3632d42ecbf897e82f7698122d6bdc4b054412e8ee37452c9861f8319b50072a"
+      },
+      {
+        "_path": "site-packages/pygmt/datatypes/grid.py",
+        "path_type": "hardlink",
+        "sha256": "ac6e05538232d5f19801844562801d2b51e559d8ca69b0b2352d46d9d1696745",
+        "size_in_bytes": 8876,
+        "sha256_in_prefix": "ac6e05538232d5f19801844562801d2b51e559d8ca69b0b2352d46d9d1696745"
+      },
+      {
+        "_path": "site-packages/pygmt/datatypes/header.py",
+        "path_type": "hardlink",
+        "sha256": "2aa32eeed30f1e6709c8c98506b3fa02d0955ae7f77215fb088589175a6ce7e0",
+        "size_in_bytes": 9124,
+        "sha256_in_prefix": "2aa32eeed30f1e6709c8c98506b3fa02d0955ae7f77215fb088589175a6ce7e0"
+      },
+      {
+        "_path": "site-packages/pygmt/datatypes/image.py",
+        "path_type": "hardlink",
+        "sha256": "368fc63b47621f9e160293e559273fd5ff34230bdc20df5308d99034892ea7f1",
+        "size_in_bytes": 3314,
+        "sha256_in_prefix": "368fc63b47621f9e160293e559273fd5ff34230bdc20df5308d99034892ea7f1"
+      },
+      {
+        "_path": "site-packages/pygmt/encodings.py",
+        "path_type": "hardlink",
+        "sha256": "680a57fa32d8a170c332ce25f3476425d9cc89c32a812c9552d6d18f41e1cba3",
+        "size_in_bytes": 6665,
+        "sha256_in_prefix": "680a57fa32d8a170c332ce25f3476425d9cc89c32a812c9552d6d18f41e1cba3"
+      },
+      {
+        "_path": "site-packages/pygmt/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "47be1c4e060aae4b1163851d4190c87d7dc098f9ef413b931f0f17fafd307fb9",
+        "size_in_bytes": 992,
+        "sha256_in_prefix": "47be1c4e060aae4b1163851d4190c87d7dc098f9ef413b931f0f17fafd307fb9"
+      },
+      {
+        "_path": "site-packages/pygmt/figure.py",
+        "path_type": "hardlink",
+        "sha256": "2ca6fa80444f19cb1bf529acd81dad2b8969043d689991b6a31e93bc5002b6cf",
+        "size_in_bytes": 23358,
+        "sha256_in_prefix": "2ca6fa80444f19cb1bf529acd81dad2b8969043d689991b6a31e93bc5002b6cf"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "43e7ad493150c4c132f958fae38c1283a618e16240fbbe058def77f9e664c45c",
+        "size_in_bytes": 632,
+        "sha256_in_prefix": "43e7ad493150c4c132f958fae38c1283a618e16240fbbe058def77f9e664c45c"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/caching.py",
+        "path_type": "hardlink",
+        "sha256": "d2e4e58fc021cf9d7b2167403d2d53c0ce80f2a8414c757cb716cd4c5530e936",
+        "size_in_bytes": 2936,
+        "sha256_in_prefix": "d2e4e58fc021cf9d7b2167403d2d53c0ce80f2a8414c757cb716cd4c5530e936"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "525b3a8e49e64513ede9394b68fde9e1668cf6255b7852c73c86bc9d1e218028",
+        "size_in_bytes": 37086,
+        "sha256_in_prefix": "525b3a8e49e64513ede9394b68fde9e1668cf6255b7852c73c86bc9d1e218028"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/tempfile.py",
+        "path_type": "hardlink",
+        "sha256": "fc646197c89c934ddfe8e8d6b4f5196d6e35ac2a325139024b5e5d42bff66324",
+        "size_in_bytes": 6682,
+        "sha256_in_prefix": "fc646197c89c934ddfe8e8d6b4f5196d6e35ac2a325139024b5e5d42bff66324"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/testing.py",
+        "path_type": "hardlink",
+        "sha256": "4fefd9bbee04921408fe8fa50d842f94db2ce4b7424c56ee682bfe7dc7a79ef5",
+        "size_in_bytes": 7090,
+        "sha256_in_prefix": "4fefd9bbee04921408fe8fa50d842f94db2ce4b7424c56ee682bfe7dc7a79ef5"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/utils.py",
+        "path_type": "hardlink",
+        "sha256": "09cd1fc6a904bfacdb835eb11bdb2cb73d7a798b7f9e7e988360d474d6818ec0",
+        "size_in_bytes": 25256,
+        "sha256_in_prefix": "09cd1fc6a904bfacdb835eb11bdb2cb73d7a798b7f9e7e988360d474d6818ec0"
+      },
+      {
+        "_path": "site-packages/pygmt/helpers/validators.py",
+        "path_type": "hardlink",
+        "sha256": "ed5843bd5b19fca934ecea84a25151f0957fde537e32e3cef69c0a0bc2356a9f",
+        "size_in_bytes": 2323,
+        "sha256_in_prefix": "ed5843bd5b19fca934ecea84a25151f0957fde537e32e3cef69c0a0bc2356a9f"
+      },
+      {
+        "_path": "site-packages/pygmt/io.py",
+        "path_type": "hardlink",
+        "sha256": "47d6cbf5c74e0967bdb39862e4b0ee3b32f6efea1c6f5924001ff720930ade2b",
+        "size_in_bytes": 1688,
+        "sha256_in_prefix": "47d6cbf5c74e0967bdb39862e4b0ee3b32f6efea1c6f5924001ff720930ade2b"
+      },
+      {
+        "_path": "site-packages/pygmt/session_management.py",
+        "path_type": "hardlink",
+        "sha256": "945857647f06873f780be9753481e66e6b3e4b198f597fcd3b56ea0027111d8d",
+        "size_in_bytes": 1209,
+        "sha256_in_prefix": "945857647f06873f780be9753481e66e6b3e4b198f597fcd3b56ea0027111d8d"
+      },
+      {
+        "_path": "site-packages/pygmt/sphinx_gallery.py",
+        "path_type": "hardlink",
+        "sha256": "672ae8f3081e76e22da36cfc93e9411036555d154398e5f49247fcceb5ccf2b2",
+        "size_in_bytes": 1076,
+        "sha256_in_prefix": "672ae8f3081e76e22da36cfc93e9411036555d154398e5f49247fcceb5ccf2b2"
+      },
+      {
+        "_path": "site-packages/pygmt/src/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "78147d17e3c86c41e0714f60ddd8263d5f06fdd67c1dfab64d9c272f2eec7902",
+        "size_in_bytes": 2385,
+        "sha256_in_prefix": "78147d17e3c86c41e0714f60ddd8263d5f06fdd67c1dfab64d9c272f2eec7902"
+      },
+      {
+        "_path": "site-packages/pygmt/src/basemap.py",
+        "path_type": "hardlink",
+        "sha256": "2f88ec4168024816bbe6d3da9bc78a29177d59400260e05d445bcc31f7faac48",
+        "size_in_bytes": 3223,
+        "sha256_in_prefix": "2f88ec4168024816bbe6d3da9bc78a29177d59400260e05d445bcc31f7faac48"
+      },
+      {
+        "_path": "site-packages/pygmt/src/binstats.py",
+        "path_type": "hardlink",
+        "sha256": "89115f047631b4bde2629261ab771dcb0a1a24810bcd72753df74a80f72c4dfc",
+        "size_in_bytes": 3948,
+        "sha256_in_prefix": "89115f047631b4bde2629261ab771dcb0a1a24810bcd72753df74a80f72c4dfc"
+      },
+      {
+        "_path": "site-packages/pygmt/src/blockm.py",
+        "path_type": "hardlink",
+        "sha256": "8251141cad2e54c10b0fd9b3f78b310136cc64c06fa2e719ab01e2c57ccc543d",
+        "size_in_bytes": 9999,
+        "sha256_in_prefix": "8251141cad2e54c10b0fd9b3f78b310136cc64c06fa2e719ab01e2c57ccc543d"
+      },
+      {
+        "_path": "site-packages/pygmt/src/coast.py",
+        "path_type": "hardlink",
+        "sha256": "5ac2733b852165e6cde8dead2d4d59ff08ca6d294997d614a6a380c1fed34037",
+        "size_in_bytes": 8210,
+        "sha256_in_prefix": "5ac2733b852165e6cde8dead2d4d59ff08ca6d294997d614a6a380c1fed34037"
+      },
+      {
+        "_path": "site-packages/pygmt/src/colorbar.py",
+        "path_type": "hardlink",
+        "sha256": "97fc6e3fbf4fc0048af0cdf493ea2856db391ea9b20086f7f9297b4eecd8c858",
+        "size_in_bytes": 6613,
+        "sha256_in_prefix": "97fc6e3fbf4fc0048af0cdf493ea2856db391ea9b20086f7f9297b4eecd8c858"
+      },
+      {
+        "_path": "site-packages/pygmt/src/config.py",
+        "path_type": "hardlink",
+        "sha256": "2dff44df1b283c58cb17b44b0e576c72514c9843e59b9000a8e5c148e95742d0",
+        "size_in_bytes": 6305,
+        "sha256_in_prefix": "2dff44df1b283c58cb17b44b0e576c72514c9843e59b9000a8e5c148e95742d0"
+      },
+      {
+        "_path": "site-packages/pygmt/src/contour.py",
+        "path_type": "hardlink",
+        "sha256": "2411cf0232b995521595b93814eb0183c76b62aea05130b1fa505c2511925dd9",
+        "size_in_bytes": 5374,
+        "sha256_in_prefix": "2411cf0232b995521595b93814eb0183c76b62aea05130b1fa505c2511925dd9"
+      },
+      {
+        "_path": "site-packages/pygmt/src/dimfilter.py",
+        "path_type": "hardlink",
+        "sha256": "cf0c278e831e32d1f54e17ed436e04a944c8c0a46d346587c0ca3a2deb6eb222",
+        "size_in_bytes": 6453,
+        "sha256_in_prefix": "cf0c278e831e32d1f54e17ed436e04a944c8c0a46d346587c0ca3a2deb6eb222"
+      },
+      {
+        "_path": "site-packages/pygmt/src/filter1d.py",
+        "path_type": "hardlink",
+        "sha256": "830c3b2a7bdfa06a25f51dee873eb10455116cb4b9222caf3080d4f7681b62a3",
+        "size_in_bytes": 4822,
+        "sha256_in_prefix": "830c3b2a7bdfa06a25f51dee873eb10455116cb4b9222caf3080d4f7681b62a3"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grd2cpt.py",
+        "path_type": "hardlink",
+        "sha256": "253b5c9cf901cf54e1b2964373242e4b1aa5e67921ec97f4f2a6a3db18d845c5",
+        "size_in_bytes": 9483,
+        "sha256_in_prefix": "253b5c9cf901cf54e1b2964373242e4b1aa5e67921ec97f4f2a6a3db18d845c5"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grd2xyz.py",
+        "path_type": "hardlink",
+        "sha256": "c6be99cdde7fb8968d28184f6128452fce16b2e5719f934ca7205d655aa73450",
+        "size_in_bytes": 6338,
+        "sha256_in_prefix": "c6be99cdde7fb8968d28184f6128452fce16b2e5719f934ca7205d655aa73450"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdclip.py",
+        "path_type": "hardlink",
+        "sha256": "23c8b90af74c3fe55ac7e8ca7216c16d80f26298c085d0feb7892359d70a10bf",
+        "size_in_bytes": 3112,
+        "sha256_in_prefix": "23c8b90af74c3fe55ac7e8ca7216c16d80f26298c085d0feb7892359d70a10bf"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdcontour.py",
+        "path_type": "hardlink",
+        "sha256": "68c87ea03ad28cf23fa8c09f77082851cdbde6a77487e9055aa3d3407118c7b1",
+        "size_in_bytes": 6268,
+        "sha256_in_prefix": "68c87ea03ad28cf23fa8c09f77082851cdbde6a77487e9055aa3d3407118c7b1"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdcut.py",
+        "path_type": "hardlink",
+        "sha256": "5a968dbe173edc6e424b95f0c62b51f72a62aae0daac6a71c599d7de59b72453",
+        "size_in_bytes": 4182,
+        "sha256_in_prefix": "5a968dbe173edc6e424b95f0c62b51f72a62aae0daac6a71c599d7de59b72453"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdfill.py",
+        "path_type": "hardlink",
+        "sha256": "179a641cf6304b68ecd3aaa8ce6ab1458da0ba0076b049219d2e739fa993d8d8",
+        "size_in_bytes": 2757,
+        "sha256_in_prefix": "179a641cf6304b68ecd3aaa8ce6ab1458da0ba0076b049219d2e739fa993d8d8"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdfilter.py",
+        "path_type": "hardlink",
+        "sha256": "51640489ab4ee3730c336e3c6c61400b0299a49019c320db4886348814ebbd0f",
+        "size_in_bytes": 5092,
+        "sha256_in_prefix": "51640489ab4ee3730c336e3c6c61400b0299a49019c320db4886348814ebbd0f"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdgradient.py",
+        "path_type": "hardlink",
+        "sha256": "800cd2ddf58f4d62dc8d3ea5d3dd6aa4ba44bf05bdc68f199651d054bc8b6734",
+        "size_in_bytes": 7822,
+        "sha256_in_prefix": "800cd2ddf58f4d62dc8d3ea5d3dd6aa4ba44bf05bdc68f199651d054bc8b6734"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdhisteq.py",
+        "path_type": "hardlink",
+        "sha256": "49cf596a7cc892026d48cd0e708215097fd188f8f8f7365273cd23220237a87b",
+        "size_in_bytes": 9095,
+        "sha256_in_prefix": "49cf596a7cc892026d48cd0e708215097fd188f8f8f7365273cd23220237a87b"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdimage.py",
+        "path_type": "hardlink",
+        "sha256": "ebdbf7782a70b373e3d53cf89539e39ac972b96cb8361e2e220f1aaff4c5ec9a",
+        "size_in_bytes": 7309,
+        "sha256_in_prefix": "ebdbf7782a70b373e3d53cf89539e39ac972b96cb8361e2e220f1aaff4c5ec9a"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdinfo.py",
+        "path_type": "hardlink",
+        "sha256": "31d27ccdf18700e5d76b761f43de0f0d23bfedf3532c8f872a6d492713482e57",
+        "size_in_bytes": 5008,
+        "sha256_in_prefix": "31d27ccdf18700e5d76b761f43de0f0d23bfedf3532c8f872a6d492713482e57"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdlandmask.py",
+        "path_type": "hardlink",
+        "sha256": "db336aa2ef5ee3a9a3575110ef4200b2296e49f8824a2153f672a05421b441ba",
+        "size_in_bytes": 4309,
+        "sha256_in_prefix": "db336aa2ef5ee3a9a3575110ef4200b2296e49f8824a2153f672a05421b441ba"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdproject.py",
+        "path_type": "hardlink",
+        "sha256": "471ca75ad90960efb799f1f9d3b50c924bdc89f0e6eef56ccd3588b3237bc4db",
+        "size_in_bytes": 4497,
+        "sha256_in_prefix": "471ca75ad90960efb799f1f9d3b50c924bdc89f0e6eef56ccd3588b3237bc4db"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdsample.py",
+        "path_type": "hardlink",
+        "sha256": "c01638451ade37853e9416fbf7de34296ff82277248ba07860c743890e65b830",
+        "size_in_bytes": 3088,
+        "sha256_in_prefix": "c01638451ade37853e9416fbf7de34296ff82277248ba07860c743890e65b830"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdtrack.py",
+        "path_type": "hardlink",
+        "sha256": "5772d027a96a296eb0cf4ffaf737d0b21ba0bd9c3e1c402274ae886d498f1e99",
+        "size_in_bytes": 15240,
+        "sha256_in_prefix": "5772d027a96a296eb0cf4ffaf737d0b21ba0bd9c3e1c402274ae886d498f1e99"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdview.py",
+        "path_type": "hardlink",
+        "sha256": "c5e9baa01d6407cec0e9340b02cba650d6717f39bbc8f8712b2727a3adbb3e41",
+        "size_in_bytes": 5827,
+        "sha256_in_prefix": "c5e9baa01d6407cec0e9340b02cba650d6717f39bbc8f8712b2727a3adbb3e41"
+      },
+      {
+        "_path": "site-packages/pygmt/src/grdvolume.py",
+        "path_type": "hardlink",
+        "sha256": "45706487bcd86f153501df6e3214af107eac8dcc0526b5d32d0c9ea51ad0f286",
+        "size_in_bytes": 4182,
+        "sha256_in_prefix": "45706487bcd86f153501df6e3214af107eac8dcc0526b5d32d0c9ea51ad0f286"
+      },
+      {
+        "_path": "site-packages/pygmt/src/histogram.py",
+        "path_type": "hardlink",
+        "sha256": "b37f511e5ed5a590ba1433cf547ac6bdbdd8a01ef6e92672a7866f78b6f58a02",
+        "size_in_bytes": 4678,
+        "sha256_in_prefix": "b37f511e5ed5a590ba1433cf547ac6bdbdd8a01ef6e92672a7866f78b6f58a02"
+      },
+      {
+        "_path": "site-packages/pygmt/src/image.py",
+        "path_type": "hardlink",
+        "sha256": "0fa2835d0dd87ae3759c690322b038550cd78ad9717efce36a6f4071dfaddc87",
+        "size_in_bytes": 2519,
+        "sha256_in_prefix": "0fa2835d0dd87ae3759c690322b038550cd78ad9717efce36a6f4071dfaddc87"
+      },
+      {
+        "_path": "site-packages/pygmt/src/info.py",
+        "path_type": "hardlink",
+        "sha256": "c20268ca4ba28cb460423aa1a09c367eb4721e517964dded82062f77fe7b23c9",
+        "size_in_bytes": 3700,
+        "sha256_in_prefix": "c20268ca4ba28cb460423aa1a09c367eb4721e517964dded82062f77fe7b23c9"
+      },
+      {
+        "_path": "site-packages/pygmt/src/inset.py",
+        "path_type": "hardlink",
+        "sha256": "0f0a092c8407672ad937358fdb73c3678184fc8bd41f233302a2eb35ff1f6fc8",
+        "size_in_bytes": 6126,
+        "sha256_in_prefix": "0f0a092c8407672ad937358fdb73c3678184fc8bd41f233302a2eb35ff1f6fc8"
+      },
+      {
+        "_path": "site-packages/pygmt/src/legend.py",
+        "path_type": "hardlink",
+        "sha256": "11a472b07b1a48f8e77a013739426ca05ce01aa919c28c7642f09088e382cbf7",
+        "size_in_bytes": 2780,
+        "sha256_in_prefix": "11a472b07b1a48f8e77a013739426ca05ce01aa919c28c7642f09088e382cbf7"
+      },
+      {
+        "_path": "site-packages/pygmt/src/logo.py",
+        "path_type": "hardlink",
+        "sha256": "60640f89fa718613f1f144c752f86ad3d18b639fad3c4338b8b5751388f4bcfb",
+        "size_in_bytes": 1623,
+        "sha256_in_prefix": "60640f89fa718613f1f144c752f86ad3d18b639fad3c4338b8b5751388f4bcfb"
+      },
+      {
+        "_path": "site-packages/pygmt/src/makecpt.py",
+        "path_type": "hardlink",
+        "sha256": "666c43c923a7ef6ad7e3153db1e46722d24024f699ca71da16dfdb2f37196ab0",
+        "size_in_bytes": 8059,
+        "sha256_in_prefix": "666c43c923a7ef6ad7e3153db1e46722d24024f699ca71da16dfdb2f37196ab0"
+      },
+      {
+        "_path": "site-packages/pygmt/src/meca.py",
+        "path_type": "hardlink",
+        "sha256": "5a580458a7c47de328f540fb7be861d31a043cd2cf93ed35f22621401a8abfb4",
+        "size_in_bytes": 19165,
+        "sha256_in_prefix": "5a580458a7c47de328f540fb7be861d31a043cd2cf93ed35f22621401a8abfb4"
+      },
+      {
+        "_path": "site-packages/pygmt/src/nearneighbor.py",
+        "path_type": "hardlink",
+        "sha256": "5f92b23b126bbe8a4073057eb46d13176b199d592af2c3aa4b222a8e8fcdc680",
+        "size_in_bytes": 5248,
+        "sha256_in_prefix": "5f92b23b126bbe8a4073057eb46d13176b199d592af2c3aa4b222a8e8fcdc680"
+      },
+      {
+        "_path": "site-packages/pygmt/src/plot.py",
+        "path_type": "hardlink",
+        "sha256": "e8ce61058caa2136c1e943f5e1d7b9e11289d0be07f14e79c4e0b20f45b03fbb",
+        "size_in_bytes": 10155,
+        "sha256_in_prefix": "e8ce61058caa2136c1e943f5e1d7b9e11289d0be07f14e79c4e0b20f45b03fbb"
+      },
+      {
+        "_path": "site-packages/pygmt/src/plot3d.py",
+        "path_type": "hardlink",
+        "sha256": "4e087787571fb67b245d35b2ed81685cc451cc3bafddb866e8f582e6eb06af9b",
+        "size_in_bytes": 8889,
+        "sha256_in_prefix": "4e087787571fb67b245d35b2ed81685cc451cc3bafddb866e8f582e6eb06af9b"
+      },
+      {
+        "_path": "site-packages/pygmt/src/project.py",
+        "path_type": "hardlink",
+        "sha256": "d5f106b2474fb183230e97684d79be251550c0b0c1bc7bf82a89a4e6a0c08bbd",
+        "size_in_bytes": 10817,
+        "sha256_in_prefix": "d5f106b2474fb183230e97684d79be251550c0b0c1bc7bf82a89a4e6a0c08bbd"
+      },
+      {
+        "_path": "site-packages/pygmt/src/rose.py",
+        "path_type": "hardlink",
+        "sha256": "62c738ae961d9c461a671716f597705ae612b5c286e33ccc831276181aafb60c",
+        "size_in_bytes": 7338,
+        "sha256_in_prefix": "62c738ae961d9c461a671716f597705ae612b5c286e33ccc831276181aafb60c"
+      },
+      {
+        "_path": "site-packages/pygmt/src/select.py",
+        "path_type": "hardlink",
+        "sha256": "ddb5c359e65e685b76c660e1e69146d17cad35027d623230cb2bcbb883c76e4a",
+        "size_in_bytes": 9181,
+        "sha256_in_prefix": "ddb5c359e65e685b76c660e1e69146d17cad35027d623230cb2bcbb883c76e4a"
+      },
+      {
+        "_path": "site-packages/pygmt/src/shift_origin.py",
+        "path_type": "hardlink",
+        "sha256": "418d221c99e722f4861eff3285ff1c871be81233027c5a9e36f1bcac46f3c1f8",
+        "size_in_bytes": 2402,
+        "sha256_in_prefix": "418d221c99e722f4861eff3285ff1c871be81233027c5a9e36f1bcac46f3c1f8"
+      },
+      {
+        "_path": "site-packages/pygmt/src/solar.py",
+        "path_type": "hardlink",
+        "sha256": "bbf9a92dcb89da6168d075ecc7c343452dc00bc11a5a735e58917d589f574732",
+        "size_in_bytes": 3899,
+        "sha256_in_prefix": "bbf9a92dcb89da6168d075ecc7c343452dc00bc11a5a735e58917d589f574732"
+      },
+      {
+        "_path": "site-packages/pygmt/src/sph2grd.py",
+        "path_type": "hardlink",
+        "sha256": "2d61af5632af7100d6d1a7953126bc49916e6c5144d407da58773b82eefcfeaf",
+        "size_in_bytes": 2151,
+        "sha256_in_prefix": "2d61af5632af7100d6d1a7953126bc49916e6c5144d407da58773b82eefcfeaf"
+      },
+      {
+        "_path": "site-packages/pygmt/src/sphdistance.py",
+        "path_type": "hardlink",
+        "sha256": "3ed41bd42ce874305fa1cab9cd41c6de31e9d57ae3b9ecff2eb99ed7b92445cb",
+        "size_in_bytes": 4516,
+        "sha256_in_prefix": "3ed41bd42ce874305fa1cab9cd41c6de31e9d57ae3b9ecff2eb99ed7b92445cb"
+      },
+      {
+        "_path": "site-packages/pygmt/src/sphinterpolate.py",
+        "path_type": "hardlink",
+        "sha256": "fae64a03dc30a559b9dda1ea3ff2161aa9c5023530ffe47e207c7288734d5797",
+        "size_in_bytes": 2298,
+        "sha256_in_prefix": "fae64a03dc30a559b9dda1ea3ff2161aa9c5023530ffe47e207c7288734d5797"
+      },
+      {
+        "_path": "site-packages/pygmt/src/subplot.py",
+        "path_type": "hardlink",
+        "sha256": "bab986a50d4423438b733dc526f6526210d01d127892809ff2cf406baf3bafe1",
+        "size_in_bytes": 10577,
+        "sha256_in_prefix": "bab986a50d4423438b733dc526f6526210d01d127892809ff2cf406baf3bafe1"
+      },
+      {
+        "_path": "site-packages/pygmt/src/surface.py",
+        "path_type": "hardlink",
+        "sha256": "937410db90acafee49fc3dc67e430280c7393474411e4ed9f589b0025c5da23a",
+        "size_in_bytes": 6783,
+        "sha256_in_prefix": "937410db90acafee49fc3dc67e430280c7393474411e4ed9f589b0025c5da23a"
+      },
+      {
+        "_path": "site-packages/pygmt/src/ternary.py",
+        "path_type": "hardlink",
+        "sha256": "11558cd0ffd418598b4db709998fc9bdf4cac1c20df062e5117c481bc6e3c58b",
+        "size_in_bytes": 3176,
+        "sha256_in_prefix": "11558cd0ffd418598b4db709998fc9bdf4cac1c20df062e5117c481bc6e3c58b"
+      },
+      {
+        "_path": "site-packages/pygmt/src/text.py",
+        "path_type": "hardlink",
+        "sha256": "cdd81b1ba7ae96bb416f483617d5df44707d3cd80c7ba8e85c8d1195b417e85e",
+        "size_in_bytes": 9454,
+        "sha256_in_prefix": "cdd81b1ba7ae96bb416f483617d5df44707d3cd80c7ba8e85c8d1195b417e85e"
+      },
+      {
+        "_path": "site-packages/pygmt/src/tilemap.py",
+        "path_type": "hardlink",
+        "sha256": "f639474751f9d3cc249bb4b09b638327a8b9855acf7ef93f8367ddb8bac380e4",
+        "size_in_bytes": 5897,
+        "sha256_in_prefix": "f639474751f9d3cc249bb4b09b638327a8b9855acf7ef93f8367ddb8bac380e4"
+      },
+      {
+        "_path": "site-packages/pygmt/src/timestamp.py",
+        "path_type": "hardlink",
+        "sha256": "4ae5edb8d92d41de9b0ae76d588a3abe958106d26cdc9b696c8c4bc3bad61c39",
+        "size_in_bytes": 4259,
+        "sha256_in_prefix": "4ae5edb8d92d41de9b0ae76d588a3abe958106d26cdc9b696c8c4bc3bad61c39"
+      },
+      {
+        "_path": "site-packages/pygmt/src/triangulate.py",
+        "path_type": "hardlink",
+        "sha256": "2417026504c94d40c364cc7980934a90cb91bc8762744805ece0d91f196367ef",
+        "size_in_bytes": 9111,
+        "sha256_in_prefix": "2417026504c94d40c364cc7980934a90cb91bc8762744805ece0d91f196367ef"
+      },
+      {
+        "_path": "site-packages/pygmt/src/velo.py",
+        "path_type": "hardlink",
+        "sha256": "0a656bdfe2e931fd1406c9c5d3939b311488e677c6c0d3a784c197be5c7a37fe",
+        "size_in_bytes": 11517,
+        "sha256_in_prefix": "0a656bdfe2e931fd1406c9c5d3939b311488e677c6c0d3a784c197be5c7a37fe"
+      },
+      {
+        "_path": "site-packages/pygmt/src/which.py",
+        "path_type": "hardlink",
+        "sha256": "84e8a33d34d07cb9918215f9a9e91a4e3536cd33c97c4bdd468eba707679db20",
+        "size_in_bytes": 2755,
+        "sha256_in_prefix": "84e8a33d34d07cb9918215f9a9e91a4e3536cd33c97c4bdd468eba707679db20"
+      },
+      {
+        "_path": "site-packages/pygmt/src/wiggle.py",
+        "path_type": "hardlink",
+        "sha256": "1d648dcb1222f89024441ed9162bacfdef1b358feebe902f0875624cfe59ae3e",
+        "size_in_bytes": 3080,
+        "sha256_in_prefix": "1d648dcb1222f89024441ed9162bacfdef1b358feebe902f0875624cfe59ae3e"
+      },
+      {
+        "_path": "site-packages/pygmt/src/x2sys_cross.py",
+        "path_type": "hardlink",
+        "sha256": "36d2e03bdc6eb7170976aff7be473d3227417a3091b3a12a984770cf9d4851f8",
+        "size_in_bytes": 10360,
+        "sha256_in_prefix": "36d2e03bdc6eb7170976aff7be473d3227417a3091b3a12a984770cf9d4851f8"
+      },
+      {
+        "_path": "site-packages/pygmt/src/x2sys_init.py",
+        "path_type": "hardlink",
+        "sha256": "7047c47611b65fb09811dfff043ba183a79e7f31321fe031da0072e3e092ca1f",
+        "size_in_bytes": 4172,
+        "sha256_in_prefix": "7047c47611b65fb09811dfff043ba183a79e7f31321fe031da0072e3e092ca1f"
+      },
+      {
+        "_path": "site-packages/pygmt/src/xyz2grd.py",
+        "path_type": "hardlink",
+        "sha256": "88eb1f3f09c3621a5cdaa5f9fb5c3270b4ba495d3624061eb324499d8059ccd8",
+        "size_in_bytes": 6395,
+        "sha256_in_prefix": "88eb1f3f09c3621a5cdaa5f9fb5c3270b4ba495d3624061eb324499d8059ccd8"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/_show_versions.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4432
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/accessors.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5951
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/clib/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/clib/__pycache__/conversion.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 12578
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/clib/__pycache__/loading.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5329
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/clib/__pycache__/session.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 70841
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_age.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4234
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_free_air_anomaly.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4405
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_geoid.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_magnetic_anomaly.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6510
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_mask.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3941
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6700
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/earth_vertical_gravity_gradient.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4519
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/load_remote_dataset.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8919
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/mars_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/mercury_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/moon_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/pluto_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/samples.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/tile_map.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6376
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datasets/__pycache__/venus_relief.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4189
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/dataset.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9146
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/grid.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8180
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/header.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6406
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/datatypes/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3041
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/encodings.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1764
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/figure.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 21143
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/caching.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/decorators.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 34558
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/tempfile.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6073
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/testing.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6649
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 22612
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/helpers/__pycache__/validators.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/io.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/session_management.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/__pycache__/sphinx_gallery.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3160
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/basemap.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/binstats.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/blockm.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9147
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/coast.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8507
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/colorbar.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6939
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4880
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/contour.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5487
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/dimfilter.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6820
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/filter1d.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4984
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grd2cpt.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9754
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grd2xyz.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6188
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdclip.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdcontour.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6301
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdcut.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdfill.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3017
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdfilter.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5369
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdgradient.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7972
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdhisteq.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8893
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdimage.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7639
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdinfo.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5193
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdlandmask.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4527
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdproject.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdsample.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3359
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdtrack.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 15236
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdview.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6131
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/grdvolume.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/histogram.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5073
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/image.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/info.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3706
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/inset.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6304
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/legend.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2820
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/logo.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1877
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/makecpt.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8245
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/meca.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 16165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/nearneighbor.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5580
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/plot.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9716
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/plot3d.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8389
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/project.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 10573
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/rose.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7713
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/select.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/shift_origin.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2637
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/solar.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3867
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/sph2grd.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/sphdistance.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4762
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/sphinterpolate.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2569
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/subplot.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 10389
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/surface.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/ternary.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3440
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/text.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8741
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/tilemap.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5773
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/timestamp.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3900
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/triangulate.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8874
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/velo.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 11780
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/which.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/wiggle.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/x2sys_cross.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8859
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/x2sys_init.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4429
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pygmt/src/__pycache__/xyz2grd.cpython-310.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6611
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/pygmt-0.13.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "requested_specs": [
+    "pygmt[version='<=0.17.0']"
+  ]
+}

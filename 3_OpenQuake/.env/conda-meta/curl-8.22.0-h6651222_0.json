@@ -1,0 +1,48 @@
+{
+  "name": "curl",
+  "version": "8.22.0",
+  "build": "h6651222_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "curl-8.22.0-h6651222_0.conda",
+  "md5": "e3e65b70a52a7819dd63c31f9dce7209",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/curl-8.22.0-h6651222_0.conda",
+  "sha256": "40e26cf024eaf44707a6368af4e34104bda844ef9213bb82d0ee4b77d83a8c07",
+  "depends": [
+    "__osx >=11.0",
+    "krb5 >=1.22.2,<1.23.0a0",
+    "libcurl 8.22.0 h6651222_0",
+    "libpsl >=0.23.1,<0.24.0a0",
+    "libssh2 >=1.11.1,<2.0a0",
+    "libzlib >=1.3.2,<2.0a0",
+    "openssl >=3.5.8,<4.0a0",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "constrains": [],
+  "license": "curl",
+  "timestamp": 1788340714708,
+  "size": 182000,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/curl-8.22.0-h6651222_0.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/curl-8.22.0-h6651222_0",
+  "files": [
+    "bin/curl"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "path_type": "hardlink",
+        "sha256": "af4729b675a2b409bc208c767fabbfe59d8e0deb78af316d0dee7de1db929edd",
+        "size_in_bytes": 325008,
+        "sha256_in_prefix": "af4729b675a2b409bc208c767fabbfe59d8e0deb78af316d0dee7de1db929edd"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/curl-8.22.0-h6651222_0",
+    "type": 1
+  }
+}

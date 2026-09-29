@@ -1,0 +1,94 @@
+        SUMMARY OF THE HDF5 CONFIGURATION
+        =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.14.6
+                  Configured on: Thu Jun  4 13:56:05 UTC 2026
+                  Configured by: runner@sjc20-av653-d6c61733-50de-4319-9e91-6a6b232dfedc-16C5EADB4083.local
+                    Host system: aarch64-apple-darwin20.0.0
+              Uname information: Darwin sjc20-av653-d6c61733-50de-4319-9e91-6a6b232dfedc-16C5EADB4083.local 24.6.0 Darwin Kernel Version 24.6.0: Tue Apr 21 20:17:54 PDT 2026; root:xnu-11417.140.69.710.16~1/RELEASE_X86_64 x86_64
+                       Byte sex: little-endian
+             Installation point: /Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+
+Compiling Options:
+------------------
+                     Build Mode: production
+              Debugging Symbols: no
+                        Asserts: no
+                      Profiling: no
+             Optimization Level: high
+
+Linking Options:
+----------------
+                      Libraries: shared
+  Statically Linked Executables: 
+                        LDFLAGS: -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS:  -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib
+                Extra libraries: -lcrypto -lcurl -lpthread -lsz -lz -ldl -lm 
+                       Archiver: arm64-apple-darwin20.0.0-ar
+                       AR_FLAGS: cr
+                         Ranlib: arm64-apple-darwin20.0.0-ranlib
+
+Languages:
+----------
+                              C: yes
+                     C Compiler: /Users/runner/miniforge3/conda-bld/hdf5_1780580934591/_build_env/bin/arm64-apple-darwin20.0.0-clang
+                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -isystem /Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include -mmacosx-version-min=11.0 -mmacosx-version-min=11.0
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API -I/Users/runner/miniforge3/conda-bld/hdf5_1780580934591/work/src/H5FDsubfiling
+                    AM_CPPFLAGS:  -I/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include -I/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include
+                        C Flags: -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1780580934591/work=/usr/local/src/conda/hdf5-1.14.6 -fdebug-prefix-map=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env=/usr/local/src/conda-prefix
+                     H5 C Flags:  -std=c99  -Wall -Warray-bounds -Wcast-qual -Wconversion -Wdouble-promotion -Wextra -Wformat=2 -Wframe-larger-than=16384 -Wimplicit-fallthrough -Wnull-dereference -Wunused-const-variable -Wwrite-strings -Wpedantic -Wvolatile-register-var -Wno-c++-compat     -Wbad-function-cast -Wimplicit-function-declaration -Wincompatible-pointer-types -Wmissing-declarations -Wpacked -Wshadow -Wswitch -Wno-error=incompatible-pointer-types-discards-qualifiers -Wunused-function -Wunused-variable -Wunused-parameter -Wcast-align -Wformat -Wno-missing-noreturn -O3
+                     AM C Flags: 
+               Shared C Library: yes
+               Static C Library: no
+
+
+                        Fortran: yes
+               Fortran Compiler: /Users/runner/miniforge3/conda-bld/hdf5_1780580934591/_build_env/bin/arm64-apple-darwin20.0.0-gfortran ( GNU Fortran (GCC) 14.3.0)
+                  Fortran Flags: 
+               H5 Fortran Flags:  -std=f2008  -Waliasing -Wall -Wcharacter-truncation -Wextra -Wimplicit-interface -Wsurprising -Wunderflow -pedantic -Wintrinsics-std -Wimplicit-procedure -Wreal-q-constant -Wfunction-elimination -Wrealloc-lhs -Wrealloc-lhs-all -Wno-c-binding-type -Winteger-division -Wfrontend-loop-interchange  -fdiagnostics-urls=never -fno-diagnostics-color -s  -Wno-unused-dummy-argument -Wno-array-temporaries -O3
+               AM Fortran Flags: 
+         Shared Fortran Library: yes
+         Static Fortran Library: no
+               Module Directory: ${includedir}
+
+                            C++: yes
+                   C++ Compiler: /Users/runner/miniforge3/conda-bld/hdf5_1780580934591/_build_env/bin/arm64-apple-darwin20.0.0-clang++
+                      C++ Flags: -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1780580934591/work=/usr/local/src/conda/hdf5-1.14.6 -fdebug-prefix-map=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env=/usr/local/src/conda-prefix
+                   H5 C++ Flags:   -std=c++11 -Wall -Warray-bounds -Wcast-qual -Wconversion -Wdouble-promotion -Wextra -Wformat=2 -Wframe-larger-than=16384 -Wimplicit-fallthrough -Wnull-dereference -Wunused-const-variable -Wwrite-strings -Wpedantic -Wvolatile-register-var -Wno-c++-compat     -Wbad-function-cast -Wimplicit-function-declaration -Wincompatible-pointer-types -Wmissing-declarations -Wpacked -Wshadow -Wswitch -Wno-error=incompatible-pointer-types-discards-qualifiers -Wunused-function -Wunused-variable -Wunused-parameter -Wcast-align -Wformat -O3
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: no
+
+                           Java: no
+
+
+Features:
+---------
+                     Parallel HDF5: no
+  Parallel Filtered Dataset Writes: no
+                Large Parallel I/O: no
+                High-level library: yes
+Dimension scales w/ new references: no
+                  Build HDF5 Tests: no
+                  Build HDF5 Tools: yes
+                   Build GIF Tools: yes
+                      Threadsafety: yes
+               Default API mapping: v114
+    With deprecated public symbols: yes
+            I/O filters (external): deflate(zlib),szip(encoder)
+                  _Float16 support: no
+                     Map (H5M) API: no
+                        Direct VFD: no
+                        Mirror VFD: no
+                     Subfiling VFD: no
+                (Read-Only) S3 VFD: yes
+              (Read-Only) HDFS VFD: no
+    Packages w/ extra debug output: none
+                       API tracing: no
+              Using memory checker: yes
+                  Use file locking: best-effort
+         Strict file format checks: no
+      Optimization instrumentation: no

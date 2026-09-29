@@ -1,0 +1,13 @@
+prefix=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.15.4
+Description: libXML library version2.
+Requires.private:  icu-uc
+Libs: -L${libdir} -lxml2 
+Libs.private:    -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -lz -L/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env/lib -liconv  
+Cflags: -I${includedir}/libxml2  

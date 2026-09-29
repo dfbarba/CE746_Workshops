@@ -1,0 +1,38 @@
+# 	README file for GMT Examples directory
+#
+# There are born-again shell (bash) and DOS (bat)
+# versions of all example scripts.
+# To run all bash scripts, run do_examples.sh.
+# To run all bat scripts, run do_examples.bat instead.
+#
+# To run all the animation scripts, run do_animations.sh.
+#
+# It is possible that the output you may generate with these
+# script will differ in subtle ways from the figures shown
+# in the GMT documentation.  This is most likely caused by
+# different settings in the gmt.conf file that we used
+# to generate the plots.
+#
+# The DOS versions may differ in subtle ways from the UNIX
+# scripts since DOS is a brain-dead scripting language.
+# Those who plan to use the .bat files should seriously ask
+# themselves why they have not installed
+# [cygwin](https://www.cygwin.com) or [git bash](https://git-scm.com/downloads).
+# See https://docs.generic-mapping-tools.org/latest/reference/non-unix-platforms.html
+# for more on that.
+#
+# Scripts that are known to fail can be excluded from the test
+# by adding the comment
+#
+#	# GMT_KNOWN_FAILURE
+#
+# to the script anywhere.
+#
+# If a script is known to fail on a specific platform, you can
+# exclude the test by adding one of the following comments:
+#
+#	# GMT_KNOWN_FAILURE_WINDOWS
+#	# GMT_KNOWN_FAILURE_MACOS
+#	# GMT_KNOWN_FAILURE_LINUX
+
+# P. Wessel, June 2019

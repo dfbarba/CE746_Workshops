@@ -1,0 +1,11 @@
+prefix=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libhwy-test
+Description: Efficient and performance-portable SIMD wrapper, test helpers.
+Requires: gtest
+Version: 1.4.0
+Libs: -L${libdir} -lhwy_test
+Cflags: -I${includedir} 

@@ -1,0 +1,104 @@
+{
+  "name": "libnghttp2",
+  "version": "1.68.1",
+  "build": "h435687b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libnghttp2-1.68.1-h435687b_1.conda",
+  "md5": "ac9902dcbe0417f50cf95ab2bde062fa",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libnghttp2-1.68.1-h435687b_1.conda",
+  "sha256": "445440d8cccccb6585f71d1eb7c949d64a2af2ced5481d924621424ff3b6a398",
+  "depends": [
+    "__osx >=11.0",
+    "c-ares >=1.34.8,<2.0a0",
+    "libcxx >=21",
+    "libev >=4.33,<4.34.0a0",
+    "libev >=4.33,<5.0a0",
+    "libzlib >=1.3.2,<2.0a0",
+    "openssl >=3.5.7,<4.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1787177422467,
+  "size": 567024,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libnghttp2-1.68.1-h435687b_1.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libnghttp2-1.68.1-h435687b_1",
+  "files": [
+    "bin/nghttp",
+    "bin/nghttpd",
+    "bin/nghttpx",
+    "include/nghttp2/nghttp2.h",
+    "include/nghttp2/nghttp2ver.h",
+    "lib/libnghttp2.14.dylib",
+    "lib/libnghttp2.dylib",
+    "lib/pkgconfig/libnghttp2.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/nghttp",
+        "path_type": "hardlink",
+        "sha256": "ee83664b77eb553c4d2a7682ac830e8004ff02555e3741279d2a82a72a558449",
+        "size_in_bytes": 364656,
+        "sha256_in_prefix": "ee83664b77eb553c4d2a7682ac830e8004ff02555e3741279d2a82a72a558449"
+      },
+      {
+        "_path": "bin/nghttpd",
+        "path_type": "hardlink",
+        "sha256": "1ac6a7f20e9f17d88a39744e7b7c2e64fa754cfb864b7cfd5c13d512e2b7618a",
+        "size_in_bytes": 348464,
+        "sha256_in_prefix": "1ac6a7f20e9f17d88a39744e7b7c2e64fa754cfb864b7cfd5c13d512e2b7618a"
+      },
+      {
+        "_path": "bin/nghttpx",
+        "path_type": "hardlink",
+        "sha256": "61bff4aabcd707c6b0873ba688f72822c9e73abf691142885a28d3fe3b407eeb",
+        "size_in_bytes": 1209152,
+        "sha256_in_prefix": "61bff4aabcd707c6b0873ba688f72822c9e73abf691142885a28d3fe3b407eeb"
+      },
+      {
+        "_path": "include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "d8b76c651ecae5137055ee9d31fc6a2f835e977347db6ca78592752f4439e8a2",
+        "size_in_bytes": 242354,
+        "sha256_in_prefix": "d8b76c651ecae5137055ee9d31fc6a2f835e977347db6ca78592752f4439e8a2"
+      },
+      {
+        "_path": "include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "bd2a81657be8f0f45179a8d32864b681d125ebac0b5844d98b39fca2bd34a76d",
+        "size_in_bytes": 1605,
+        "sha256_in_prefix": "bd2a81657be8f0f45179a8d32864b681d125ebac0b5844d98b39fca2bd34a76d"
+      },
+      {
+        "_path": "lib/libnghttp2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "d189be787ea80f848bf77ec2acc360ce18dc6f165928893e8391f52961e9acce",
+        "size_in_bytes": 195232,
+        "sha256_in_prefix": "d189be787ea80f848bf77ec2acc360ce18dc6f165928893e8391f52961e9acce"
+      },
+      {
+        "_path": "lib/libnghttp2.dylib",
+        "path_type": "softlink",
+        "sha256": "d189be787ea80f848bf77ec2acc360ce18dc6f165928893e8391f52961e9acce",
+        "size_in_bytes": 195232
+      },
+      {
+        "_path": "lib/pkgconfig/libnghttp2.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1787177325591/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "a5f324b41c9afa80f9939e359bcd46b8c19c68e9bc60cf32bcc993cab70d958b",
+        "size_in_bytes": 1633,
+        "sha256_in_prefix": "25e7cc4f42b42fe3de2e55494cfc13daaa6bad46a3e66b8981a83665ea078088"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libnghttp2-1.68.1-h435687b_1",
+    "type": 1
+  }
+}

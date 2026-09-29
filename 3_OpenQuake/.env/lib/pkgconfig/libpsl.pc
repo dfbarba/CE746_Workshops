@@ -1,0 +1,10 @@
+prefix=/Users/dfbarbag/Documents/Projects/00_CE746_Workshops/3_OpenQuake/.env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libpsl
+Description: Public Suffix List C library
+Version: 0.23.1
+Requires.private: icu-uc
+Libs: -L${libdir} -lpsl
+Cflags: -I${includedir}

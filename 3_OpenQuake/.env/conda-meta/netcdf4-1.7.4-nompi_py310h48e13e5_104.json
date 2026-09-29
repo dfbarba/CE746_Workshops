@@ -1,0 +1,766 @@
+{
+  "name": "netcdf4",
+  "version": "1.7.4",
+  "build": "nompi_py310h48e13e5_104",
+  "build_number": 104,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "netcdf4-1.7.4-nompi_py310h48e13e5_104.conda",
+  "md5": "2bcada0519975aad5ba27222f1ba157e",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/netcdf4-1.7.4-nompi_py310h48e13e5_104.conda",
+  "sha256": "27a1d578c88fd031ae690d958c3aff860b0bc31345f16e69dd034f09fe778c95",
+  "depends": [
+    "python",
+    "certifi",
+    "cftime",
+    "numpy",
+    "packaging",
+    "hdf5",
+    "libnetcdf",
+    "python 3.10.* *_cpython",
+    "__osx >=11.0",
+    "libnetcdf >=4.10.0,<4.10.1.0a0",
+    "hdf5 >=1.14.6,<1.14.7.0a0",
+    "libzlib >=1.3.1,<2.0a0",
+    "numpy >=1.21,<3",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1772476344532,
+  "size": 1062885,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/netcdf4-1.7.4-nompi_py310h48e13e5_104.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/netcdf4-1.7.4-nompi_py310h48e13e5_104",
+  "files": [
+    "bin/nc3tonc4",
+    "bin/nc4tonc3",
+    "bin/ncinfo",
+    "etc/conda/test-files/netcdf4/1/test/20171025_2056.Cloud_Top_Height.nc",
+    "etc/conda/test-files/netcdf4/1/test/CRM032_test1.nc",
+    "etc/conda/test-files/netcdf4/1/test/__init__.py",
+    "etc/conda/test-files/netcdf4/1/test/filter_availability.py",
+    "etc/conda/test-files/netcdf4/1/test/issue1152.nc",
+    "etc/conda/test-files/netcdf4/1/test/issue671.nc",
+    "etc/conda/test-files/netcdf4/1/test/issue672.nc",
+    "etc/conda/test-files/netcdf4/1/test/netcdf_dummy_file.nc",
+    "etc/conda/test-files/netcdf4/1/test/run_all.py",
+    "etc/conda/test-files/netcdf4/1/test/test_Unsigned.py",
+    "etc/conda/test-files/netcdf4/1/test/test_alignment.py",
+    "etc/conda/test-files/netcdf4/1/test/test_atts.py",
+    "etc/conda/test-files/netcdf4/1/test/test_cdf5.py",
+    "etc/conda/test-files/netcdf4/1/test/test_cdl.py",
+    "etc/conda/test-files/netcdf4/1/test/test_chunk_cache.py",
+    "etc/conda/test-files/netcdf4/1/test/test_complex.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compound_alignment.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compoundatt.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compoundvar.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression_blosc.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression_bzip2.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression_quant.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression_szip.py",
+    "etc/conda/test-files/netcdf4/1/test/test_compression_zstd.py",
+    "etc/conda/test-files/netcdf4/1/test/test_create_mem.py",
+    "etc/conda/test-files/netcdf4/1/test/test_dap.py",
+    "etc/conda/test-files/netcdf4/1/test/test_dims.py",
+    "etc/conda/test-files/netcdf4/1/test/test_diskless.py",
+    "etc/conda/test-files/netcdf4/1/test/test_endian.py",
+    "etc/conda/test-files/netcdf4/1/test/test_enum.py",
+    "etc/conda/test-files/netcdf4/1/test/test_fancyslicing.py",
+    "etc/conda/test-files/netcdf4/1/test/test_filepath.py",
+    "etc/conda/test-files/netcdf4/1/test/test_get_fill_value.py",
+    "etc/conda/test-files/netcdf4/1/test/test_get_variables_by_attributes.py",
+    "etc/conda/test-files/netcdf4/1/test/test_gold.nc",
+    "etc/conda/test-files/netcdf4/1/test/test_grps.py",
+    "etc/conda/test-files/netcdf4/1/test/test_grps2.py",
+    "etc/conda/test-files/netcdf4/1/test/test_issue908.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked2.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked3.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked4.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked5.py",
+    "etc/conda/test-files/netcdf4/1/test/test_masked6.py",
+    "etc/conda/test-files/netcdf4/1/test/test_multifile.py",
+    "etc/conda/test-files/netcdf4/1/test/test_multifile2.py",
+    "etc/conda/test-files/netcdf4/1/test/test_multiple_open_close.py",
+    "etc/conda/test-files/netcdf4/1/test/test_ncrc.py",
+    "etc/conda/test-files/netcdf4/1/test/test_no_iter_contains.py",
+    "etc/conda/test-files/netcdf4/1/test/test_open_mem.py",
+    "etc/conda/test-files/netcdf4/1/test/test_refcount.py",
+    "etc/conda/test-files/netcdf4/1/test/test_rename.py",
+    "etc/conda/test-files/netcdf4/1/test/test_scalarvar.py",
+    "etc/conda/test-files/netcdf4/1/test/test_scaled.py",
+    "etc/conda/test-files/netcdf4/1/test/test_shape.py",
+    "etc/conda/test-files/netcdf4/1/test/test_slicing.py",
+    "etc/conda/test-files/netcdf4/1/test/test_stringarr.py",
+    "etc/conda/test-files/netcdf4/1/test/test_types.py",
+    "etc/conda/test-files/netcdf4/1/test/test_unicode.py",
+    "etc/conda/test-files/netcdf4/1/test/test_unicodeatt.py",
+    "etc/conda/test-files/netcdf4/1/test/test_unlimdim.py",
+    "etc/conda/test-files/netcdf4/1/test/test_utils.py",
+    "etc/conda/test-files/netcdf4/1/test/test_vars.py",
+    "etc/conda/test-files/netcdf4/1/test/test_vlen.py",
+    "etc/conda/test-files/netcdf4/1/test/ubyte.nc",
+    "etc/conda/test-files/netcdf4/2/parallel_test.py",
+    "lib/python3.10/site-packages/netCDF4/__init__.py",
+    "lib/python3.10/site-packages/netCDF4/__init__.pyi",
+    "lib/python3.10/site-packages/netCDF4/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/netCDF4/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/netCDF4/_netCDF4.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/netCDF4/_netCDF4.pyi",
+    "lib/python3.10/site-packages/netCDF4/_netCDF4.pyx",
+    "lib/python3.10/site-packages/netCDF4/plugins/empty.txt",
+    "lib/python3.10/site-packages/netCDF4/py.typed",
+    "lib/python3.10/site-packages/netCDF4/utils.py",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/licenses/LICENSE",
+    "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/top_level.txt"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/nc3tonc4",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_netcdf4_1772476344/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "e4500f5c5eda7c8008bf75694c2607ab55e2dab2a6074f753e03484e7018eba8",
+        "size_in_bytes": 505,
+        "sha256_in_prefix": "c0aaa90bfb98f7699e9fb54b2c5cd713073fb7be245e167f2468967883ca0280"
+      },
+      {
+        "_path": "bin/nc4tonc3",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_netcdf4_1772476344/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "45549689dfdc3e9fb2d89e84ca231c5833525a2ba0fa54c16ba610a7ff96895f",
+        "size_in_bytes": 505,
+        "sha256_in_prefix": "a5db96278437534d26b9c9b06061315d27905f45845d09cbf94351a297c50b89"
+      },
+      {
+        "_path": "bin/ncinfo",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_netcdf4_1772476344/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "64639647c7b601b7c252b3f2d6eedc63049508f1a6db3558672e8425d56d3e2f",
+        "size_in_bytes": 501,
+        "sha256_in_prefix": "8f42bd0762949f9a597d811ab49ccc299b0adc26e7691b57eb0b82c615c08162"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/20171025_2056.Cloud_Top_Height.nc",
+        "path_type": "hardlink",
+        "sha256": "ae3ba04e3b07e9a8d240666e20136993a94445f46ad023938479180cf727f48a",
+        "size_in_bytes": 266966,
+        "sha256_in_prefix": "ae3ba04e3b07e9a8d240666e20136993a94445f46ad023938479180cf727f48a"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/CRM032_test1.nc",
+        "path_type": "hardlink",
+        "sha256": "3c2f4e9f96cc2a7130e490c27c2cd3a1149fba7bad59be82b88a6e7097007e6c",
+        "size_in_bytes": 174660,
+        "sha256_in_prefix": "3c2f4e9f96cc2a7130e490c27c2cd3a1149fba7bad59be82b88a6e7097007e6c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/filter_availability.py",
+        "path_type": "hardlink",
+        "sha256": "0576490b28b4bf73039ae389142bda6ed09828edb03167c146c9e04b43e9a0ad",
+        "size_in_bytes": 671,
+        "sha256_in_prefix": "0576490b28b4bf73039ae389142bda6ed09828edb03167c146c9e04b43e9a0ad"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/issue1152.nc",
+        "path_type": "hardlink",
+        "sha256": "008416cdac08a5a3ec9728fa66940184d36125ec0cfc36da225152aeb5d5a867",
+        "size_in_bytes": 6184,
+        "sha256_in_prefix": "008416cdac08a5a3ec9728fa66940184d36125ec0cfc36da225152aeb5d5a867"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/issue671.nc",
+        "path_type": "hardlink",
+        "sha256": "02f8fb2cdf5c727db92a955e8fe87a5fd103b995f979fbe18112fd9e1a812530",
+        "size_in_bytes": 123416,
+        "sha256_in_prefix": "02f8fb2cdf5c727db92a955e8fe87a5fd103b995f979fbe18112fd9e1a812530"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/issue672.nc",
+        "path_type": "hardlink",
+        "sha256": "0ab90f51569cacb1b4c79785d25c1d103fa1cf990aa949b4b61b4117dd6a39a9",
+        "size_in_bytes": 224227,
+        "sha256_in_prefix": "0ab90f51569cacb1b4c79785d25c1d103fa1cf990aa949b4b61b4117dd6a39a9"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/netcdf_dummy_file.nc",
+        "path_type": "hardlink",
+        "sha256": "9acf3d9b627813c0889d49d05f617aace61a631775893344c220d69d4a074301",
+        "size_in_bytes": 16376,
+        "sha256_in_prefix": "9acf3d9b627813c0889d49d05f617aace61a631775893344c220d69d4a074301"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/run_all.py",
+        "path_type": "hardlink",
+        "sha256": "76fea3872634fb4e20c79d8d3ebed4683b9912f7cec2b0bee50f2122128f808c",
+        "size_in_bytes": 1203,
+        "sha256_in_prefix": "76fea3872634fb4e20c79d8d3ebed4683b9912f7cec2b0bee50f2122128f808c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_Unsigned.py",
+        "path_type": "hardlink",
+        "sha256": "e484e9ca7f26e085b05adebba191f3a5242e4e8c20a304b4aa0accd06adbfac4",
+        "size_in_bytes": 1983,
+        "sha256_in_prefix": "e484e9ca7f26e085b05adebba191f3a5242e4e8c20a304b4aa0accd06adbfac4"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_alignment.py",
+        "path_type": "hardlink",
+        "sha256": "a47e4826a45925f5726ebba2ead49575ee54c2ab9886e95ff781195cf03d1d89",
+        "size_in_bytes": 5676,
+        "sha256_in_prefix": "a47e4826a45925f5726ebba2ead49575ee54c2ab9886e95ff781195cf03d1d89"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_atts.py",
+        "path_type": "hardlink",
+        "sha256": "f90e7250a84b320f27a38ed703fc22ea4d6b345c749a0d01ade8d829b82b4834",
+        "size_in_bytes": 9882,
+        "sha256_in_prefix": "f90e7250a84b320f27a38ed703fc22ea4d6b345c749a0d01ade8d829b82b4834"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_cdf5.py",
+        "path_type": "hardlink",
+        "sha256": "e5b0fda9075eb4f16035a26a2010f212dcf48fc867b7689528f1b9a1c3c4bb92",
+        "size_in_bytes": 1471,
+        "sha256_in_prefix": "e5b0fda9075eb4f16035a26a2010f212dcf48fc867b7689528f1b9a1c3c4bb92"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_cdl.py",
+        "path_type": "hardlink",
+        "sha256": "a7c4c51028de7f41319cc380e2760bf76806e3064fe4648ec910278b7d7c6abc",
+        "size_in_bytes": 2327,
+        "sha256_in_prefix": "a7c4c51028de7f41319cc380e2760bf76806e3064fe4648ec910278b7d7c6abc"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_chunk_cache.py",
+        "path_type": "hardlink",
+        "sha256": "42128b54a642c9a0259ee4b2b499493d1b3f136f9738b942558884d5e502eb49",
+        "size_in_bytes": 1570,
+        "sha256_in_prefix": "42128b54a642c9a0259ee4b2b499493d1b3f136f9738b942558884d5e502eb49"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_complex.py",
+        "path_type": "hardlink",
+        "sha256": "86c4702d5b1bddd701bd9d2993286ec4e191fea6b65ca3ebb62d11446914274b",
+        "size_in_bytes": 3456,
+        "sha256_in_prefix": "86c4702d5b1bddd701bd9d2993286ec4e191fea6b65ca3ebb62d11446914274b"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compound_alignment.py",
+        "path_type": "hardlink",
+        "sha256": "7ea42eb6c4e45ef4d22da2e3e1eb8868991c03a404545bae4455a06aceda436c",
+        "size_in_bytes": 38039,
+        "sha256_in_prefix": "7ea42eb6c4e45ef4d22da2e3e1eb8868991c03a404545bae4455a06aceda436c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compoundatt.py",
+        "path_type": "hardlink",
+        "sha256": "1849cd70451cb53f57b2dcbb0c30242a48e4a2b5e94de8f8747cb251bd06e096",
+        "size_in_bytes": 2644,
+        "sha256_in_prefix": "1849cd70451cb53f57b2dcbb0c30242a48e4a2b5e94de8f8747cb251bd06e096"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compoundvar.py",
+        "path_type": "hardlink",
+        "sha256": "95c26cb4e90542831851a3bbf75b6731c9af5e407d7de6a434954b8aaa01c645",
+        "size_in_bytes": 6011,
+        "sha256_in_prefix": "95c26cb4e90542831851a3bbf75b6731c9af5e407d7de6a434954b8aaa01c645"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression.py",
+        "path_type": "hardlink",
+        "sha256": "1d9a5bc1ea761fa44b4c3b02e024d15dbea42ca028987400c94e8d66f0ad369c",
+        "size_in_bytes": 7593,
+        "sha256_in_prefix": "1d9a5bc1ea761fa44b4c3b02e024d15dbea42ca028987400c94e8d66f0ad369c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression_blosc.py",
+        "path_type": "hardlink",
+        "sha256": "8289a5e1595d980b95e4fb28c221be5d6c7886772e11472ca0366c512882a5bc",
+        "size_in_bytes": 4301,
+        "sha256_in_prefix": "8289a5e1595d980b95e4fb28c221be5d6c7886772e11472ca0366c512882a5bc"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "07e34e809c08ed4edb8522b524632cee159380b0de5f260232850eed5e9f172f",
+        "size_in_bytes": 2254,
+        "sha256_in_prefix": "07e34e809c08ed4edb8522b524632cee159380b0de5f260232850eed5e9f172f"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression_quant.py",
+        "path_type": "hardlink",
+        "sha256": "565d8ceecf0a59f5c819c06190f763ab3e5e48713d201c4568d8fb1814b20ea8",
+        "size_in_bytes": 5399,
+        "sha256_in_prefix": "565d8ceecf0a59f5c819c06190f763ab3e5e48713d201c4568d8fb1814b20ea8"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression_szip.py",
+        "path_type": "hardlink",
+        "sha256": "d2b41b96215ce5a8f762dc33e59ac0c7713979fd97f8a11fdb1fc2951800ca9a",
+        "size_in_bytes": 1659,
+        "sha256_in_prefix": "d2b41b96215ce5a8f762dc33e59ac0c7713979fd97f8a11fdb1fc2951800ca9a"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_compression_zstd.py",
+        "path_type": "hardlink",
+        "sha256": "cd0948399b70621f988a552d21d141d3e95c6697106f2d8fc48ed0d841a95809",
+        "size_in_bytes": 2249,
+        "sha256_in_prefix": "cd0948399b70621f988a552d21d141d3e95c6697106f2d8fc48ed0d841a95809"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_create_mem.py",
+        "path_type": "hardlink",
+        "sha256": "480af0414f2954eb4e68a677a6645cf25d7d8fcab34361a3295a34999c359316",
+        "size_in_bytes": 1004,
+        "sha256_in_prefix": "480af0414f2954eb4e68a677a6645cf25d7d8fcab34361a3295a34999c359316"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_dap.py",
+        "path_type": "hardlink",
+        "sha256": "3ad666a2f523a3d9a8114313f24880f1181671fdf1ae8f63af1fe40a7ca46679",
+        "size_in_bytes": 1121,
+        "sha256_in_prefix": "3ad666a2f523a3d9a8114313f24880f1181671fdf1ae8f63af1fe40a7ca46679"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_dims.py",
+        "path_type": "hardlink",
+        "sha256": "5223aee41b2d488fd1528d77d0a821c8ccb74d52dc49a3876c26fb05fb18ec27",
+        "size_in_bytes": 6049,
+        "sha256_in_prefix": "5223aee41b2d488fd1528d77d0a821c8ccb74d52dc49a3876c26fb05fb18ec27"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_diskless.py",
+        "path_type": "hardlink",
+        "sha256": "3139c9b4ade72cc03de51080ca69e4aa09baf1de4da056485b0028c8ef41a1fb",
+        "size_in_bytes": 3181,
+        "sha256_in_prefix": "3139c9b4ade72cc03de51080ca69e4aa09baf1de4da056485b0028c8ef41a1fb"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_endian.py",
+        "path_type": "hardlink",
+        "sha256": "89fcaeb439157ba17f88c5d3ff466f0a05856d29f0b7a148a770c4b164fcf483",
+        "size_in_bytes": 6126,
+        "sha256_in_prefix": "89fcaeb439157ba17f88c5d3ff466f0a05856d29f0b7a148a770c4b164fcf483"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_enum.py",
+        "path_type": "hardlink",
+        "sha256": "f87892e29cf5d5b8781b0b82f75fa0df709fd68693fdf194bf863a034a3b3caf",
+        "size_in_bytes": 3507,
+        "sha256_in_prefix": "f87892e29cf5d5b8781b0b82f75fa0df709fd68693fdf194bf863a034a3b3caf"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_fancyslicing.py",
+        "path_type": "hardlink",
+        "sha256": "5b39cab80d86e201a619df218b97b2b05de9e9bfcee5c12ceab10b18d7329c93",
+        "size_in_bytes": 6576,
+        "sha256_in_prefix": "5b39cab80d86e201a619df218b97b2b05de9e9bfcee5c12ceab10b18d7329c93"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_filepath.py",
+        "path_type": "hardlink",
+        "sha256": "9a14b563d94073734dd230e71859b7af972402060f3ba5c8c576895705894001",
+        "size_in_bytes": 1210,
+        "sha256_in_prefix": "9a14b563d94073734dd230e71859b7af972402060f3ba5c8c576895705894001"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_get_fill_value.py",
+        "path_type": "hardlink",
+        "sha256": "871872048324bfb631bb9c49d12c02c4d0804aee903aaa65d5f2893544de5f6f",
+        "size_in_bytes": 1602,
+        "sha256_in_prefix": "871872048324bfb631bb9c49d12c02c4d0804aee903aaa65d5f2893544de5f6f"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_get_variables_by_attributes.py",
+        "path_type": "hardlink",
+        "sha256": "798cac14882ae5fe9e123be58fabf8efea49fe6f5b9ffb85525d582a38dbfb02",
+        "size_in_bytes": 1771,
+        "sha256_in_prefix": "798cac14882ae5fe9e123be58fabf8efea49fe6f5b9ffb85525d582a38dbfb02"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_gold.nc",
+        "path_type": "hardlink",
+        "sha256": "692f9145a15955e466786448c100ff000ac7a22b4e033f05cd94da0491fd4131",
+        "size_in_bytes": 222747,
+        "sha256_in_prefix": "692f9145a15955e466786448c100ff000ac7a22b4e033f05cd94da0491fd4131"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_grps.py",
+        "path_type": "hardlink",
+        "sha256": "749a8d713d6897d96cf43a948606f31d96cd260fb9569acadc153518c80d191a",
+        "size_in_bytes": 2519,
+        "sha256_in_prefix": "749a8d713d6897d96cf43a948606f31d96cd260fb9569acadc153518c80d191a"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_grps2.py",
+        "path_type": "hardlink",
+        "sha256": "5859be5493cb31f718d64d67cdfe955744e93dc03d3c2661d8f06a6467f83d80",
+        "size_in_bytes": 1334,
+        "sha256_in_prefix": "5859be5493cb31f718d64d67cdfe955744e93dc03d3c2661d8f06a6467f83d80"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_issue908.py",
+        "path_type": "hardlink",
+        "sha256": "f5b25f718b9afdd1559d24873c39e20ae28baf80c67735b7671252d1811a8e9c",
+        "size_in_bytes": 410,
+        "sha256_in_prefix": "f5b25f718b9afdd1559d24873c39e20ae28baf80c67735b7671252d1811a8e9c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked.py",
+        "path_type": "hardlink",
+        "sha256": "af033d55102a3532be0ab0ceb806610f040633b2b32647839f78f6411101c6c6",
+        "size_in_bytes": 7004,
+        "sha256_in_prefix": "af033d55102a3532be0ab0ceb806610f040633b2b32647839f78f6411101c6c6"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked2.py",
+        "path_type": "hardlink",
+        "sha256": "75731afba85f1b250ab7d5ccd3468269386a4c0ed8aff6695eda0667fc706674",
+        "size_in_bytes": 4191,
+        "sha256_in_prefix": "75731afba85f1b250ab7d5ccd3468269386a4c0ed8aff6695eda0667fc706674"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked3.py",
+        "path_type": "hardlink",
+        "sha256": "c1607c73790d5c4d8b3bb580a924e449774154a3e995ff89fd08d48fc7c568b4",
+        "size_in_bytes": 5558,
+        "sha256_in_prefix": "c1607c73790d5c4d8b3bb580a924e449774154a3e995ff89fd08d48fc7c568b4"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked4.py",
+        "path_type": "hardlink",
+        "sha256": "166cc76f1492a43eadd99501cf4d1c84d44273b9418a98375f0dc979fd4e2cd7",
+        "size_in_bytes": 4211,
+        "sha256_in_prefix": "166cc76f1492a43eadd99501cf4d1c84d44273b9418a98375f0dc979fd4e2cd7"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked5.py",
+        "path_type": "hardlink",
+        "sha256": "e03ce7020bf3b3a917350fd2bf26a1b9264a0269712728d0717d14d32a1011f1",
+        "size_in_bytes": 1789,
+        "sha256_in_prefix": "e03ce7020bf3b3a917350fd2bf26a1b9264a0269712728d0717d14d32a1011f1"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_masked6.py",
+        "path_type": "hardlink",
+        "sha256": "4fb43b32c4cf9ea4c8dae622837b9c4fdd4b4a87d485407db7a876666112c5e3",
+        "size_in_bytes": 3631,
+        "sha256_in_prefix": "4fb43b32c4cf9ea4c8dae622837b9c4fdd4b4a87d485407db7a876666112c5e3"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_multifile.py",
+        "path_type": "hardlink",
+        "sha256": "2578d5591ad5adfd632df7c8d4377f9e992b40961e24417ab17ceb59ec3ea6e2",
+        "size_in_bytes": 6352,
+        "sha256_in_prefix": "2578d5591ad5adfd632df7c8d4377f9e992b40961e24417ab17ceb59ec3ea6e2"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_multifile2.py",
+        "path_type": "hardlink",
+        "sha256": "d2181ceaa13eca23b646870a15d2cf3cb2ceddc8450d78aba39654f8026e5fd7",
+        "size_in_bytes": 4972,
+        "sha256_in_prefix": "d2181ceaa13eca23b646870a15d2cf3cb2ceddc8450d78aba39654f8026e5fd7"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_multiple_open_close.py",
+        "path_type": "hardlink",
+        "sha256": "c59be21328614960871125e14d17bda4c32fe1cf05a6654f4760a211169c5ab2",
+        "size_in_bytes": 1913,
+        "sha256_in_prefix": "c59be21328614960871125e14d17bda4c32fe1cf05a6654f4760a211169c5ab2"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_ncrc.py",
+        "path_type": "hardlink",
+        "sha256": "d22623b714fe00e09fe03bd987b32e54f9720212957d2223f20334af6de581d0",
+        "size_in_bytes": 466,
+        "sha256_in_prefix": "d22623b714fe00e09fe03bd987b32e54f9720212957d2223f20334af6de581d0"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_no_iter_contains.py",
+        "path_type": "hardlink",
+        "sha256": "5067445f34561f17c432144c5fbcbdbf65789d2810de25e0b58cd676f8eb40f5",
+        "size_in_bytes": 1095,
+        "sha256_in_prefix": "5067445f34561f17c432144c5fbcbdbf65789d2810de25e0b58cd676f8eb40f5"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_open_mem.py",
+        "path_type": "hardlink",
+        "sha256": "3b856bb0d974eabbfb9510024110ada351175379fc83c6bd566706ef391871df",
+        "size_in_bytes": 725,
+        "sha256_in_prefix": "3b856bb0d974eabbfb9510024110ada351175379fc83c6bd566706ef391871df"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_refcount.py",
+        "path_type": "hardlink",
+        "sha256": "6e13885e9d1c70af977f5fbc035a2dda0d73eccfe22950bde3c30769909ec007",
+        "size_in_bytes": 978,
+        "sha256_in_prefix": "6e13885e9d1c70af977f5fbc035a2dda0d73eccfe22950bde3c30769909ec007"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_rename.py",
+        "path_type": "hardlink",
+        "sha256": "6c19327d4945f83a13f84a7ae7dce7fb5571d35ce68e29ee877ead2f1fd5c353",
+        "size_in_bytes": 5167,
+        "sha256_in_prefix": "6c19327d4945f83a13f84a7ae7dce7fb5571d35ce68e29ee877ead2f1fd5c353"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_scalarvar.py",
+        "path_type": "hardlink",
+        "sha256": "e291558308354f5a547b64d3d9ea86c67de84502dfe6b045770958e3868cdeab",
+        "size_in_bytes": 1821,
+        "sha256_in_prefix": "e291558308354f5a547b64d3d9ea86c67de84502dfe6b045770958e3868cdeab"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_scaled.py",
+        "path_type": "hardlink",
+        "sha256": "816ec6cb0a4647b8a95f04a13e19f17f2c58dd5b01471e86605fb057e56f25df",
+        "size_in_bytes": 7316,
+        "sha256_in_prefix": "816ec6cb0a4647b8a95f04a13e19f17f2c58dd5b01471e86605fb057e56f25df"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_shape.py",
+        "path_type": "hardlink",
+        "sha256": "4785245c896596337d8fd6efeff991cdc4af9d9454943375fd6137dc2bdc74f8",
+        "size_in_bytes": 1126,
+        "sha256_in_prefix": "4785245c896596337d8fd6efeff991cdc4af9d9454943375fd6137dc2bdc74f8"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_slicing.py",
+        "path_type": "hardlink",
+        "sha256": "bf93dd148399a60b23a1b677a481721f1155d2f3c4f23004962db7b0e254b3ae",
+        "size_in_bytes": 10130,
+        "sha256_in_prefix": "bf93dd148399a60b23a1b677a481721f1155d2f3c4f23004962db7b0e254b3ae"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_stringarr.py",
+        "path_type": "hardlink",
+        "sha256": "fd6829b1e93b4100c5822db3f01147c574f3618f4d9b07019bd262f69c2c25e9",
+        "size_in_bytes": 4387,
+        "sha256_in_prefix": "fd6829b1e93b4100c5822db3f01147c574f3618f4d9b07019bd262f69c2c25e9"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_types.py",
+        "path_type": "hardlink",
+        "sha256": "84aeb100053b7778bdb5b4a965fd99d394008d1bfc698ff422775514d8c7507c",
+        "size_in_bytes": 4300,
+        "sha256_in_prefix": "84aeb100053b7778bdb5b4a965fd99d394008d1bfc698ff422775514d8c7507c"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_unicode.py",
+        "path_type": "hardlink",
+        "sha256": "53dd6aa2b4978b3980681e2a1973d965eb5d44e11a126936fc6d019d5f180def",
+        "size_in_bytes": 1180,
+        "sha256_in_prefix": "53dd6aa2b4978b3980681e2a1973d965eb5d44e11a126936fc6d019d5f180def"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_unicodeatt.py",
+        "path_type": "hardlink",
+        "sha256": "28a7e36e0b371f5ce753de03aba43c2ea813ae5e4e50b62e5af4b9ad4d7d6f7b",
+        "size_in_bytes": 1344,
+        "sha256_in_prefix": "28a7e36e0b371f5ce753de03aba43c2ea813ae5e4e50b62e5af4b9ad4d7d6f7b"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_unlimdim.py",
+        "path_type": "hardlink",
+        "sha256": "536d3a5f341be3323482d6eda214dfc41f274ba6cbdba8c690e4d4a4e28d7a45",
+        "size_in_bytes": 2210,
+        "sha256_in_prefix": "536d3a5f341be3323482d6eda214dfc41f274ba6cbdba8c690e4d4a4e28d7a45"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "cd3ef4b4d47af70a8b7c4729b618c8c06892d6a2a00be5d0b098460e6ad20f6e",
+        "size_in_bytes": 13920,
+        "sha256_in_prefix": "cd3ef4b4d47af70a8b7c4729b618c8c06892d6a2a00be5d0b098460e6ad20f6e"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_vars.py",
+        "path_type": "hardlink",
+        "sha256": "9fbfb4d99d055811a3ff18d08dbb4b33dcd63616d7ee1e29b06aca65cdbddc6b",
+        "size_in_bytes": 3378,
+        "sha256_in_prefix": "9fbfb4d99d055811a3ff18d08dbb4b33dcd63616d7ee1e29b06aca65cdbddc6b"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/test_vlen.py",
+        "path_type": "hardlink",
+        "sha256": "00981fbebea10211b5069db225487ccd30bf3a2fdfd7f2073a60eb8d362577e5",
+        "size_in_bytes": 8145,
+        "sha256_in_prefix": "00981fbebea10211b5069db225487ccd30bf3a2fdfd7f2073a60eb8d362577e5"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/1/test/ubyte.nc",
+        "path_type": "hardlink",
+        "sha256": "993e5302ee0f1975755c56b63b47bd2b2ad57211cc9ba05ec6c19c6aedc4451a",
+        "size_in_bytes": 224,
+        "sha256_in_prefix": "993e5302ee0f1975755c56b63b47bd2b2ad57211cc9ba05ec6c19c6aedc4451a"
+      },
+      {
+        "_path": "etc/conda/test-files/netcdf4/2/parallel_test.py",
+        "path_type": "hardlink",
+        "sha256": "6816c7a84601974d7ca2dc1b61e9ce440aa7ab107746445e2a068015f6dd2587",
+        "size_in_bytes": 1391,
+        "sha256_in_prefix": "6816c7a84601974d7ca2dc1b61e9ce440aa7ab107746445e2a068015f6dd2587"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "decbb7f228902b7e181f4e49905e5e15b010f86a413b7bdc068e8b05a68d9383",
+        "size_in_bytes": 1641,
+        "sha256_in_prefix": "decbb7f228902b7e181f4e49905e5e15b010f86a413b7bdc068e8b05a68d9383"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "7747771a78cf55d9c9dd8183d72046beb6c565a47712c9b7ec5a9c2d9bd8d9e2",
+        "size_in_bytes": 28479,
+        "sha256_in_prefix": "7747771a78cf55d9c9dd8183d72046beb6c565a47712c9b7ec5a9c2d9bd8d9e2"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "128166e429ef7cf7916f9c1ae75f0e694b9018968dbd8bf60cb2c07e9057c520",
+        "size_in_bytes": 1701,
+        "sha256_in_prefix": "128166e429ef7cf7916f9c1ae75f0e694b9018968dbd8bf60cb2c07e9057c520"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4bfd13643cf3568a944a89ae5de7b9c00bbc9b897758683d3c5099d0f840e2f",
+        "size_in_bytes": 23654,
+        "sha256_in_prefix": "a4bfd13643cf3568a944a89ae5de7b9c00bbc9b897758683d3c5099d0f840e2f"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/_netCDF4.cpython-310-darwin.so",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_netcdf4_1772476344/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "41e6e16d4f1691a83453d30b2df62dd7acea5077839195eae140aad25a7a9e89",
+        "size_in_bytes": 1231024,
+        "sha256_in_prefix": "dd5121205b874dd201891d0f04e1ebb0bde90ccc8ea5a429e5fc94fc03fa89bc"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/_netCDF4.pyi",
+        "path_type": "hardlink",
+        "sha256": "6b1894abf613527dd8d02033799def023201e98dc1b2fe5cf19f921e6f04ef77",
+        "size_in_bytes": 1189,
+        "sha256_in_prefix": "6b1894abf613527dd8d02033799def023201e98dc1b2fe5cf19f921e6f04ef77"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/_netCDF4.pyx",
+        "path_type": "hardlink",
+        "sha256": "69d8b85d1ddced73f5387b0c29e862f73a8075dd91f850b658d794987c6071f7",
+        "size_in_bytes": 315279,
+        "sha256_in_prefix": "69d8b85d1ddced73f5387b0c29e862f73a8075dd91f850b658d794987c6071f7"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/plugins/empty.txt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netCDF4/utils.py",
+        "path_type": "hardlink",
+        "sha256": "cc0cc3a398c27c5e10c8df6091f60d4ad42da5cfd295e07cf6036a3bd0b8311f",
+        "size_in_bytes": 37431,
+        "sha256_in_prefix": "cc0cc3a398c27c5e10c8df6091f60d4ad42da5cfd295e07cf6036a3bd0b8311f"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e76351b53a658849ba8ec662846c2281c629b5b4479a602b621271bb121edb50",
+        "size_in_bytes": 2052,
+        "sha256_in_prefix": "e76351b53a658849ba8ec662846c2281c629b5b4479a602b621271bb121edb50"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b2ec463fa4cc9c9f96e389ee3f523fc336b4b4cf9ff1ab8272250a7c3cd65821",
+        "size_in_bytes": 1733,
+        "sha256_in_prefix": "b2ec463fa4cc9c9f96e389ee3f523fc336b4b4cf9ff1ab8272250a7c3cd65821"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5bd2132396c72696ad5025cbcbd59f46a317d2957c820a5cef28e70427014dea",
+        "size_in_bytes": 109,
+        "sha256_in_prefix": "5bd2132396c72696ad5025cbcbd59f46a317d2957c820a5cef28e70427014dea"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ae6fd65f379e1493139cb9fd7f0d57ccddf5b0d9033ae8c0a860a4d3dca045af",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "ae6fd65f379e1493139cb9fd7f0d57ccddf5b0d9033ae8c0a860a4d3dca045af"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "6a6d718daefddfe345b86fe8f21202693db7c805cfb5bc95e2145dca831a3b3c",
+        "size_in_bytes": 116,
+        "sha256_in_prefix": "6a6d718daefddfe345b86fe8f21202693db7c805cfb5bc95e2145dca831a3b3c"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "size_in_bytes": 1056,
+        "sha256_in_prefix": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/netcdf4-1.7.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b2d61b24f7075840abac53f036de136767640268c5ccd776f527394f416425fb",
+        "size_in_bytes": 8,
+        "sha256_in_prefix": "b2d61b24f7075840abac53f036de136767640268c5ccd776f527394f416425fb"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/netcdf4-1.7.4-nompi_py310h48e13e5_104",
+    "type": 1
+  }
+}

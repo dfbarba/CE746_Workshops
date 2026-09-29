@@ -1,0 +1,71 @@
+{
+  "name": "libcxx",
+  "version": "23.1.2",
+  "build": "h55c6f16_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libcxx-23.1.2-h55c6f16_0.conda",
+  "md5": "01af3f03d850cbab9ae9b86d726a9921",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.2-h55c6f16_0.conda",
+  "sha256": "087a610bacee7901d259ef72c6f060d795ab26831bd7541ba75ced786a5a63f9",
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "timestamp": 1790163402114,
+  "size": 579372,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libcxx-23.1.2-h55c6f16_0.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libcxx-23.1.2-h55c6f16_0",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib",
+    "lib/libc++.a",
+    "lib/libc++.dylib",
+    "lib/libc++experimental.a"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libc++.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "77850fe8a8aa5dfa55789636db53cf94fd106f9ff68777a2d62f33f6eab38a16",
+        "size_in_bytes": 1193632,
+        "sha256_in_prefix": "77850fe8a8aa5dfa55789636db53cf94fd106f9ff68777a2d62f33f6eab38a16"
+      },
+      {
+        "_path": "lib/libc++.1.dylib",
+        "path_type": "softlink",
+        "sha256": "77850fe8a8aa5dfa55789636db53cf94fd106f9ff68777a2d62f33f6eab38a16",
+        "size_in_bytes": 1193632
+      },
+      {
+        "_path": "lib/libc++.a",
+        "path_type": "hardlink",
+        "sha256": "2f3dcd5cbc3f2be244a1b2562a8187967ac6315e5e0e93b1edcac346f9137872",
+        "size_in_bytes": 1706080,
+        "sha256_in_prefix": "2f3dcd5cbc3f2be244a1b2562a8187967ac6315e5e0e93b1edcac346f9137872"
+      },
+      {
+        "_path": "lib/libc++.dylib",
+        "path_type": "softlink",
+        "sha256": "77850fe8a8aa5dfa55789636db53cf94fd106f9ff68777a2d62f33f6eab38a16",
+        "size_in_bytes": 1193632
+      },
+      {
+        "_path": "lib/libc++experimental.a",
+        "path_type": "hardlink",
+        "sha256": "bcbd87bd842faf36755be04aebef4c45e7f08ec47f4e26123faf2d5741884f8e",
+        "size_in_bytes": 314392,
+        "sha256_in_prefix": "bcbd87bd842faf36755be04aebef4c45e7f08ec47f4e26123faf2d5741884f8e"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libcxx-23.1.2-h55c6f16_0",
+    "type": 1
+  }
+}

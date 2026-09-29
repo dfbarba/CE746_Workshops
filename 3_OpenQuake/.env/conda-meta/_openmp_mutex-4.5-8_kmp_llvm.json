@@ -1,0 +1,47 @@
+{
+  "name": "_openmp_mutex",
+  "version": "4.5",
+  "build": "8_kmp_llvm",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "md5": "a2d706b4a7d603524133037c34f7fb76",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "sha256": "c7c98ce74f6a7ff25aaa4706d06fa41d63a333add4d697b73aa4d8d2d7ad7651",
+  "depends": [
+    "llvm-openmp >=9.0.1"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1788046437162,
+  "size": 8016,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm",
+  "files": [
+    "lib/libgomp.1.dylib",
+    "lib/libgomp.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libgomp.1.dylib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/libgomp.dylib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm",
+    "type": 1
+  }
+}

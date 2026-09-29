@@ -1,0 +1,1722 @@
+{
+  "name": "ghostscript",
+  "version": "10.08.0",
+  "build": "h61c1aad_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "ghostscript-10.08.0-h61c1aad_0.conda",
+  "md5": "ccfc1a6af25a23d6281d0bea9225ea3c",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ghostscript-10.08.0-h61c1aad_0.conda",
+  "sha256": "2ca00e06d29b124d859c7690d892a7a122b7e87f45d455e8d6a85cf4f7916d1a",
+  "depends": [
+    "__osx >=14.5",
+    "libcxx >=21"
+  ],
+  "constrains": [],
+  "license": "AGPL-3.0-only",
+  "timestamp": 1788879014488,
+  "size": 60199716,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/ghostscript-10.08.0-h61c1aad_0.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/ghostscript-10.08.0-h61c1aad_0",
+  "files": [
+    "bin/dvipdf",
+    "bin/eps2eps",
+    "bin/gs",
+    "bin/gsbj",
+    "bin/gsdj",
+    "bin/gsdj500",
+    "bin/gslj",
+    "bin/gslp",
+    "bin/gsnd",
+    "bin/lprsetup.sh",
+    "bin/pdf2dsc",
+    "bin/pdf2ps",
+    "bin/pf2afm",
+    "bin/pfbtopfa",
+    "bin/pphs",
+    "bin/printafm",
+    "bin/ps2ascii",
+    "bin/ps2epsi",
+    "bin/ps2pdf",
+    "bin/ps2pdf12",
+    "bin/ps2pdf13",
+    "bin/ps2pdf14",
+    "bin/ps2pdfwr",
+    "bin/ps2ps",
+    "bin/ps2ps2",
+    "bin/unix-lpr.sh",
+    "lib/libgs.10.08.dylib",
+    "lib/libgs.10.dylib",
+    "lib/libgs.dylib",
+    "share/doc/ghostscript/10.08.0/COPYING",
+    "share/doc/ghostscript/10.08.0/GS9_Color_Management.pdf",
+    "share/doc/ghostscript/10.08.0/Ghostscript.pdf",
+    "share/doc/ghostscript/10.08.0/News.html",
+    "share/ghostscript/10.08.0/lib/PDFA_def.ps",
+    "share/ghostscript/10.08.0/lib/PDFX_def.ps",
+    "share/ghostscript/10.08.0/lib/PM760p.upp",
+    "share/ghostscript/10.08.0/lib/PM760pl.upp",
+    "share/ghostscript/10.08.0/lib/PM820p.upp",
+    "share/ghostscript/10.08.0/lib/PM820pl.upp",
+    "share/ghostscript/10.08.0/lib/Stc670p.upp",
+    "share/ghostscript/10.08.0/lib/Stc670pl.upp",
+    "share/ghostscript/10.08.0/lib/Stc680p.upp",
+    "share/ghostscript/10.08.0/lib/Stc680pl.upp",
+    "share/ghostscript/10.08.0/lib/Stc740p.upp",
+    "share/ghostscript/10.08.0/lib/Stc740pl.upp",
+    "share/ghostscript/10.08.0/lib/Stc760p.upp",
+    "share/ghostscript/10.08.0/lib/Stc760pl.upp",
+    "share/ghostscript/10.08.0/lib/Stc777p.upp",
+    "share/ghostscript/10.08.0/lib/Stc777pl.upp",
+    "share/ghostscript/10.08.0/lib/Stp720p.upp",
+    "share/ghostscript/10.08.0/lib/Stp720pl.upp",
+    "share/ghostscript/10.08.0/lib/Stp870p.upp",
+    "share/ghostscript/10.08.0/lib/Stp870pl.upp",
+    "share/ghostscript/10.08.0/lib/acctest.ps",
+    "share/ghostscript/10.08.0/lib/align.ps",
+    "share/ghostscript/10.08.0/lib/bj8.rpd",
+    "share/ghostscript/10.08.0/lib/bj8gc12f.upp",
+    "share/ghostscript/10.08.0/lib/bj8hg12f.upp",
+    "share/ghostscript/10.08.0/lib/bj8oh06n.upp",
+    "share/ghostscript/10.08.0/lib/bj8pa06n.upp",
+    "share/ghostscript/10.08.0/lib/bj8pp12f.upp",
+    "share/ghostscript/10.08.0/lib/bj8ts06n.upp",
+    "share/ghostscript/10.08.0/lib/bjc6000a1.upp",
+    "share/ghostscript/10.08.0/lib/bjc6000b1.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a0.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a1.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a2.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a3.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a4.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a5.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a6.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a7.upp",
+    "share/ghostscript/10.08.0/lib/bjc610a8.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b1.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b2.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b3.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b4.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b6.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b7.upp",
+    "share/ghostscript/10.08.0/lib/bjc610b8.upp",
+    "share/ghostscript/10.08.0/lib/caption.ps",
+    "share/ghostscript/10.08.0/lib/cbjc600.ppd",
+    "share/ghostscript/10.08.0/lib/cbjc800.ppd",
+    "share/ghostscript/10.08.0/lib/cdj550.upp",
+    "share/ghostscript/10.08.0/lib/cdj690.upp",
+    "share/ghostscript/10.08.0/lib/cdj690ec.upp",
+    "share/ghostscript/10.08.0/lib/cid2code.ps",
+    "share/ghostscript/10.08.0/lib/dnj750c.upp",
+    "share/ghostscript/10.08.0/lib/dnj750m.upp",
+    "share/ghostscript/10.08.0/lib/docie.ps",
+    "share/ghostscript/10.08.0/lib/font2pcl.ps",
+    "share/ghostscript/10.08.0/lib/ghostpdf.ppd",
+    "share/ghostscript/10.08.0/lib/gs_ce_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_css_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_il2_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_kanji.ps",
+    "share/ghostscript/10.08.0/lib/gs_ksb_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_l.xbm",
+    "share/ghostscript/10.08.0/lib/gs_l.xpm",
+    "share/ghostscript/10.08.0/lib/gs_l_m.xbm",
+    "share/ghostscript/10.08.0/lib/gs_lgo_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_lgx_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_m.xbm",
+    "share/ghostscript/10.08.0/lib/gs_m.xpm",
+    "share/ghostscript/10.08.0/lib/gs_m_m.xbm",
+    "share/ghostscript/10.08.0/lib/gs_s.xbm",
+    "share/ghostscript/10.08.0/lib/gs_s.xpm",
+    "share/ghostscript/10.08.0/lib/gs_s_m.xbm",
+    "share/ghostscript/10.08.0/lib/gs_t.xbm",
+    "share/ghostscript/10.08.0/lib/gs_t.xpm",
+    "share/ghostscript/10.08.0/lib/gs_t_m.xbm",
+    "share/ghostscript/10.08.0/lib/gs_wl1_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_wl2_e.ps",
+    "share/ghostscript/10.08.0/lib/gs_wl5_e.ps",
+    "share/ghostscript/10.08.0/lib/gslp.ps",
+    "share/ghostscript/10.08.0/lib/gsnup.ps",
+    "share/ghostscript/10.08.0/lib/ht_ccsto.ps",
+    "share/ghostscript/10.08.0/lib/image-qa.ps",
+    "share/ghostscript/10.08.0/lib/jispaper.ps",
+    "share/ghostscript/10.08.0/lib/landscap.ps",
+    "share/ghostscript/10.08.0/lib/lines.ps",
+    "share/ghostscript/10.08.0/lib/mkcidfm.ps",
+    "share/ghostscript/10.08.0/lib/necp2x.upp",
+    "share/ghostscript/10.08.0/lib/necp2x6.upp",
+    "share/ghostscript/10.08.0/lib/pdf2dsc.ps",
+    "share/ghostscript/10.08.0/lib/pdf_info.ps",
+    "share/ghostscript/10.08.0/lib/pf2afm.ps",
+    "share/ghostscript/10.08.0/lib/pfbtopfa.ps",
+    "share/ghostscript/10.08.0/lib/ppath.ps",
+    "share/ghostscript/10.08.0/lib/pphs.ps",
+    "share/ghostscript/10.08.0/lib/prfont.ps",
+    "share/ghostscript/10.08.0/lib/printafm.ps",
+    "share/ghostscript/10.08.0/lib/ps2ai.ps",
+    "share/ghostscript/10.08.0/lib/ps2epsi.ps",
+    "share/ghostscript/10.08.0/lib/ras1.upp",
+    "share/ghostscript/10.08.0/lib/ras24.upp",
+    "share/ghostscript/10.08.0/lib/ras3.upp",
+    "share/ghostscript/10.08.0/lib/ras32.upp",
+    "share/ghostscript/10.08.0/lib/ras4.upp",
+    "share/ghostscript/10.08.0/lib/ras8m.upp",
+    "share/ghostscript/10.08.0/lib/rollconv.ps",
+    "share/ghostscript/10.08.0/lib/s400a1.upp",
+    "share/ghostscript/10.08.0/lib/s400b1.upp",
+    "share/ghostscript/10.08.0/lib/sharp.upp",
+    "share/ghostscript/10.08.0/lib/sipixa6.upp",
+    "share/ghostscript/10.08.0/lib/st640ih.upp",
+    "share/ghostscript/10.08.0/lib/st640ihg.upp",
+    "share/ghostscript/10.08.0/lib/st640p.upp",
+    "share/ghostscript/10.08.0/lib/st640pg.upp",
+    "share/ghostscript/10.08.0/lib/st640pl.upp",
+    "share/ghostscript/10.08.0/lib/st640plg.upp",
+    "share/ghostscript/10.08.0/lib/stc.upp",
+    "share/ghostscript/10.08.0/lib/stc1520h.upp",
+    "share/ghostscript/10.08.0/lib/stc2.upp",
+    "share/ghostscript/10.08.0/lib/stc200_h.upp",
+    "share/ghostscript/10.08.0/lib/stc2_h.upp",
+    "share/ghostscript/10.08.0/lib/stc2s_h.upp",
+    "share/ghostscript/10.08.0/lib/stc300.upp",
+    "share/ghostscript/10.08.0/lib/stc300bl.upp",
+    "share/ghostscript/10.08.0/lib/stc300bm.upp",
+    "share/ghostscript/10.08.0/lib/stc500p.upp",
+    "share/ghostscript/10.08.0/lib/stc500ph.upp",
+    "share/ghostscript/10.08.0/lib/stc600ih.upp",
+    "share/ghostscript/10.08.0/lib/stc600p.upp",
+    "share/ghostscript/10.08.0/lib/stc600pl.upp",
+    "share/ghostscript/10.08.0/lib/stc640p.upp",
+    "share/ghostscript/10.08.0/lib/stc740ih.upp",
+    "share/ghostscript/10.08.0/lib/stc800ih.upp",
+    "share/ghostscript/10.08.0/lib/stc800p.upp",
+    "share/ghostscript/10.08.0/lib/stc800pl.upp",
+    "share/ghostscript/10.08.0/lib/stc_h.upp",
+    "share/ghostscript/10.08.0/lib/stc_l.upp",
+    "share/ghostscript/10.08.0/lib/stcany.upp",
+    "share/ghostscript/10.08.0/lib/stcany_h.upp",
+    "share/ghostscript/10.08.0/lib/stcinfo.ps",
+    "share/ghostscript/10.08.0/lib/stcolor.ps",
+    "share/ghostscript/10.08.0/lib/stocht.ps",
+    "share/ghostscript/10.08.0/lib/traceimg.ps",
+    "share/ghostscript/10.08.0/lib/traceop.ps",
+    "share/ghostscript/10.08.0/lib/uninfo.ps",
+    "share/ghostscript/10.08.0/lib/viewcmyk.ps",
+    "share/ghostscript/10.08.0/lib/viewgif.ps",
+    "share/ghostscript/10.08.0/lib/viewjpeg.ps",
+    "share/ghostscript/10.08.0/lib/viewmiff.ps",
+    "share/ghostscript/10.08.0/lib/viewpbm.ps",
+    "share/ghostscript/10.08.0/lib/viewpcx.ps",
+    "share/ghostscript/10.08.0/lib/viewps2a.ps",
+    "share/ghostscript/10.08.0/lib/winmaps.ps",
+    "share/ghostscript/10.08.0/lib/zeroline.ps",
+    "share/ghostscript/10.08.0/lib/zugferd.ps",
+    "share/man/man1/dvipdf.1",
+    "share/man/man1/eps2eps.1",
+    "share/man/man1/gs.1",
+    "share/man/man1/gsbj.1",
+    "share/man/man1/gsdj.1",
+    "share/man/man1/gsdj500.1",
+    "share/man/man1/gslj.1",
+    "share/man/man1/gslp.1",
+    "share/man/man1/gsnd.1",
+    "share/man/man1/pdf2ps.1",
+    "share/man/man1/pf2afm.1",
+    "share/man/man1/pfbtopfa.1",
+    "share/man/man1/printafm.1",
+    "share/man/man1/ps2ascii.1",
+    "share/man/man1/ps2epsi.1",
+    "share/man/man1/ps2pdf.1",
+    "share/man/man1/ps2pdf12.1",
+    "share/man/man1/ps2pdf13.1",
+    "share/man/man1/ps2pdf14.1",
+    "share/man/man1/ps2pdfwr.1",
+    "share/man/man1/ps2ps.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/dvipdf",
+        "path_type": "hardlink",
+        "sha256": "61d1edb71afb82fae807e88dff81727ab8e9fb4f6733891222565d55e80cc636",
+        "size_in_bytes": 1007,
+        "sha256_in_prefix": "61d1edb71afb82fae807e88dff81727ab8e9fb4f6733891222565d55e80cc636"
+      },
+      {
+        "_path": "bin/eps2eps",
+        "path_type": "hardlink",
+        "sha256": "2134a13d558b4e27f2079f93c246b20c4afeee9e080b525166b286bcb917d904",
+        "size_in_bytes": 639,
+        "sha256_in_prefix": "2134a13d558b4e27f2079f93c246b20c4afeee9e080b525166b286bcb917d904"
+      },
+      {
+        "_path": "bin/gs",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/ghostscript_1788878132818/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "75a6a9d4fe5e0a6df8079d01c02217d8820d319fedee82213eda019a060224f5",
+        "size_in_bytes": 24646688,
+        "sha256_in_prefix": "8000c3a9afca67ca1945351285d3ac3aeea0df1bd0cf63dab02a5067fc95bb56"
+      },
+      {
+        "_path": "bin/gsbj",
+        "path_type": "hardlink",
+        "sha256": "73b93bb5880989dc8163c5a988e2cf8973b0634ecb2b6f0998382e27558daf50",
+        "size_in_bytes": 350,
+        "sha256_in_prefix": "73b93bb5880989dc8163c5a988e2cf8973b0634ecb2b6f0998382e27558daf50"
+      },
+      {
+        "_path": "bin/gsdj",
+        "path_type": "hardlink",
+        "sha256": "9c56bdf6d8ce23909e947e39385e6bfd7fc8ec7c5e98ff2f0ddb12896357a940",
+        "size_in_bytes": 352,
+        "sha256_in_prefix": "9c56bdf6d8ce23909e947e39385e6bfd7fc8ec7c5e98ff2f0ddb12896357a940"
+      },
+      {
+        "_path": "bin/gsdj500",
+        "path_type": "hardlink",
+        "sha256": "0cd91333efe62fe105c834145cb3e1d301d54022f6f3546e69e11c51f55bbbc3",
+        "size_in_bytes": 352,
+        "sha256_in_prefix": "0cd91333efe62fe105c834145cb3e1d301d54022f6f3546e69e11c51f55bbbc3"
+      },
+      {
+        "_path": "bin/gslj",
+        "path_type": "hardlink",
+        "sha256": "17f2c028789d01e46ff751d2f1046570b8915f7d2901fd1a3a010532ddfa4e5e",
+        "size_in_bytes": 353,
+        "sha256_in_prefix": "17f2c028789d01e46ff751d2f1046570b8915f7d2901fd1a3a010532ddfa4e5e"
+      },
+      {
+        "_path": "bin/gslp",
+        "path_type": "hardlink",
+        "sha256": "7597509e1fa96d1ee307cd067aef40f820ffabacdf11e6e1e14a58b7a1f79f6e",
+        "size_in_bytes": 350,
+        "sha256_in_prefix": "7597509e1fa96d1ee307cd067aef40f820ffabacdf11e6e1e14a58b7a1f79f6e"
+      },
+      {
+        "_path": "bin/gsnd",
+        "path_type": "hardlink",
+        "sha256": "577bec95c32036730167a13d6a5cd9d1c97ff46709de39ed08d6e46c03a6afdd",
+        "size_in_bytes": 277,
+        "sha256_in_prefix": "577bec95c32036730167a13d6a5cd9d1c97ff46709de39ed08d6e46c03a6afdd"
+      },
+      {
+        "_path": "bin/lprsetup.sh",
+        "path_type": "hardlink",
+        "sha256": "a2f5b4cb9230b88a664a077e817b6832c01b1c4f72a3877dee6253d9b840b853",
+        "size_in_bytes": 5470,
+        "sha256_in_prefix": "a2f5b4cb9230b88a664a077e817b6832c01b1c4f72a3877dee6253d9b840b853"
+      },
+      {
+        "_path": "bin/pdf2dsc",
+        "path_type": "hardlink",
+        "sha256": "3c20a1e7ee135a0faeac901eab374d2c77fa512c48cab4708046079d6fdeb96e",
+        "size_in_bytes": 705,
+        "sha256_in_prefix": "3c20a1e7ee135a0faeac901eab374d2c77fa512c48cab4708046079d6fdeb96e"
+      },
+      {
+        "_path": "bin/pdf2ps",
+        "path_type": "hardlink",
+        "sha256": "c153d8fbc178ea6e576ddca45edcc23ed933bf9dc715fdd074148041107d5de8",
+        "size_in_bytes": 909,
+        "sha256_in_prefix": "c153d8fbc178ea6e576ddca45edcc23ed933bf9dc715fdd074148041107d5de8"
+      },
+      {
+        "_path": "bin/pf2afm",
+        "path_type": "hardlink",
+        "sha256": "af4ae09119119350e7704749ff0ce8a9fbcabb6f41a747534854130fbdc30764",
+        "size_in_bytes": 498,
+        "sha256_in_prefix": "af4ae09119119350e7704749ff0ce8a9fbcabb6f41a747534854130fbdc30764"
+      },
+      {
+        "_path": "bin/pfbtopfa",
+        "path_type": "hardlink",
+        "sha256": "3c72b0295a853070356bf25c297da945df3cd16c235c0f37fd37516a4659f321",
+        "size_in_bytes": 516,
+        "sha256_in_prefix": "3c72b0295a853070356bf25c297da945df3cd16c235c0f37fd37516a4659f321"
+      },
+      {
+        "_path": "bin/pphs",
+        "path_type": "hardlink",
+        "sha256": "da21938d181db66ad8755c53f2964b9f60291bc2a21a24eabc05bdf3c6aa7348",
+        "size_in_bytes": 404,
+        "sha256_in_prefix": "da21938d181db66ad8755c53f2964b9f60291bc2a21a24eabc05bdf3c6aa7348"
+      },
+      {
+        "_path": "bin/printafm",
+        "path_type": "hardlink",
+        "sha256": "e436c093aa5d4da2aaa0a471e34ea1dc1d31bb6dad3a249b5130229802d6dd74",
+        "size_in_bytes": 395,
+        "sha256_in_prefix": "e436c093aa5d4da2aaa0a471e34ea1dc1d31bb6dad3a249b5130229802d6dd74"
+      },
+      {
+        "_path": "bin/ps2ascii",
+        "path_type": "hardlink",
+        "sha256": "93144a4e033d9bf737ada3716aa3022a4ba8374fa72b3431a40635e8dd8eb83d",
+        "size_in_bytes": 631,
+        "sha256_in_prefix": "93144a4e033d9bf737ada3716aa3022a4ba8374fa72b3431a40635e8dd8eb83d"
+      },
+      {
+        "_path": "bin/ps2epsi",
+        "path_type": "hardlink",
+        "sha256": "8bc33f584654e12ba18e67278e7e3d3e5435242904197db1a58a7fd537778d19",
+        "size_in_bytes": 1297,
+        "sha256_in_prefix": "8bc33f584654e12ba18e67278e7e3d3e5435242904197db1a58a7fd537778d19"
+      },
+      {
+        "_path": "bin/ps2pdf",
+        "path_type": "hardlink",
+        "sha256": "1db131fe92b5106fcbe9bf1539cea9af6595085dbbabffc30ec408222d89b63b",
+        "size_in_bytes": 272,
+        "sha256_in_prefix": "1db131fe92b5106fcbe9bf1539cea9af6595085dbbabffc30ec408222d89b63b"
+      },
+      {
+        "_path": "bin/ps2pdf12",
+        "path_type": "hardlink",
+        "sha256": "bf28239deafc9c3e193d8cd0291f3e2db654e7c5d172aba4c6f7fae3444f815a",
+        "size_in_bytes": 257,
+        "sha256_in_prefix": "bf28239deafc9c3e193d8cd0291f3e2db654e7c5d172aba4c6f7fae3444f815a"
+      },
+      {
+        "_path": "bin/ps2pdf13",
+        "path_type": "hardlink",
+        "sha256": "daf5923f441a43f23dbfe9c1893135dc365c152b52dd5093dc3b16b606c99941",
+        "size_in_bytes": 257,
+        "sha256_in_prefix": "daf5923f441a43f23dbfe9c1893135dc365c152b52dd5093dc3b16b606c99941"
+      },
+      {
+        "_path": "bin/ps2pdf14",
+        "path_type": "hardlink",
+        "sha256": "e4a658d28e0f5dc24c0dcc2b56d6f8c6629ee170ebb88e59a13d2d78475c0b52",
+        "size_in_bytes": 257,
+        "sha256_in_prefix": "e4a658d28e0f5dc24c0dcc2b56d6f8c6629ee170ebb88e59a13d2d78475c0b52"
+      },
+      {
+        "_path": "bin/ps2pdfwr",
+        "path_type": "hardlink",
+        "sha256": "bf5bc07dea0984b18293d32f4545448e3b6da8059b11066660b17453d4249892",
+        "size_in_bytes": 1078,
+        "sha256_in_prefix": "bf5bc07dea0984b18293d32f4545448e3b6da8059b11066660b17453d4249892"
+      },
+      {
+        "_path": "bin/ps2ps",
+        "path_type": "hardlink",
+        "sha256": "1d7ec533b1d29c587b1485ee5f58d60599cc4a25afa7db018d4ba00679caa5c6",
+        "size_in_bytes": 647,
+        "sha256_in_prefix": "1d7ec533b1d29c587b1485ee5f58d60599cc4a25afa7db018d4ba00679caa5c6"
+      },
+      {
+        "_path": "bin/ps2ps2",
+        "path_type": "hardlink",
+        "sha256": "00d9eb918871124f72c14404158d08db63c24c38a9f426fbc0a556b4d7febab2",
+        "size_in_bytes": 669,
+        "sha256_in_prefix": "00d9eb918871124f72c14404158d08db63c24c38a9f426fbc0a556b4d7febab2"
+      },
+      {
+        "_path": "bin/unix-lpr.sh",
+        "path_type": "hardlink",
+        "sha256": "1a280c011c113d1741aed0b5e14b8a14c5ef6c38e599dc0248a452367c99ef93",
+        "size_in_bytes": 4165,
+        "sha256_in_prefix": "1a280c011c113d1741aed0b5e14b8a14c5ef6c38e599dc0248a452367c99ef93"
+      },
+      {
+        "_path": "lib/libgs.10.08.dylib",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/ghostscript_1788878132818/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "179c70fd36dbb7c8cf695f7cfb2adee5f7d49dda98ae13c5d3a38d37ecc30b1f",
+        "size_in_bytes": 24482592,
+        "sha256_in_prefix": "600f85a7723acd80461e548f2c207f1e5baf4fae62d7b2a3d6aeff6ec5d17b21"
+      },
+      {
+        "_path": "lib/libgs.10.dylib",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/ghostscript_1788878132818/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "4bdf2d26e68adbd6dc8611bc969cbdc54c8af87a4b1bc5d80cc2989a19968cf0",
+        "size_in_bytes": 24482576,
+        "sha256_in_prefix": "92ffafd91ecd5a37f79315a31393f60c3912e6f8137b8582539c2468a05d35fa"
+      },
+      {
+        "_path": "lib/libgs.dylib",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/ghostscript_1788878132818/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "08513a021ed41e8cb0e69567c181cc9ebf62338e9bb84554de498648943b4308",
+        "size_in_bytes": 24482576,
+        "sha256_in_prefix": "949488e2892ae1a1bd48de1592c9ca63df1ff93b817ef23905f4c80ad77586ca"
+      },
+      {
+        "_path": "share/doc/ghostscript/10.08.0/COPYING",
+        "path_type": "hardlink",
+        "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+        "size_in_bytes": 34520,
+        "sha256_in_prefix": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+      },
+      {
+        "_path": "share/doc/ghostscript/10.08.0/GS9_Color_Management.pdf",
+        "path_type": "hardlink",
+        "sha256": "42f7aa0dc0e0fa98d0811a631d8e665ce68ce236cdb80b4fe558a2196ff786a1",
+        "size_in_bytes": 6648423,
+        "sha256_in_prefix": "42f7aa0dc0e0fa98d0811a631d8e665ce68ce236cdb80b4fe558a2196ff786a1"
+      },
+      {
+        "_path": "share/doc/ghostscript/10.08.0/Ghostscript.pdf",
+        "path_type": "hardlink",
+        "sha256": "d21153a0a044ed8c58ef61cbff49c50ada9bc86fc13fa465fafeabdc041c1743",
+        "size_in_bytes": 4717677,
+        "sha256_in_prefix": "d21153a0a044ed8c58ef61cbff49c50ada9bc86fc13fa465fafeabdc041c1743"
+      },
+      {
+        "_path": "share/doc/ghostscript/10.08.0/News.html",
+        "path_type": "hardlink",
+        "sha256": "5d9afbfd06ca983c2a74afbc510a1f15b8a1458c698d3a5283bb86a91bf68e75",
+        "size_in_bytes": 8692,
+        "sha256_in_prefix": "5d9afbfd06ca983c2a74afbc510a1f15b8a1458c698d3a5283bb86a91bf68e75"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PDFA_def.ps",
+        "path_type": "hardlink",
+        "sha256": "b38d571fbacc0eedf7d2b37d38fbdeec5056542c4acf23c5b54aead734d0ef6d",
+        "size_in_bytes": 3055,
+        "sha256_in_prefix": "b38d571fbacc0eedf7d2b37d38fbdeec5056542c4acf23c5b54aead734d0ef6d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PDFX_def.ps",
+        "path_type": "hardlink",
+        "sha256": "0c7173df43bcbdf27c0e9ac79f2c9a1835379be889f11b558c931eca19901e7d",
+        "size_in_bytes": 4728,
+        "sha256_in_prefix": "0c7173df43bcbdf27c0e9ac79f2c9a1835379be889f11b558c931eca19901e7d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PM760p.upp",
+        "path_type": "hardlink",
+        "sha256": "dc7e64eeae8c5d8cf73f84df5c2253c52763d27f1349ded5272079a9151d3e83",
+        "size_in_bytes": 1160,
+        "sha256_in_prefix": "dc7e64eeae8c5d8cf73f84df5c2253c52763d27f1349ded5272079a9151d3e83"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PM760pl.upp",
+        "path_type": "hardlink",
+        "sha256": "331839fe23ffc984cef1f4508dbaf86debb1e83bbd5a2e13c4d84f4048c1f81b",
+        "size_in_bytes": 1124,
+        "sha256_in_prefix": "331839fe23ffc984cef1f4508dbaf86debb1e83bbd5a2e13c4d84f4048c1f81b"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PM820p.upp",
+        "path_type": "hardlink",
+        "sha256": "5894bf8d3cff80ed2af9f4c07dad9d5b6b64240f84ce9395985f658c705223ae",
+        "size_in_bytes": 1142,
+        "sha256_in_prefix": "5894bf8d3cff80ed2af9f4c07dad9d5b6b64240f84ce9395985f658c705223ae"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/PM820pl.upp",
+        "path_type": "hardlink",
+        "sha256": "a298b48f4884d699b2b7870fa0480c7bf01b5e5366373586ae67a88abc98f5a2",
+        "size_in_bytes": 1117,
+        "sha256_in_prefix": "a298b48f4884d699b2b7870fa0480c7bf01b5e5366373586ae67a88abc98f5a2"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc670p.upp",
+        "path_type": "hardlink",
+        "sha256": "4392e35a366868b70288092705712a969b1232ae503781b9c549cb25bf538bf2",
+        "size_in_bytes": 1159,
+        "sha256_in_prefix": "4392e35a366868b70288092705712a969b1232ae503781b9c549cb25bf538bf2"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc670pl.upp",
+        "path_type": "hardlink",
+        "sha256": "f186e701f39b823a08eed3a3ecf470458c5a47a8424f52478cf3c825a3560192",
+        "size_in_bytes": 1124,
+        "sha256_in_prefix": "f186e701f39b823a08eed3a3ecf470458c5a47a8424f52478cf3c825a3560192"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc680p.upp",
+        "path_type": "hardlink",
+        "sha256": "99d93da14739bf2d348e1b0a1d154ad9f78775a5d0685a49205e258f54fe3027",
+        "size_in_bytes": 1140,
+        "sha256_in_prefix": "99d93da14739bf2d348e1b0a1d154ad9f78775a5d0685a49205e258f54fe3027"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc680pl.upp",
+        "path_type": "hardlink",
+        "sha256": "bb669c51242ab07868baefbc922ed23cdd904ed67bb91ad1803a0d14d86ba7e1",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "bb669c51242ab07868baefbc922ed23cdd904ed67bb91ad1803a0d14d86ba7e1"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc740p.upp",
+        "path_type": "hardlink",
+        "sha256": "e38b279d4e81e0306e3c558cfc2ce331dd35742cdac8da0ae5c3909b7aacfadd",
+        "size_in_bytes": 1039,
+        "sha256_in_prefix": "e38b279d4e81e0306e3c558cfc2ce331dd35742cdac8da0ae5c3909b7aacfadd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc740pl.upp",
+        "path_type": "hardlink",
+        "sha256": "86c6b33c60cfd85e398ac9945e2fba92c70883daf0fa2faded77d084f2cff64d",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "86c6b33c60cfd85e398ac9945e2fba92c70883daf0fa2faded77d084f2cff64d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc760p.upp",
+        "path_type": "hardlink",
+        "sha256": "e1b35dab50d0a45804dd2fe616f31a29bf06535f4d8405616436f617083c0549",
+        "size_in_bytes": 1141,
+        "sha256_in_prefix": "e1b35dab50d0a45804dd2fe616f31a29bf06535f4d8405616436f617083c0549"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc760pl.upp",
+        "path_type": "hardlink",
+        "sha256": "045fb1b17a9a02e3535e61e5a347df05318c4a7863321bbfb792e3b9a8bcfb31",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "045fb1b17a9a02e3535e61e5a347df05318c4a7863321bbfb792e3b9a8bcfb31"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc777p.upp",
+        "path_type": "hardlink",
+        "sha256": "0644a3ca98f5d7816f38c4ff8618ee0261227d4d06c3e74ea594be012fb5a39d",
+        "size_in_bytes": 1140,
+        "sha256_in_prefix": "0644a3ca98f5d7816f38c4ff8618ee0261227d4d06c3e74ea594be012fb5a39d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stc777pl.upp",
+        "path_type": "hardlink",
+        "sha256": "268f482c512d569304a271a7a69d84df375dc4fc7c37389c3e481b447c7ab399",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "268f482c512d569304a271a7a69d84df375dc4fc7c37389c3e481b447c7ab399"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stp720p.upp",
+        "path_type": "hardlink",
+        "sha256": "34044914ec00f76814495d6eb5d9a4e2d86217000d7d22348774c8dbfb0d141c",
+        "size_in_bytes": 1158,
+        "sha256_in_prefix": "34044914ec00f76814495d6eb5d9a4e2d86217000d7d22348774c8dbfb0d141c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stp720pl.upp",
+        "path_type": "hardlink",
+        "sha256": "78fb41be8fecdad119c600033d3e149cf48cd516797068333e8e7ba3b40f599e",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "78fb41be8fecdad119c600033d3e149cf48cd516797068333e8e7ba3b40f599e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stp870p.upp",
+        "path_type": "hardlink",
+        "sha256": "64675ddde6513f23b857cbd0c635d41598ba1aec61c7b30963c1e4e5514c56fc",
+        "size_in_bytes": 1140,
+        "sha256_in_prefix": "64675ddde6513f23b857cbd0c635d41598ba1aec61c7b30963c1e4e5514c56fc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/Stp870pl.upp",
+        "path_type": "hardlink",
+        "sha256": "de67687b49b74d5a97f453486eaffc3b2ae028fc0aad838f2a9757918a84978c",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "de67687b49b74d5a97f453486eaffc3b2ae028fc0aad838f2a9757918a84978c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/acctest.ps",
+        "path_type": "hardlink",
+        "sha256": "4f3aa79817806dc00b5ec34309cc7613e4440941b48a097b1ee24463fe5af207",
+        "size_in_bytes": 4269,
+        "sha256_in_prefix": "4f3aa79817806dc00b5ec34309cc7613e4440941b48a097b1ee24463fe5af207"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/align.ps",
+        "path_type": "hardlink",
+        "sha256": "eb943cd12e5c30d637afc011dfd89bd1571d1758b377166252e459d6435ad95d",
+        "size_in_bytes": 2140,
+        "sha256_in_prefix": "eb943cd12e5c30d637afc011dfd89bd1571d1758b377166252e459d6435ad95d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8.rpd",
+        "path_type": "hardlink",
+        "sha256": "1e6113001d6fc5dcfb94a2b06653dd69d6eda966159627b9b7aae659a260ed9e",
+        "size_in_bytes": 639,
+        "sha256_in_prefix": "1e6113001d6fc5dcfb94a2b06653dd69d6eda966159627b9b7aae659a260ed9e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8gc12f.upp",
+        "path_type": "hardlink",
+        "sha256": "0971d8c684eeef96006ddeaf4bf4a656e753cb5ea93522f8d36db963ebecef82",
+        "size_in_bytes": 1532,
+        "sha256_in_prefix": "0971d8c684eeef96006ddeaf4bf4a656e753cb5ea93522f8d36db963ebecef82"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8hg12f.upp",
+        "path_type": "hardlink",
+        "sha256": "8d18eb8f26dce23db0c870c33e8fb7dee880c46e6c224e1e8547d6aca9538e4c",
+        "size_in_bytes": 1531,
+        "sha256_in_prefix": "8d18eb8f26dce23db0c870c33e8fb7dee880c46e6c224e1e8547d6aca9538e4c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8oh06n.upp",
+        "path_type": "hardlink",
+        "sha256": "ea04a1bdc5506da3fe1a770796b4e5b717d75ca2ee3e6fa4f3196328188df79e",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "ea04a1bdc5506da3fe1a770796b4e5b717d75ca2ee3e6fa4f3196328188df79e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8pa06n.upp",
+        "path_type": "hardlink",
+        "sha256": "ed6ae6cde403a8e394c62e028f863879d2f4decf45965946b74d40b89d27e810",
+        "size_in_bytes": 1525,
+        "sha256_in_prefix": "ed6ae6cde403a8e394c62e028f863879d2f4decf45965946b74d40b89d27e810"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8pp12f.upp",
+        "path_type": "hardlink",
+        "sha256": "265390ef8a4b203e86c9d65c309177a4131210f54055c7f9aa8f804ca90da971",
+        "size_in_bytes": 1542,
+        "sha256_in_prefix": "265390ef8a4b203e86c9d65c309177a4131210f54055c7f9aa8f804ca90da971"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bj8ts06n.upp",
+        "path_type": "hardlink",
+        "sha256": "cdafd54e1f176564709d428d1f1adc519ff9d40d08eb69600d68c06111a4368e",
+        "size_in_bytes": 1530,
+        "sha256_in_prefix": "cdafd54e1f176564709d428d1f1adc519ff9d40d08eb69600d68c06111a4368e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc6000a1.upp",
+        "path_type": "hardlink",
+        "sha256": "00c972ad4d3636d9fd3db0f43f6343c38c6569dafbf48781d0634988cc9d96c0",
+        "size_in_bytes": 1660,
+        "sha256_in_prefix": "00c972ad4d3636d9fd3db0f43f6343c38c6569dafbf48781d0634988cc9d96c0"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc6000b1.upp",
+        "path_type": "hardlink",
+        "sha256": "190ac4eb1be70c2ef6e9058c8fe31cd55e497d423def8a4c300a9b89d6e1a3f0",
+        "size_in_bytes": 1660,
+        "sha256_in_prefix": "190ac4eb1be70c2ef6e9058c8fe31cd55e497d423def8a4c300a9b89d6e1a3f0"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a0.upp",
+        "path_type": "hardlink",
+        "sha256": "4cbfa40eae203fe068c1a154bc3bb1c39d659d8ed8dc840060630259faa1cd2f",
+        "size_in_bytes": 1527,
+        "sha256_in_prefix": "4cbfa40eae203fe068c1a154bc3bb1c39d659d8ed8dc840060630259faa1cd2f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a1.upp",
+        "path_type": "hardlink",
+        "sha256": "810220f0bd4309dece1587c98431ad744880292b09db3c78250710cf94616051",
+        "size_in_bytes": 1516,
+        "sha256_in_prefix": "810220f0bd4309dece1587c98431ad744880292b09db3c78250710cf94616051"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a2.upp",
+        "path_type": "hardlink",
+        "sha256": "57dbd7b910cf4097ec3781e43bb0b066f6356deba8086e6392e9fbdd0c036b2b",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "57dbd7b910cf4097ec3781e43bb0b066f6356deba8086e6392e9fbdd0c036b2b"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a3.upp",
+        "path_type": "hardlink",
+        "sha256": "ada21961a86254d4d8003e7f6399ec14bc211a84e152af23356ee0f6a06bd0e8",
+        "size_in_bytes": 1522,
+        "sha256_in_prefix": "ada21961a86254d4d8003e7f6399ec14bc211a84e152af23356ee0f6a06bd0e8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a4.upp",
+        "path_type": "hardlink",
+        "sha256": "8f39800fec647cd4e4c10dde12752b7443a06e7672080eb37f60416d9ff63b9c",
+        "size_in_bytes": 1530,
+        "sha256_in_prefix": "8f39800fec647cd4e4c10dde12752b7443a06e7672080eb37f60416d9ff63b9c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a5.upp",
+        "path_type": "hardlink",
+        "sha256": "fda6bc2931f878b6b40bdde6d1714de93a2400122ea105253d509492e6bcabe2",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "fda6bc2931f878b6b40bdde6d1714de93a2400122ea105253d509492e6bcabe2"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a6.upp",
+        "path_type": "hardlink",
+        "sha256": "79c1eba4460dcf6af066a922cdfd33da03c9964b8f942a6cff64c4db665eb781",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "79c1eba4460dcf6af066a922cdfd33da03c9964b8f942a6cff64c4db665eb781"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a7.upp",
+        "path_type": "hardlink",
+        "sha256": "f18a01fc50e55745c47ce03782fb3125eac8e39317b53ecd7c70cd9220abf728",
+        "size_in_bytes": 1520,
+        "sha256_in_prefix": "f18a01fc50e55745c47ce03782fb3125eac8e39317b53ecd7c70cd9220abf728"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610a8.upp",
+        "path_type": "hardlink",
+        "sha256": "a422df1e096044bd651b62c5991b55f05025466a5b068944eaf226ed4bd7311b",
+        "size_in_bytes": 1526,
+        "sha256_in_prefix": "a422df1e096044bd651b62c5991b55f05025466a5b068944eaf226ed4bd7311b"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b1.upp",
+        "path_type": "hardlink",
+        "sha256": "8b3d347099f5e58671b6e12a93485449ef429d7d8243dba941d9e7209f79c7bf",
+        "size_in_bytes": 1516,
+        "sha256_in_prefix": "8b3d347099f5e58671b6e12a93485449ef429d7d8243dba941d9e7209f79c7bf"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b2.upp",
+        "path_type": "hardlink",
+        "sha256": "0e90cfd91fd0bc9f44272912e1d950f6d3e7c291f8c83fa237bc70f05cc1dad8",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "0e90cfd91fd0bc9f44272912e1d950f6d3e7c291f8c83fa237bc70f05cc1dad8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b3.upp",
+        "path_type": "hardlink",
+        "sha256": "86c5d2c36d74de5ce9abbcbfe0564a1cecf14313c2a61a6ec357180c81b006a8",
+        "size_in_bytes": 1522,
+        "sha256_in_prefix": "86c5d2c36d74de5ce9abbcbfe0564a1cecf14313c2a61a6ec357180c81b006a8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b4.upp",
+        "path_type": "hardlink",
+        "sha256": "1ab92424301325d4b8c4feff1eb8bb0e667eac88369943cf70dfcb7d4be854b4",
+        "size_in_bytes": 1530,
+        "sha256_in_prefix": "1ab92424301325d4b8c4feff1eb8bb0e667eac88369943cf70dfcb7d4be854b4"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b6.upp",
+        "path_type": "hardlink",
+        "sha256": "6569f80d84d84749b17b4211a56c9f37246e02131df72bca13cd82820d8781b3",
+        "size_in_bytes": 1517,
+        "sha256_in_prefix": "6569f80d84d84749b17b4211a56c9f37246e02131df72bca13cd82820d8781b3"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b7.upp",
+        "path_type": "hardlink",
+        "sha256": "d387bda50edfaef50f9223021adfc2460caab9ec067992e88fb25d87ac86ccdc",
+        "size_in_bytes": 1521,
+        "sha256_in_prefix": "d387bda50edfaef50f9223021adfc2460caab9ec067992e88fb25d87ac86ccdc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/bjc610b8.upp",
+        "path_type": "hardlink",
+        "sha256": "62c3cd85acc7b33705ce3ad3662c8430644715ebd3096eeaf62bfe137d0e109e",
+        "size_in_bytes": 1526,
+        "sha256_in_prefix": "62c3cd85acc7b33705ce3ad3662c8430644715ebd3096eeaf62bfe137d0e109e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/caption.ps",
+        "path_type": "hardlink",
+        "sha256": "9072f1a5ab91120eb2317dc93690b6ec10f3a92a74f11b20cf1f002aeb99c616",
+        "size_in_bytes": 1743,
+        "sha256_in_prefix": "9072f1a5ab91120eb2317dc93690b6ec10f3a92a74f11b20cf1f002aeb99c616"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cbjc600.ppd",
+        "path_type": "hardlink",
+        "sha256": "64c31de3938fa8076d14985417dd50a001d74e62d3626d2f158d6031f9e00c82",
+        "size_in_bytes": 11148,
+        "sha256_in_prefix": "64c31de3938fa8076d14985417dd50a001d74e62d3626d2f158d6031f9e00c82"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cbjc800.ppd",
+        "path_type": "hardlink",
+        "sha256": "e7c73109d85db98ee0c508e34840e856018faf09fd3c7772172386db9d5866b1",
+        "size_in_bytes": 11491,
+        "sha256_in_prefix": "e7c73109d85db98ee0c508e34840e856018faf09fd3c7772172386db9d5866b1"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cdj550.upp",
+        "path_type": "hardlink",
+        "sha256": "9307cbd9932dfd799b833680ed51b44d620a75e9b2993a79b93c822aef9df926",
+        "size_in_bytes": 1690,
+        "sha256_in_prefix": "9307cbd9932dfd799b833680ed51b44d620a75e9b2993a79b93c822aef9df926"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cdj690.upp",
+        "path_type": "hardlink",
+        "sha256": "f11d410acdd0abac139c842c09d864e63366791edf0bc70ef9e009c9b396e531",
+        "size_in_bytes": 1999,
+        "sha256_in_prefix": "f11d410acdd0abac139c842c09d864e63366791edf0bc70ef9e009c9b396e531"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cdj690ec.upp",
+        "path_type": "hardlink",
+        "sha256": "ce93569357edfa20d04a3184e537287618529af45f2e5e2ffcc1bad05d941831",
+        "size_in_bytes": 2060,
+        "sha256_in_prefix": "ce93569357edfa20d04a3184e537287618529af45f2e5e2ffcc1bad05d941831"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/cid2code.ps",
+        "path_type": "hardlink",
+        "sha256": "7b8f15b7e702ba8c10765f1f7d859936cc27380b2faf81820ef3fbd0a5208623",
+        "size_in_bytes": 4475,
+        "sha256_in_prefix": "7b8f15b7e702ba8c10765f1f7d859936cc27380b2faf81820ef3fbd0a5208623"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/dnj750c.upp",
+        "path_type": "hardlink",
+        "sha256": "655fb643172514aee24fc5a0cf412e6404c733ba0ca9269b7b6562f1a1cd9bf4",
+        "size_in_bytes": 2808,
+        "sha256_in_prefix": "655fb643172514aee24fc5a0cf412e6404c733ba0ca9269b7b6562f1a1cd9bf4"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/dnj750m.upp",
+        "path_type": "hardlink",
+        "sha256": "82a578078abcfb4bcffd378b3ac0c5b4ae09bfa39be8a13cdca5fa61e182ac1e",
+        "size_in_bytes": 1975,
+        "sha256_in_prefix": "82a578078abcfb4bcffd378b3ac0c5b4ae09bfa39be8a13cdca5fa61e182ac1e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/docie.ps",
+        "path_type": "hardlink",
+        "sha256": "a0d75cf0156a16ac4ff197effb34ce9e617f052ff053a05afc949d03b775c2a7",
+        "size_in_bytes": 7482,
+        "sha256_in_prefix": "a0d75cf0156a16ac4ff197effb34ce9e617f052ff053a05afc949d03b775c2a7"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/font2pcl.ps",
+        "path_type": "hardlink",
+        "sha256": "1ca03bacba4928c7940a4f946319b0ea5f974ab04e2e91099aea14785b4bea65",
+        "size_in_bytes": 18539,
+        "sha256_in_prefix": "1ca03bacba4928c7940a4f946319b0ea5f974ab04e2e91099aea14785b4bea65"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ghostpdf.ppd",
+        "path_type": "hardlink",
+        "sha256": "d42329e17e5acb2c7144d5e2f623c288bffbad33e1273f4041e0ea7ca0958e2b",
+        "size_in_bytes": 25677,
+        "sha256_in_prefix": "d42329e17e5acb2c7144d5e2f623c288bffbad33e1273f4041e0ea7ca0958e2b"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_ce_e.ps",
+        "path_type": "hardlink",
+        "sha256": "6623512fa6214303819c7b843d8c02b5b1190ce802547be3a5f37e8dbf26f492",
+        "size_in_bytes": 2203,
+        "sha256_in_prefix": "6623512fa6214303819c7b843d8c02b5b1190ce802547be3a5f37e8dbf26f492"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_css_e.ps",
+        "path_type": "hardlink",
+        "sha256": "b7b4274c279f9f67e818dbca7b35494d9240083bd4952060ff4bbc20a8d627ea",
+        "size_in_bytes": 4922,
+        "sha256_in_prefix": "b7b4274c279f9f67e818dbca7b35494d9240083bd4952060ff4bbc20a8d627ea"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_il2_e.ps",
+        "path_type": "hardlink",
+        "sha256": "430b2377d1f15e29e953e879ec9ffb68ab930d34a4d9c549bc41d4f1be56ff99",
+        "size_in_bytes": 2615,
+        "sha256_in_prefix": "430b2377d1f15e29e953e879ec9ffb68ab930d34a4d9c549bc41d4f1be56ff99"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_kanji.ps",
+        "path_type": "hardlink",
+        "sha256": "07cb27fba8e5897c5a60da825cb9a368e22f8be5b7a756b578d52186ad3e109d",
+        "size_in_bytes": 3991,
+        "sha256_in_prefix": "07cb27fba8e5897c5a60da825cb9a368e22f8be5b7a756b578d52186ad3e109d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_ksb_e.ps",
+        "path_type": "hardlink",
+        "sha256": "d31f57e8da42f2c3c356e57429aadf298de47d89688869021f3e852c52d933b3",
+        "size_in_bytes": 3129,
+        "sha256_in_prefix": "d31f57e8da42f2c3c356e57429aadf298de47d89688869021f3e852c52d933b3"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_l.xbm",
+        "path_type": "hardlink",
+        "sha256": "fc59c26def746ed3ad28ad9ed70fc1b75055688b42f97aa3eaf9ef522eed0dd8",
+        "size_in_bytes": 1945,
+        "sha256_in_prefix": "fc59c26def746ed3ad28ad9ed70fc1b75055688b42f97aa3eaf9ef522eed0dd8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_l.xpm",
+        "path_type": "hardlink",
+        "sha256": "f6fd376366042384bc39677d306dc0371d439147f7a5a9c2adcc7d68193736ec",
+        "size_in_bytes": 2751,
+        "sha256_in_prefix": "f6fd376366042384bc39677d306dc0371d439147f7a5a9c2adcc7d68193736ec"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_l_m.xbm",
+        "path_type": "hardlink",
+        "sha256": "c2c75908097a02b1f9dccf8b732bc1003a9df20c0920bbf2c4056b23fefa6606",
+        "size_in_bytes": 1955,
+        "sha256_in_prefix": "c2c75908097a02b1f9dccf8b732bc1003a9df20c0920bbf2c4056b23fefa6606"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_lgo_e.ps",
+        "path_type": "hardlink",
+        "sha256": "e229a0c33ca9ed397de9a3366cb21637320370044b2442a8655af6250a9186b6",
+        "size_in_bytes": 2718,
+        "sha256_in_prefix": "e229a0c33ca9ed397de9a3366cb21637320370044b2442a8655af6250a9186b6"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_lgx_e.ps",
+        "path_type": "hardlink",
+        "sha256": "7b1b79434690fd04af06797881a7404990b7419edcc06c53558a9e318cc5e90e",
+        "size_in_bytes": 1750,
+        "sha256_in_prefix": "7b1b79434690fd04af06797881a7404990b7419edcc06c53558a9e318cc5e90e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_m.xbm",
+        "path_type": "hardlink",
+        "sha256": "e5f468d6370111399618b78bed865b7f5a913b922754aafe0e783c4475dbbf4c",
+        "size_in_bytes": 945,
+        "sha256_in_prefix": "e5f468d6370111399618b78bed865b7f5a913b922754aafe0e783c4475dbbf4c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_m.xpm",
+        "path_type": "hardlink",
+        "sha256": "7b255806a18b67ca77ae48958c53e672deaf1da5202588f76a92db43cd93e254",
+        "size_in_bytes": 1437,
+        "sha256_in_prefix": "7b255806a18b67ca77ae48958c53e672deaf1da5202588f76a92db43cd93e254"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_m_m.xbm",
+        "path_type": "hardlink",
+        "sha256": "83a2cc50c827166fdefcc8f5a3a1fb59d3e1eea5e5a7c31276ff165bd32fd94e",
+        "size_in_bytes": 955,
+        "sha256_in_prefix": "83a2cc50c827166fdefcc8f5a3a1fb59d3e1eea5e5a7c31276ff165bd32fd94e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_s.xbm",
+        "path_type": "hardlink",
+        "sha256": "b314eb8b372a6d4eccfc8e5c707a0c0ac5d3893b964f21758874a3e1f21fb948",
+        "size_in_bytes": 594,
+        "sha256_in_prefix": "b314eb8b372a6d4eccfc8e5c707a0c0ac5d3893b964f21758874a3e1f21fb948"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_s.xpm",
+        "path_type": "hardlink",
+        "sha256": "aae679c392cb58f89927007fd5f2d42e686c9aa45e3c8aabeb794c635c3e450f",
+        "size_in_bytes": 957,
+        "sha256_in_prefix": "aae679c392cb58f89927007fd5f2d42e686c9aa45e3c8aabeb794c635c3e450f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_s_m.xbm",
+        "path_type": "hardlink",
+        "sha256": "8dfd0b7cec0e1d5eb0b9605c3a5914b9c1cbf181c102140ea282650ce7d324dd",
+        "size_in_bytes": 604,
+        "sha256_in_prefix": "8dfd0b7cec0e1d5eb0b9605c3a5914b9c1cbf181c102140ea282650ce7d324dd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_t.xbm",
+        "path_type": "hardlink",
+        "sha256": "cf42461b5d011b0360142f17628ad17d9c066068e45e0399e1b88257c00bf8b7",
+        "size_in_bytes": 345,
+        "sha256_in_prefix": "cf42461b5d011b0360142f17628ad17d9c066068e45e0399e1b88257c00bf8b7"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_t.xpm",
+        "path_type": "hardlink",
+        "sha256": "cd6f58f5d43276a1b8788db6250d30f8fd971c35c7843ffe79de337ea400a727",
+        "size_in_bytes": 605,
+        "sha256_in_prefix": "cd6f58f5d43276a1b8788db6250d30f8fd971c35c7843ffe79de337ea400a727"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_t_m.xbm",
+        "path_type": "hardlink",
+        "sha256": "e0e68139137ec2fc8abc1b835a70be795cf575921bd13c607304535724cd3ab4",
+        "size_in_bytes": 355,
+        "sha256_in_prefix": "e0e68139137ec2fc8abc1b835a70be795cf575921bd13c607304535724cd3ab4"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_wl1_e.ps",
+        "path_type": "hardlink",
+        "sha256": "c26a5df21bb44fa05398dcb671e33d08b8f5f0914b26452e6aa0cb67e437a130",
+        "size_in_bytes": 2479,
+        "sha256_in_prefix": "c26a5df21bb44fa05398dcb671e33d08b8f5f0914b26452e6aa0cb67e437a130"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_wl2_e.ps",
+        "path_type": "hardlink",
+        "sha256": "db6c460b0b0b94428c52e8fe57d75ba7790ee519a799af4594c8eb23e8015278",
+        "size_in_bytes": 2478,
+        "sha256_in_prefix": "db6c460b0b0b94428c52e8fe57d75ba7790ee519a799af4594c8eb23e8015278"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gs_wl5_e.ps",
+        "path_type": "hardlink",
+        "sha256": "c4393cea940efc2e3adb7c84afa7b89893f5c0c9ccf45a81d8349c0aa2023326",
+        "size_in_bytes": 2496,
+        "sha256_in_prefix": "c4393cea940efc2e3adb7c84afa7b89893f5c0c9ccf45a81d8349c0aa2023326"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gslp.ps",
+        "path_type": "hardlink",
+        "sha256": "d843b9cc812178e99bdc2cb7947611c52b1b3b8c15d54ed68e5f3587b2f5e262",
+        "size_in_bytes": 22307,
+        "sha256_in_prefix": "d843b9cc812178e99bdc2cb7947611c52b1b3b8c15d54ed68e5f3587b2f5e262"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/gsnup.ps",
+        "path_type": "hardlink",
+        "sha256": "08b170188ad846363529a0599037ab31eea68d5b0cee7fba271d3989facb7f01",
+        "size_in_bytes": 2618,
+        "sha256_in_prefix": "08b170188ad846363529a0599037ab31eea68d5b0cee7fba271d3989facb7f01"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ht_ccsto.ps",
+        "path_type": "hardlink",
+        "sha256": "baf1f10ccc728f30d1ce5c1e79566b18e920e1f4112749109d058133975e9737",
+        "size_in_bytes": 228143,
+        "sha256_in_prefix": "baf1f10ccc728f30d1ce5c1e79566b18e920e1f4112749109d058133975e9737"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/image-qa.ps",
+        "path_type": "hardlink",
+        "sha256": "5797407ccc059163a0b89c0044473ad70ae88fa00ddc9cae02ddef35e9e4fb37",
+        "size_in_bytes": 73034,
+        "sha256_in_prefix": "5797407ccc059163a0b89c0044473ad70ae88fa00ddc9cae02ddef35e9e4fb37"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/jispaper.ps",
+        "path_type": "hardlink",
+        "sha256": "7c00c4748f5d0cc3ebc33724e876b683c1476e2669b2c71c72d86761e7db0f2f",
+        "size_in_bytes": 768,
+        "sha256_in_prefix": "7c00c4748f5d0cc3ebc33724e876b683c1476e2669b2c71c72d86761e7db0f2f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/landscap.ps",
+        "path_type": "hardlink",
+        "sha256": "95dd151aff119653e9fa61763293eac3ccd38ab257499c94733ef91299e5edb5",
+        "size_in_bytes": 1468,
+        "sha256_in_prefix": "95dd151aff119653e9fa61763293eac3ccd38ab257499c94733ef91299e5edb5"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/lines.ps",
+        "path_type": "hardlink",
+        "sha256": "9761c117f5d9ed3ae22e431118fec6a4718e327c4fdc6164447b08a3997c642e",
+        "size_in_bytes": 3720,
+        "sha256_in_prefix": "9761c117f5d9ed3ae22e431118fec6a4718e327c4fdc6164447b08a3997c642e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/mkcidfm.ps",
+        "path_type": "hardlink",
+        "sha256": "c14f4987a3ef74707893417f8b058b2402835eeb3c80fc06413c2ec9456abca8",
+        "size_in_bytes": 22305,
+        "sha256_in_prefix": "c14f4987a3ef74707893417f8b058b2402835eeb3c80fc06413c2ec9456abca8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/necp2x.upp",
+        "path_type": "hardlink",
+        "sha256": "18bb0b3fdfee77abdb3892154f5166dc3e9dc84176ad1d7d473887db1151ea97",
+        "size_in_bytes": 1045,
+        "sha256_in_prefix": "18bb0b3fdfee77abdb3892154f5166dc3e9dc84176ad1d7d473887db1151ea97"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/necp2x6.upp",
+        "path_type": "hardlink",
+        "sha256": "8f1d0fb2b8379867db1887b8776169aba6890c06fbe477b48deba4c3df2f3b6c",
+        "size_in_bytes": 1069,
+        "sha256_in_prefix": "8f1d0fb2b8379867db1887b8776169aba6890c06fbe477b48deba4c3df2f3b6c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/pdf2dsc.ps",
+        "path_type": "hardlink",
+        "sha256": "9bcb4a670c4af272d9c49a618203e33bbf97705cd6adcc09cea58ed655839e16",
+        "size_in_bytes": 8813,
+        "sha256_in_prefix": "9bcb4a670c4af272d9c49a618203e33bbf97705cd6adcc09cea58ed655839e16"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/pdf_info.ps",
+        "path_type": "hardlink",
+        "sha256": "d20b8988855aa81933d860aa0c7b77757ebcbf6664abb805e51689ba616bdfd1",
+        "size_in_bytes": 10245,
+        "sha256_in_prefix": "d20b8988855aa81933d860aa0c7b77757ebcbf6664abb805e51689ba616bdfd1"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/pf2afm.ps",
+        "path_type": "hardlink",
+        "sha256": "eb6e1a625db95f69c22c2e0063a2a1f25f57a2708347ac9b275c65bdc8c7bb97",
+        "size_in_bytes": 15295,
+        "sha256_in_prefix": "eb6e1a625db95f69c22c2e0063a2a1f25f57a2708347ac9b275c65bdc8c7bb97"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/pfbtopfa.ps",
+        "path_type": "hardlink",
+        "sha256": "73adde7b40f5f577de9680a2494e437d7de6848d562c9206d0300350267e1822",
+        "size_in_bytes": 980,
+        "sha256_in_prefix": "73adde7b40f5f577de9680a2494e437d7de6848d562c9206d0300350267e1822"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ppath.ps",
+        "path_type": "hardlink",
+        "sha256": "864ad3ba210b0f12de7c8d408e7965a28776a24be724b9057c694c11c5eef156",
+        "size_in_bytes": 1803,
+        "sha256_in_prefix": "864ad3ba210b0f12de7c8d408e7965a28776a24be724b9057c694c11c5eef156"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/pphs.ps",
+        "path_type": "hardlink",
+        "sha256": "3ae1a373fa58ed79eb90d4a29a639e0347cf98676c120d1e12f9bd24ae4b2e7f",
+        "size_in_bytes": 6828,
+        "sha256_in_prefix": "3ae1a373fa58ed79eb90d4a29a639e0347cf98676c120d1e12f9bd24ae4b2e7f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/prfont.ps",
+        "path_type": "hardlink",
+        "sha256": "9c21604584d4049247579c5e959c61181103ff794867d8e28e504c38ef1a2e27",
+        "size_in_bytes": 7197,
+        "sha256_in_prefix": "9c21604584d4049247579c5e959c61181103ff794867d8e28e504c38ef1a2e27"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/printafm.ps",
+        "path_type": "hardlink",
+        "sha256": "e35862c73d283222ff32dbc031b1b7f9f520345bea1f6bca65db881d0f85c992",
+        "size_in_bytes": 4898,
+        "sha256_in_prefix": "e35862c73d283222ff32dbc031b1b7f9f520345bea1f6bca65db881d0f85c992"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ps2ai.ps",
+        "path_type": "hardlink",
+        "sha256": "7fbc5df9e92401d63ab74f84bafa7c0cd41e6a9965f62783a9c895394fa75d53",
+        "size_in_bytes": 22290,
+        "sha256_in_prefix": "7fbc5df9e92401d63ab74f84bafa7c0cd41e6a9965f62783a9c895394fa75d53"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ps2epsi.ps",
+        "path_type": "hardlink",
+        "sha256": "a80f9e2ba0d5a1cae09c8bc9e00382d5730886aeebb3392e552ac690f21dbaa9",
+        "size_in_bytes": 6074,
+        "sha256_in_prefix": "a80f9e2ba0d5a1cae09c8bc9e00382d5730886aeebb3392e552ac690f21dbaa9"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras1.upp",
+        "path_type": "hardlink",
+        "sha256": "e79d4747c5392532c902bff45cefb7f3f645c765b1e828d1f3b1601840ba63b6",
+        "size_in_bytes": 215,
+        "sha256_in_prefix": "e79d4747c5392532c902bff45cefb7f3f645c765b1e828d1f3b1601840ba63b6"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras24.upp",
+        "path_type": "hardlink",
+        "sha256": "f437eabb758facae9c10d064e081c944ee207f2c2d26167cd84c1b848b6f90cd",
+        "size_in_bytes": 219,
+        "sha256_in_prefix": "f437eabb758facae9c10d064e081c944ee207f2c2d26167cd84c1b848b6f90cd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras3.upp",
+        "path_type": "hardlink",
+        "sha256": "a28915c7682f6350f7c5decf1b6eaa34bdadb59815e08755c10a2ad178d5f50c",
+        "size_in_bytes": 214,
+        "sha256_in_prefix": "a28915c7682f6350f7c5decf1b6eaa34bdadb59815e08755c10a2ad178d5f50c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras32.upp",
+        "path_type": "hardlink",
+        "sha256": "97b20b1a1012d2488b0deb2c4b94784ca1cb898bd09e77e0197cf8ebde0471a9",
+        "size_in_bytes": 196,
+        "sha256_in_prefix": "97b20b1a1012d2488b0deb2c4b94784ca1cb898bd09e77e0197cf8ebde0471a9"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras4.upp",
+        "path_type": "hardlink",
+        "sha256": "eed86dc1b4af515566ebab5f3b8fdf76154350d274eb2e29812c677af6b43d5f",
+        "size_in_bytes": 220,
+        "sha256_in_prefix": "eed86dc1b4af515566ebab5f3b8fdf76154350d274eb2e29812c677af6b43d5f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/ras8m.upp",
+        "path_type": "hardlink",
+        "sha256": "6c7031170881dca72e5fd8b7163074804e8fe7322d9b82c6bad93b9ee3557148",
+        "size_in_bytes": 209,
+        "sha256_in_prefix": "6c7031170881dca72e5fd8b7163074804e8fe7322d9b82c6bad93b9ee3557148"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/rollconv.ps",
+        "path_type": "hardlink",
+        "sha256": "e84bc297b7e4bcd62153f2e88a46587e6901f32e8be85735a7918221d8a2ff0e",
+        "size_in_bytes": 12510,
+        "sha256_in_prefix": "e84bc297b7e4bcd62153f2e88a46587e6901f32e8be85735a7918221d8a2ff0e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/s400a1.upp",
+        "path_type": "hardlink",
+        "sha256": "7e1446624ded72531065f748b84805ca6424b6dc0d6b05b33bb9869c4af722fd",
+        "size_in_bytes": 1454,
+        "sha256_in_prefix": "7e1446624ded72531065f748b84805ca6424b6dc0d6b05b33bb9869c4af722fd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/s400b1.upp",
+        "path_type": "hardlink",
+        "sha256": "d081922618dd159b54bc21778ce326f6cd6933eb9a12574bccce2cf21c04e6af",
+        "size_in_bytes": 1603,
+        "sha256_in_prefix": "d081922618dd159b54bc21778ce326f6cd6933eb9a12574bccce2cf21c04e6af"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/sharp.upp",
+        "path_type": "hardlink",
+        "sha256": "d935cd5ae2565c1107601ec2501703aa27b161b37fb8aa9efbaadb931188e685",
+        "size_in_bytes": 1936,
+        "sha256_in_prefix": "d935cd5ae2565c1107601ec2501703aa27b161b37fb8aa9efbaadb931188e685"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/sipixa6.upp",
+        "path_type": "hardlink",
+        "sha256": "7576a1c03e420d85d3fd3916e44a95e5c6539165e36aa1cb55e45446bf1fd626",
+        "size_in_bytes": 529,
+        "sha256_in_prefix": "7576a1c03e420d85d3fd3916e44a95e5c6539165e36aa1cb55e45446bf1fd626"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640ih.upp",
+        "path_type": "hardlink",
+        "sha256": "ab17a5a51e7348ea73884703544c0841690cc3388f4665745f59fcbe29df2112",
+        "size_in_bytes": 2281,
+        "sha256_in_prefix": "ab17a5a51e7348ea73884703544c0841690cc3388f4665745f59fcbe29df2112"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640ihg.upp",
+        "path_type": "hardlink",
+        "sha256": "7090e923a47e1c0910ae4167c56ab5283fcfbc88595199b8fd1df9cd1a6b1432",
+        "size_in_bytes": 1508,
+        "sha256_in_prefix": "7090e923a47e1c0910ae4167c56ab5283fcfbc88595199b8fd1df9cd1a6b1432"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640p.upp",
+        "path_type": "hardlink",
+        "sha256": "2155e58ac44cbc41e9d9e94d838da4058db39eed036f5591bc355b5dbe814cd6",
+        "size_in_bytes": 1914,
+        "sha256_in_prefix": "2155e58ac44cbc41e9d9e94d838da4058db39eed036f5591bc355b5dbe814cd6"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640pg.upp",
+        "path_type": "hardlink",
+        "sha256": "01b3a4fd615aa11247917ea6c8002eae723007ae664d59c21534fee197b8fc64",
+        "size_in_bytes": 1141,
+        "sha256_in_prefix": "01b3a4fd615aa11247917ea6c8002eae723007ae664d59c21534fee197b8fc64"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640pl.upp",
+        "path_type": "hardlink",
+        "sha256": "46b3bf1c57f92c2235cc2342e449affe1664988ac609f566133913ce963dbee1",
+        "size_in_bytes": 1878,
+        "sha256_in_prefix": "46b3bf1c57f92c2235cc2342e449affe1664988ac609f566133913ce963dbee1"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/st640plg.upp",
+        "path_type": "hardlink",
+        "sha256": "64de0f0e8baf1c730f723a39bc18dbb9a294c6eede14af728ac2c6fe4d8e27b9",
+        "size_in_bytes": 1105,
+        "sha256_in_prefix": "64de0f0e8baf1c730f723a39bc18dbb9a294c6eede14af728ac2c6fe4d8e27b9"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc.upp",
+        "path_type": "hardlink",
+        "sha256": "247d754856b9615613aab92aa89a84de5e42ac4740f9756d001b22d4488512fb",
+        "size_in_bytes": 1923,
+        "sha256_in_prefix": "247d754856b9615613aab92aa89a84de5e42ac4740f9756d001b22d4488512fb"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc1520h.upp",
+        "path_type": "hardlink",
+        "sha256": "fc8a80c1936ce51a2bad1a5e85a4be12c502c3529fb75642c815d6d5ed266910",
+        "size_in_bytes": 2154,
+        "sha256_in_prefix": "fc8a80c1936ce51a2bad1a5e85a4be12c502c3529fb75642c815d6d5ed266910"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc2.upp",
+        "path_type": "hardlink",
+        "sha256": "21e117ce4eadf813c3ee269d165c994785fb7b5926dbf997e4851000603965bc",
+        "size_in_bytes": 1904,
+        "sha256_in_prefix": "21e117ce4eadf813c3ee269d165c994785fb7b5926dbf997e4851000603965bc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc200_h.upp",
+        "path_type": "hardlink",
+        "sha256": "6fdc33e38660e3dda0a404c0052490f96ea6da22318a84441e56d53ddecad9ab",
+        "size_in_bytes": 1848,
+        "sha256_in_prefix": "6fdc33e38660e3dda0a404c0052490f96ea6da22318a84441e56d53ddecad9ab"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc2_h.upp",
+        "path_type": "hardlink",
+        "sha256": "41a85f3a0bf7885c87accf148c8474a4ef444c2f49a915e6c2e7d564a94f0edd",
+        "size_in_bytes": 1879,
+        "sha256_in_prefix": "41a85f3a0bf7885c87accf148c8474a4ef444c2f49a915e6c2e7d564a94f0edd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc2s_h.upp",
+        "path_type": "hardlink",
+        "sha256": "af6f2d136e880ce0e2ce911c33dd6bd41adbb5bffb976d90a04587c625277997",
+        "size_in_bytes": 2272,
+        "sha256_in_prefix": "af6f2d136e880ce0e2ce911c33dd6bd41adbb5bffb976d90a04587c625277997"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc300.upp",
+        "path_type": "hardlink",
+        "sha256": "eb5289c412586d316a9458a852672d8d6b3f3afa79d3a6a80cc1168642f62b94",
+        "size_in_bytes": 2136,
+        "sha256_in_prefix": "eb5289c412586d316a9458a852672d8d6b3f3afa79d3a6a80cc1168642f62b94"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc300bl.upp",
+        "path_type": "hardlink",
+        "sha256": "29dd2819ecede70eb20fab8ac1e18981f2dc602a57f2fa99431f57a9d60befda",
+        "size_in_bytes": 1341,
+        "sha256_in_prefix": "29dd2819ecede70eb20fab8ac1e18981f2dc602a57f2fa99431f57a9d60befda"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc300bm.upp",
+        "path_type": "hardlink",
+        "sha256": "6564a9e4e1f7e1ada4f33ba25323f47b5683d3fc3601bb193ebf47785fb1b2dd",
+        "size_in_bytes": 1430,
+        "sha256_in_prefix": "6564a9e4e1f7e1ada4f33ba25323f47b5683d3fc3601bb193ebf47785fb1b2dd"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc500p.upp",
+        "path_type": "hardlink",
+        "sha256": "a551d8d5fab7e6a1eeec78ba74c0311e2ce192109af1398346986d3bc8d87ca9",
+        "size_in_bytes": 1903,
+        "sha256_in_prefix": "a551d8d5fab7e6a1eeec78ba74c0311e2ce192109af1398346986d3bc8d87ca9"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc500ph.upp",
+        "path_type": "hardlink",
+        "sha256": "4d7b8032c41ca4a06f93fa233fd2fdf3246dd97501ad49b729246babf8a55032",
+        "size_in_bytes": 1903,
+        "sha256_in_prefix": "4d7b8032c41ca4a06f93fa233fd2fdf3246dd97501ad49b729246babf8a55032"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc600ih.upp",
+        "path_type": "hardlink",
+        "sha256": "6b91ef9e999c01a0e2448a7ffa9d878f281f23c7681062c71e7435adc4f977bc",
+        "size_in_bytes": 2281,
+        "sha256_in_prefix": "6b91ef9e999c01a0e2448a7ffa9d878f281f23c7681062c71e7435adc4f977bc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc600p.upp",
+        "path_type": "hardlink",
+        "sha256": "3169f3ee3785e2300b3c68eae6e4a95e48c686d5b3d098a019a13b1ac039fa1d",
+        "size_in_bytes": 1151,
+        "sha256_in_prefix": "3169f3ee3785e2300b3c68eae6e4a95e48c686d5b3d098a019a13b1ac039fa1d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc600pl.upp",
+        "path_type": "hardlink",
+        "sha256": "6148b5fa462c886f82c4c520c95c9f4b68802d5660e49c4806450027be62a20c",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "6148b5fa462c886f82c4c520c95c9f4b68802d5660e49c4806450027be62a20c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc640p.upp",
+        "path_type": "hardlink",
+        "sha256": "8ba67e9f7be498834512bc64c04469492973fd3272914d01262a8abb0ce9d47c",
+        "size_in_bytes": 1095,
+        "sha256_in_prefix": "8ba67e9f7be498834512bc64c04469492973fd3272914d01262a8abb0ce9d47c"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc740ih.upp",
+        "path_type": "hardlink",
+        "sha256": "7cce3acf50695b8153c3102fe275f56a013f62951502a0794496ee5a593748b5",
+        "size_in_bytes": 2123,
+        "sha256_in_prefix": "7cce3acf50695b8153c3102fe275f56a013f62951502a0794496ee5a593748b5"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc800ih.upp",
+        "path_type": "hardlink",
+        "sha256": "cc472d6bfeb66b0f6cde0a423e7e8ae0de0f61105c348b813769ef98ef58426d",
+        "size_in_bytes": 2158,
+        "sha256_in_prefix": "cc472d6bfeb66b0f6cde0a423e7e8ae0de0f61105c348b813769ef98ef58426d"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc800p.upp",
+        "path_type": "hardlink",
+        "sha256": "dd8f952868db0697cd010ce75e83d4b32aff69733c896a7f71b0234974a4109a",
+        "size_in_bytes": 1115,
+        "sha256_in_prefix": "dd8f952868db0697cd010ce75e83d4b32aff69733c896a7f71b0234974a4109a"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc800pl.upp",
+        "path_type": "hardlink",
+        "sha256": "c1940cd5c900f597842a1118dc9643865fcd06caa63f7ed87cca9b2794f4381f",
+        "size_in_bytes": 1097,
+        "sha256_in_prefix": "c1940cd5c900f597842a1118dc9643865fcd06caa63f7ed87cca9b2794f4381f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc_h.upp",
+        "path_type": "hardlink",
+        "sha256": "4e4f78576d00346a5cb6961daa5e99570cc91c06975dc9414d41144e2cfa3e32",
+        "size_in_bytes": 1913,
+        "sha256_in_prefix": "4e4f78576d00346a5cb6961daa5e99570cc91c06975dc9414d41144e2cfa3e32"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stc_l.upp",
+        "path_type": "hardlink",
+        "sha256": "e91b3d96cfe1a1da5021e0564e761575aea4963b087a240d158a6e1c78423eb8",
+        "size_in_bytes": 734,
+        "sha256_in_prefix": "e91b3d96cfe1a1da5021e0564e761575aea4963b087a240d158a6e1c78423eb8"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stcany.upp",
+        "path_type": "hardlink",
+        "sha256": "dee624e837ad678deceefa2820dc5358a6725ce9b40d549da599529d184a809e",
+        "size_in_bytes": 673,
+        "sha256_in_prefix": "dee624e837ad678deceefa2820dc5358a6725ce9b40d549da599529d184a809e"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stcany_h.upp",
+        "path_type": "hardlink",
+        "sha256": "27f353a5bd71c3d1fa7c983782a13c47462b7837efde44b83e02a93df3210ece",
+        "size_in_bytes": 681,
+        "sha256_in_prefix": "27f353a5bd71c3d1fa7c983782a13c47462b7837efde44b83e02a93df3210ece"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stcinfo.ps",
+        "path_type": "hardlink",
+        "sha256": "42eaa7419e301272fd67b71227a44d3077eb164c953b43d1bd872dfb2592b126",
+        "size_in_bytes": 25464,
+        "sha256_in_prefix": "42eaa7419e301272fd67b71227a44d3077eb164c953b43d1bd872dfb2592b126"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stcolor.ps",
+        "path_type": "hardlink",
+        "sha256": "a4c64f1707d04c5aef0e2f8711d6862452e161c454b3f3a9e7e420d37514ea5b",
+        "size_in_bytes": 5018,
+        "sha256_in_prefix": "a4c64f1707d04c5aef0e2f8711d6862452e161c454b3f3a9e7e420d37514ea5b"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/stocht.ps",
+        "path_type": "hardlink",
+        "sha256": "ab70b3d75ee99332628125d8b382a295f013790436e6711e8a7d3d72e92139df",
+        "size_in_bytes": 2478,
+        "sha256_in_prefix": "ab70b3d75ee99332628125d8b382a295f013790436e6711e8a7d3d72e92139df"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/traceimg.ps",
+        "path_type": "hardlink",
+        "sha256": "0edb16423f2871617f42651a3c0b447b28c22fc6172b72b8d88f85a9e59188b4",
+        "size_in_bytes": 1366,
+        "sha256_in_prefix": "0edb16423f2871617f42651a3c0b447b28c22fc6172b72b8d88f85a9e59188b4"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/traceop.ps",
+        "path_type": "hardlink",
+        "sha256": "45de2855f2f43afedd61907222934ca3fc97d74d1712e4468daf30ff48b2fd37",
+        "size_in_bytes": 2556,
+        "sha256_in_prefix": "45de2855f2f43afedd61907222934ca3fc97d74d1712e4468daf30ff48b2fd37"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/uninfo.ps",
+        "path_type": "hardlink",
+        "sha256": "f8701e982372959b70698b28e22f3a8965a5f96252677538f5270c31c6d0e758",
+        "size_in_bytes": 5970,
+        "sha256_in_prefix": "f8701e982372959b70698b28e22f3a8965a5f96252677538f5270c31c6d0e758"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewcmyk.ps",
+        "path_type": "hardlink",
+        "sha256": "1777fc9d531703d8ae8537b17f00a956767f3751a161209b06dd00e4cb849a6f",
+        "size_in_bytes": 2165,
+        "sha256_in_prefix": "1777fc9d531703d8ae8537b17f00a956767f3751a161209b06dd00e4cb849a6f"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewgif.ps",
+        "path_type": "hardlink",
+        "sha256": "afa6e49c99f44ab96d0ae8ae8e031657a91f75e99f0efc112a1346d7ca1101c0",
+        "size_in_bytes": 5424,
+        "sha256_in_prefix": "afa6e49c99f44ab96d0ae8ae8e031657a91f75e99f0efc112a1346d7ca1101c0"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewjpeg.ps",
+        "path_type": "hardlink",
+        "sha256": "5e44d8bde7db63eb4322ee14cd8e23aad9a4214347d88a4d44d3fdbdfe11d463",
+        "size_in_bytes": 5866,
+        "sha256_in_prefix": "5e44d8bde7db63eb4322ee14cd8e23aad9a4214347d88a4d44d3fdbdfe11d463"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewmiff.ps",
+        "path_type": "hardlink",
+        "sha256": "8537d7cc84c7af154a523dc34e1968edd48236ee7fddf7d7b95e98180c4f9785",
+        "size_in_bytes": 4237,
+        "sha256_in_prefix": "8537d7cc84c7af154a523dc34e1968edd48236ee7fddf7d7b95e98180c4f9785"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewpbm.ps",
+        "path_type": "hardlink",
+        "sha256": "ed521c7ad072ffddacfb97c5ff37dd9d4133a857f66ca6e02b53199683ad1787",
+        "size_in_bytes": 10463,
+        "sha256_in_prefix": "ed521c7ad072ffddacfb97c5ff37dd9d4133a857f66ca6e02b53199683ad1787"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewpcx.ps",
+        "path_type": "hardlink",
+        "sha256": "a48ad70fb47d23858b0efbf08ececc05a687d78d22371e498d991a670f1851f6",
+        "size_in_bytes": 5413,
+        "sha256_in_prefix": "a48ad70fb47d23858b0efbf08ececc05a687d78d22371e498d991a670f1851f6"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/viewps2a.ps",
+        "path_type": "hardlink",
+        "sha256": "179b8ea0a6bf00413cc95c2f3850f0659e490c87918cf6fa0436d65d8524d381",
+        "size_in_bytes": 1120,
+        "sha256_in_prefix": "179b8ea0a6bf00413cc95c2f3850f0659e490c87918cf6fa0436d65d8524d381"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/winmaps.ps",
+        "path_type": "hardlink",
+        "sha256": "c835be902ad12fde39cea867c98c596e7b5a5cc22a4f1ca97ea7e5b5280bdfdc",
+        "size_in_bytes": 3589,
+        "sha256_in_prefix": "c835be902ad12fde39cea867c98c596e7b5a5cc22a4f1ca97ea7e5b5280bdfdc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/zeroline.ps",
+        "path_type": "hardlink",
+        "sha256": "bb6c308efc145272038840d677cf4a88fb2f7f211fb062145b5b6102960c2edc",
+        "size_in_bytes": 2301,
+        "sha256_in_prefix": "bb6c308efc145272038840d677cf4a88fb2f7f211fb062145b5b6102960c2edc"
+      },
+      {
+        "_path": "share/ghostscript/10.08.0/lib/zugferd.ps",
+        "path_type": "hardlink",
+        "sha256": "9bdcb12d7fdc3c360cb02028c68c3f54c31539be4f236466728885143bd9ecee",
+        "size_in_bytes": 18556,
+        "sha256_in_prefix": "9bdcb12d7fdc3c360cb02028c68c3f54c31539be4f236466728885143bd9ecee"
+      },
+      {
+        "_path": "share/man/man1/dvipdf.1",
+        "path_type": "hardlink",
+        "sha256": "79b19d0fc859dbb604c5b22a3b5e50b76c561483a87d975983ae3cf8e5f64001",
+        "size_in_bytes": 713,
+        "sha256_in_prefix": "79b19d0fc859dbb604c5b22a3b5e50b76c561483a87d975983ae3cf8e5f64001"
+      },
+      {
+        "_path": "share/man/man1/eps2eps.1",
+        "path_type": "softlink",
+        "sha256": "c5f9d2b261cfc38e5b629d08f0b72dddd2b34c3ed2d048ba9da4210e4e8d01e1",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "share/man/man1/gs.1",
+        "path_type": "hardlink",
+        "sha256": "899b74957877c543eaa1df131be9a59fc194768e78235fd7739e3532b6d1b0e9",
+        "size_in_bytes": 14093,
+        "sha256_in_prefix": "899b74957877c543eaa1df131be9a59fc194768e78235fd7739e3532b6d1b0e9"
+      },
+      {
+        "_path": "share/man/man1/gsbj.1",
+        "path_type": "softlink",
+        "sha256": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "share/man/man1/gsdj.1",
+        "path_type": "softlink",
+        "sha256": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "share/man/man1/gsdj500.1",
+        "path_type": "softlink",
+        "sha256": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "share/man/man1/gslj.1",
+        "path_type": "softlink",
+        "sha256": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "share/man/man1/gslp.1",
+        "path_type": "hardlink",
+        "sha256": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a",
+        "size_in_bytes": 2974,
+        "sha256_in_prefix": "50e7b3108af16e65af864997b1160a7acfa4fa06313c21e25a62078e9bf55e7a"
+      },
+      {
+        "_path": "share/man/man1/gsnd.1",
+        "path_type": "hardlink",
+        "sha256": "e13b945f1fa24c7f0d3cc0affce4688a1bf2fc0c6fde72ae7278b632cc4d19ab",
+        "size_in_bytes": 552,
+        "sha256_in_prefix": "e13b945f1fa24c7f0d3cc0affce4688a1bf2fc0c6fde72ae7278b632cc4d19ab"
+      },
+      {
+        "_path": "share/man/man1/pdf2ps.1",
+        "path_type": "hardlink",
+        "sha256": "c2dc737b9404cca0765a0b31c6780f8855bdcac14ea24a24f76bb8aba0bc488f",
+        "size_in_bytes": 899,
+        "sha256_in_prefix": "c2dc737b9404cca0765a0b31c6780f8855bdcac14ea24a24f76bb8aba0bc488f"
+      },
+      {
+        "_path": "share/man/man1/pf2afm.1",
+        "path_type": "hardlink",
+        "sha256": "df5bd5da17571157fe359001ecd406e0c6c1630410dc77d83773631ac353b86b",
+        "size_in_bytes": 644,
+        "sha256_in_prefix": "df5bd5da17571157fe359001ecd406e0c6c1630410dc77d83773631ac353b86b"
+      },
+      {
+        "_path": "share/man/man1/pfbtopfa.1",
+        "path_type": "hardlink",
+        "sha256": "20099d0f38ee9d7cde7eaabecf2659dc2c31041aefaea0a83fcd2df4f2136cc2",
+        "size_in_bytes": 514,
+        "sha256_in_prefix": "20099d0f38ee9d7cde7eaabecf2659dc2c31041aefaea0a83fcd2df4f2136cc2"
+      },
+      {
+        "_path": "share/man/man1/printafm.1",
+        "path_type": "hardlink",
+        "sha256": "711e5d96b6a480d8124d6613eb56757b2ccfb59b45f474438b94f134e977cca7",
+        "size_in_bytes": 534,
+        "sha256_in_prefix": "711e5d96b6a480d8124d6613eb56757b2ccfb59b45f474438b94f134e977cca7"
+      },
+      {
+        "_path": "share/man/man1/ps2ascii.1",
+        "path_type": "hardlink",
+        "sha256": "5473d634732def805272506569ce2135ef44c3889bed97ad97e28de02eb25117",
+        "size_in_bytes": 1293,
+        "sha256_in_prefix": "5473d634732def805272506569ce2135ef44c3889bed97ad97e28de02eb25117"
+      },
+      {
+        "_path": "share/man/man1/ps2epsi.1",
+        "path_type": "hardlink",
+        "sha256": "34b102b3d9a6fe8e839d3120acebb95594a55315342a2506d62d445c250a47f2",
+        "size_in_bytes": 2808,
+        "sha256_in_prefix": "34b102b3d9a6fe8e839d3120acebb95594a55315342a2506d62d445c250a47f2"
+      },
+      {
+        "_path": "share/man/man1/ps2pdf.1",
+        "path_type": "hardlink",
+        "sha256": "5193b00afd63763230d2a268541d9c2bdb3f6ff27bfeea91a4d109dd8439603b",
+        "size_in_bytes": 2854,
+        "sha256_in_prefix": "5193b00afd63763230d2a268541d9c2bdb3f6ff27bfeea91a4d109dd8439603b"
+      },
+      {
+        "_path": "share/man/man1/ps2pdf12.1",
+        "path_type": "softlink",
+        "sha256": "5193b00afd63763230d2a268541d9c2bdb3f6ff27bfeea91a4d109dd8439603b",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "share/man/man1/ps2pdf13.1",
+        "path_type": "softlink",
+        "sha256": "5193b00afd63763230d2a268541d9c2bdb3f6ff27bfeea91a4d109dd8439603b",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "share/man/man1/ps2pdf14.1",
+        "path_type": "softlink",
+        "sha256": "5193b00afd63763230d2a268541d9c2bdb3f6ff27bfeea91a4d109dd8439603b",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "share/man/man1/ps2pdfwr.1",
+        "path_type": "hardlink",
+        "sha256": "e4f2215f16db8d741dcf896e8235115a196409b9727dc6dba52c97197555d1bc",
+        "size_in_bytes": 1001,
+        "sha256_in_prefix": "e4f2215f16db8d741dcf896e8235115a196409b9727dc6dba52c97197555d1bc"
+      },
+      {
+        "_path": "share/man/man1/ps2ps.1",
+        "path_type": "hardlink",
+        "sha256": "c5f9d2b261cfc38e5b629d08f0b72dddd2b34c3ed2d048ba9da4210e4e8d01e1",
+        "size_in_bytes": 1176,
+        "sha256_in_prefix": "c5f9d2b261cfc38e5b629d08f0b72dddd2b34c3ed2d048ba9da4210e4e8d01e1"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/ghostscript-10.08.0-h61c1aad_0",
+    "type": 1
+  }
+}
