@@ -39,12 +39,6 @@ CE746_Workshops/
 The workshops in this repository rely on **Python** and **Conda** environments. Follow these steps to set up your local machine before class:
 
 ### 1. Clone the Repository
-Open your terminal (or Git Bash) and run:
-
-```bash
-git clone https://github.com.git
-cd CE746_Workshops
-```
 
 ### 2. Install Workshop Software
 Each workshop has its own dependencies. We recommend isolating your packages using `conda` or `mamba` (via `conda-forge`). Before each session, please follow the specific installation instructions inside the corresponding module folder:
@@ -58,15 +52,9 @@ Each workshop has its own dependencies. We recommend isolating your packages usi
 
 ## How to Use These Workshops
 
-1. **Pull the latest changes** before each session:
-   ```bash
-   git pull origin main
-   ```
+1. **Pull the latest changes** before each session.
 2. Navigate to the corresponding module folder (`1_GMT`, `2_Obspy`, `3_OpenQuake`, or `4_pystrata`).
-3. Launch Jupyter Lab or your preferred IDE:
-   ```bash
-   jupyter lab
-   ```
+3. Launch Jupyter Lab or your preferred IDE.
 4. Work through the example notebooks and complete any assigned exercises at the bottom of each module.
 
 ---
