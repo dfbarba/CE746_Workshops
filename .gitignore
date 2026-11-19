@@ -11,3 +11,8 @@ __pycache__/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Aditional documents
+HW4.ipynb
+Niigata_event.csv
+niigata_rupture.json

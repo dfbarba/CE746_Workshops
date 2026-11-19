@@ -25,9 +25,9 @@ Below is the overview of the four core workshops included in this repository:
 ```text
 CE746_Workshops/
 ├── 1_GMT/              # Mapping & spatial visualization scripts/notebooks
-├── 2_Obspy/            # Waveform retrieval & signal processing exercises
-├── 3_OpenQuake/        # Seismic hazard modeling configs & source models
-├── 4_pystrata/         # Site response profiles & soil column analyses
+├── 2_Obspy/            # Strong ground motion records retrieval & signal processing
+├── 3_OpenQuake/        # Calculation of distance metrics and application of GMMs
+├── 4_pystrata/         # Linear and EQL Site Response Analysis
 ├── .gitignore          # Files and folders ignored by Git
 └── README.md           # Course overview and setup guide
 ```
